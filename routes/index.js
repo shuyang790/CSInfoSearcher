@@ -6,7 +6,8 @@ router.get('/', function(req, res, next) {
   res.render('index',
     {
       title: 'CS Faculty / University Searcher',
-      readme: 'Input a university name or faculty name, and magic happens!'
+      readme: 'Input a university name or faculty name, and magic happens!',
+      queryResult: ''
       //alertContent: 'This is an alert'
     });
 });
