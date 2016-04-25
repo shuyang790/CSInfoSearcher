@@ -1,0 +1,17 @@
+extends ../node_modules/jade-bootstrap/layouts/starter
+
+block body
+	+navbar-fixed("CS Searcher","navbar","inverse")
+		+nav_item("/","active") Home
+		+nav_item("/about") About
+		+nav_item("/contact") Contact
+	.container
+		.starter-template
+			h1= title
+			h3 Welcome to #{title}
+			h4 #{readme}
+			form(action="/request", method="post")
+				input(type="text", name="keyword")
+				input(type="submit")
+		if alertContent
+			+alert-info(alertContent)

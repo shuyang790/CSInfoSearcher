@@ -1,0 +1,15 @@
+extends ../node_modules/jade-bootstrap/layouts/starter
+
+block body
+    +navbar-fixed("CS Searcher","navbar","inverse")
+        +nav_item("/","active") Home
+        +nav_item("/about") About
+        +nav_item("/contact") Contact
+    .container
+        h1 Contact
+        h2= title
+        p #{content}
+        ul
+            each info, index in infos
+                li
+                    a(href='mailto:' + info) #{index}: #{info}
