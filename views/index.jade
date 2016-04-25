@@ -15,3 +15,6 @@ block body
 				input(type="submit")
 		if alertContent
 			+alert-info(alertContent)
+		if queryResult
+			-for(var prop in queryResult)
+				p #{prop}: #{queryResult[prop]}
