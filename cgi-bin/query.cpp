@@ -46,7 +46,7 @@ inline string trans_lower(const string& token)
     return res;
 }
 
-bool cmp(EntryOut& a, EntryOut& b)
+bool cmp(EntryOut a, EntryOut b)
 {
     if (a.count == b.count) return a.id<b.id;
     return a.count > b.count;
