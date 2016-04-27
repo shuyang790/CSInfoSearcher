@@ -96,6 +96,7 @@ int main(int argc, char *argv[]){
     input.close();
 
     univ_names[string("40-UCOB")] = string("University of Colorado-​Boulder");
+    univ_names[string("40-UTA")] = string("University of Utah");
 
     input.open("./database/index.txt");
     //input.open("../database/index.txt");
