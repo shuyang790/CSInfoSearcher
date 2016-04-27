@@ -17,7 +17,7 @@ block body
 			.container(style="padding-top: 18px; width: 100%")
 				if alertContent
 					form(action="/", method="post")
-						input(type="text", name="keyword" maxlength="256" style="height: auto; width: 80%;")
+						input(type="text", name="keyword" maxlength="256" style="height: auto; width: 80%;" value=keyword)
 						input(type="submit" value="Search" class="btn btn-primary")
 				else
 					form(action="/", method="post")

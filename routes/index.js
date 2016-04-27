@@ -9,6 +9,7 @@ router.get('/', function(req, res, next) {
       title: 'CS Faculty / University Searcher',
       readme: 'Input a university name or faculty name, and magic happens!',
       queryResult: ''
+      keyword: ''
       //alertContent: 'This is an alert'
     });
 });
@@ -30,6 +31,7 @@ router.post('/', function(req, res) {
       res.render('index',
         {
           title: 'CS Faculty / University Searcher',
+          keyword: keyword,
           alertContent: 'Last search: "<strong>' + keyword + '"</strong> ' + new Date(),
           queryResult: JSON.parse(queryResult)
         });
