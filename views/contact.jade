@@ -1,5 +1,9 @@
 extends ../node_modules/jade-bootstrap/layouts/starter
 
+append styles
+    // Custom styles for this template
+    link(href='../css/sticky-footer.css', rel='stylesheet')
+
 block body
     +navbar-fixed("CS Searcher","navbar","inverse")
         +nav_item("/","active") Home
@@ -13,3 +17,6 @@ block body
             each info, index in infos
                 li
                     a(href='mailto:' + info) #{index}: #{info}
+    footer.footer
+        .container
+            p.text-muted Computer Network 2016, CS Department, Peking University

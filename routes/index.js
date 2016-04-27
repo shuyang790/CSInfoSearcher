@@ -16,7 +16,7 @@ router.get('/about', function(req, res, next) {
   res.render('about',
     {
       title: 'CS Faculty / University Searcher',
-      content: 'This is our demo for Computer Network course project.'
+      content: 'This is our demo for Computer Network course project.\nApril 2016'
     });
 });
 
