@@ -14,9 +14,17 @@ block body
 			h1= title
 			h3 Welcome to #{title}
 			h4 #{readme}
-			form(action="/", method="post")
-				input(type="text", name="keyword")
-				input(type="submit")
+			.container(style="padding-top: 18px; width: 100%")
+				if alertContent
+					form(action="/", method="post")
+						input(type="text", name="keyword" maxlength="256" style="height: auto; width: 80%;")
+						input(type="submit" value="Search" class="btn btn-primary")
+				else
+					form(action="/", method="post")
+						.container(style="padding-top: 18px; width: 100%")
+							input(type="text", name="keyword" maxlength="256" style="height: auto; width: 100%; position: relative;")
+						.container(style="padding-top: 18px; width: 100%")
+							input(type="submit" value="Search" class="btn btn-primary")
 		if alertContent
 			+alert-success(alertContent)
 		if queryResult
