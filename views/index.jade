@@ -38,6 +38,8 @@ block body
 					if queryResult[item]["funding"] == "1"
 						+label-success("Funding")
 					h5 #{queryResult[item]["univ"]} (Rank #{queryResult[item]["rank"]})
+					+icon-primary("search")
+					a(href="https://www.bing.com/search?q=" + queryResult[item]["name"] + "%20" + queryResult[item]["univ"]) Search in Bing
 	footer.footer
 		.container
 			p.text-muted Computer Network 2016, CS Department, Peking University

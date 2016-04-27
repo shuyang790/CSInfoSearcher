@@ -2,5 +2,7 @@ node_modules
 cgi-bin/query
 database/*.log
 database/*.dump
+database/links.txt
+cgi-bin/*.dump
 *.log
 .idea

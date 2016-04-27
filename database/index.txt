@@ -200,50 +200,50 @@
 34-OSU|Yang Wang|yes|no|no
 34-OSU|Yinqian Zhang|no|no|no
 34-OSU|Yusu Wang|yes|yes|yes
-34-RU| Swastik Kopparty|no|no|no
-34-RU|Abhishek Bhattacharjee|no|yes|no
-34-RU|Ahmed Elgammal|no|yes|yes
-34-RU|Alex Borgida|no|no|no
-34-RU|Alexander Schliep|no|no|no
-34-RU|Amelie Marian|yes|yes|yes
-34-RU|Ana Paula Centeno|no|no|no
-34-RU|Antonio Miranda Garcia|no|no|no
-34-RU|Apostolos Gerasoulis|no|no|yes
-34-RU|Badri Nath|yes|no|yes
-34-RU|Bahman Kalantari|no|no|no
-34-RU|Casimir Kulikowski|yes|yes|no
-34-RU|David Cash|yes|no|yes
-34-RU|Dimitris Metaxas|no|yes|yes
-34-RU|Eric Allender|yes|no|no
-34-RU|Frances Trees|yes|no|no
-34-RU|Gerard Richter|no|no|no
-34-RU|James Abello Monedero|no|no|no
-34-RU|Jingjin Yu|no|yes|no
-34-RU|John-Austen Francisco|no|no|no
-34-RU|Konstantinos Michmizos|no|no|no
-34-RU|Liviu Iftode|no|no|no
-34-RU|Louis Steinberg|no|no|no
-34-RU|Manish Parashar|no|no|no
-34-RU|Mario Szegedy|no|no|no
-34-RU|Martin Farach-Colton|no|no|no
-34-RU|Matthew Stone|no|no|no
-34-RU|Mubbasir Kapadia|yes|yes|no
-34-RU|Naftaly Minsky|no|no|no
-34-RU|Ping Li|yes|yes|no
-34-RU|Pranjal Awasthi|no|no|no
-34-RU|Rebecca Wright|no|yes|no
-34-RU|Richard Martin|no|no|no
-34-RU|Santosh Nagarakatte|yes|yes|yes
-34-RU|Seshadri Venugopal|no|no|no
-34-RU|Shan Muthukrishnan|no|no|yes
-34-RU|Shubhangi Saraf|no|no|no
-34-RU|Thu Nguyen|yes|yes|yes
-34-RU|Tomasz Imielinski|no|no|no
-34-RU|Ulrich Kremer|no|no|yes
-34-RU|Vinod Ganapathy|no|no|no
-34-RU|Vladimir Pavlovic|yes|yes|yes
-34-RU|William Steiger|no|no|no
-34-RU|Zheng Zhang|yes|yes|yes
+34-RTSUNJNB| Swastik Kopparty|no|no|no
+34-RTSUNJNB|Abhishek Bhattacharjee|no|yes|no
+34-RTSUNJNB|Ahmed Elgammal|no|yes|yes
+34-RTSUNJNB|Alex Borgida|no|no|no
+34-RTSUNJNB|Alexander Schliep|no|no|no
+34-RTSUNJNB|Amelie Marian|yes|yes|yes
+34-RTSUNJNB|Ana Paula Centeno|no|no|no
+34-RTSUNJNB|Antonio Miranda Garcia|no|no|no
+34-RTSUNJNB|Apostolos Gerasoulis|no|no|yes
+34-RTSUNJNB|Badri Nath|yes|no|yes
+34-RTSUNJNB|Bahman Kalantari|no|no|no
+34-RTSUNJNB|Casimir Kulikowski|yes|yes|no
+34-RTSUNJNB|David Cash|yes|no|yes
+34-RTSUNJNB|Dimitris Metaxas|no|yes|yes
+34-RTSUNJNB|Eric Allender|yes|no|no
+34-RTSUNJNB|Frances Trees|yes|no|no
+34-RTSUNJNB|Gerard Richter|no|no|no
+34-RTSUNJNB|James Abello Monedero|no|no|no
+34-RTSUNJNB|Jingjin Yu|no|yes|no
+34-RTSUNJNB|John-Austen Francisco|no|no|no
+34-RTSUNJNB|Konstantinos Michmizos|no|no|no
+34-RTSUNJNB|Liviu Iftode|no|no|no
+34-RTSUNJNB|Louis Steinberg|no|no|no
+34-RTSUNJNB|Manish Parashar|no|no|no
+34-RTSUNJNB|Mario Szegedy|no|no|no
+34-RTSUNJNB|Martin Farach-Colton|no|no|no
+34-RTSUNJNB|Matthew Stone|no|no|no
+34-RTSUNJNB|Mubbasir Kapadia|yes|yes|no
+34-RTSUNJNB|Naftaly Minsky|no|no|no
+34-RTSUNJNB|Ping Li|yes|yes|no
+34-RTSUNJNB|Pranjal Awasthi|no|no|no
+34-RTSUNJNB|Rebecca Wright|no|yes|no
+34-RTSUNJNB|Richard Martin|no|no|no
+34-RTSUNJNB|Santosh Nagarakatte|yes|yes|yes
+34-RTSUNJNB|Seshadri Venugopal|no|no|no
+34-RTSUNJNB|Shan Muthukrishnan|no|no|yes
+34-RTSUNJNB|Shubhangi Saraf|no|no|no
+34-RTSUNJNB|Thu Nguyen|yes|yes|yes
+34-RTSUNJNB|Tomasz Imielinski|no|no|no
+34-RTSUNJNB|Ulrich Kremer|no|no|yes
+34-RTSUNJNB|Vinod Ganapathy|no|no|no
+34-RTSUNJNB|Vladimir Pavlovic|yes|yes|yes
+34-RTSUNJNB|William Steiger|no|no|no
+34-RTSUNJNB|Zheng Zhang|yes|yes|yes
 34-UCD|Bernd Hamann|no|no|no
 34-UCD|Biswanath Mukherjee|no|no|no
 34-UCD|Cindy Rubio Gonzalez|no|no|no

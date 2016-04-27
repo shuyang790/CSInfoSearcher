@@ -12,6 +12,7 @@
 #include <fstream>
 #include <sstream>
 #include <vector>
+#include <map>
 #include <algorithm>
 #include <string>
 
@@ -36,6 +37,8 @@ struct EntryOut
 
 vector<EntryOut> outputbuffer;
 
+map <string, string> univ_names;
+
 inline string trans_lower(const string& token)
 {
     string res(token);
@@ -55,7 +58,7 @@ void print(Entry& entry)
         cout << ",";
     cout<<"{";
     cout<<"\"rank\":"<<"\""<<entry.rank<<"\",";
-    cout<<"\"univ\":"<<"\""<<entry.univ<<"\",";
+    cout<<"\"univ\":"<<"\""<<univ_names[entry.univ]<<"\",";
     cout<<"\"name\":"<<"\""<<entry.name<<"\",";
     cout<<"\"acm_fellow\":"<<"\""<<entry.acm_fellow<<"\",";
     cout<<"\"ieee_fellow\":"<<"\""<<entry.ieee_fellow<<"\",";
@@ -73,15 +76,35 @@ int main(int argc, char *argv[]){
     }
 
     fstream input;
+    string token;
+
+    input.open("./database/cs-overall-rank.txt");
+    while (getline(input, token, '|')){
+        string abbr = token;
+        getline(input, token, '\r');
+        string fullname = token;
+        abbr += "-";
+        char tmp[3]="0\0";
+        for (int i=0; i<token.size(); i++)
+            if (token[i] >= 'A' && token[i] <= 'Z'){
+                tmp[0] = token[i];
+                abbr += tmp;
+            }
+        univ_names[abbr] = fullname;
+        getline(input, token, '\n');
+    }
+    input.close();
+
     input.open("./database/index.txt");
     //input.open("../database/index.txt");
-    string token;
     while (getline(input, token, '-'))
     {
         Entry entry;
         entry.rank = stoi(token);
+        string last = token;
+        last += "-";
         getline(input, token, '|');
-        entry.univ = token;
+        entry.univ = last + token;
         getline(input, token, '|');
         entry.name = token;
         getline(input, token, '|');
@@ -99,7 +122,7 @@ int main(int argc, char *argv[]){
     istringstream ss(str);
     while (getline(ss, token, ' '))
         keywords.push_back(trans_lower(token));
-    
+
     cout << "[";
     for (int i=0 ; i<list.size(); ++i)
     {
@@ -108,8 +131,9 @@ int main(int argc, char *argv[]){
         entryout.count = 0;
         entryout.id = i;
         for (int j=0; j<keywords.size(); ++j)
-            if ((trans_lower(list[i].name).find(keywords[j]))!= -1 ||
-                (trans_lower(list[i].univ).find(keywords[j]))!= -1)
+            if ((trans_lower(list[i].name).find(keywords[j]))!= -1
+                ||(trans_lower(univ_names[list[i].univ]).find(keywords[j]))!= -1
+                ||(trans_lower(list[i].univ).find(keywords[j]))!= -1)
                 entryout.count++;
         if (entryout.count >0) outputbuffer.push_back(entryout);
     }
