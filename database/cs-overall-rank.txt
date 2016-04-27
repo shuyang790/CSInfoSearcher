@@ -41,7 +41,7 @@
 40|Stony Brook University
 40|Texas A&M University
 40|University of Arizona
-40|University of Colorado-​Boulder
+40|University Of Colorado-​Boulder
 40|University of Utah
 40|Virginia Tech
 40|Washington University in St. Louis

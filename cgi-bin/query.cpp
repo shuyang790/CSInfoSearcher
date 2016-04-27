@@ -95,6 +95,8 @@ int main(int argc, char *argv[]){
     }
     input.close();
 
+    univ_names[string("40-UCOB")] = string("University of Colorado-​Boulder");
+
     input.open("./database/index.txt");
     //input.open("../database/index.txt");
     while (getline(input, token, '-'))
