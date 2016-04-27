@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
     {
       title: 'CS Faculty / University Searcher',
       readme: 'Input a university name or faculty name, and magic happens!',
-      queryResult: ''
+      queryResult: '',
       lastKeyword: ''
       //alertContent: 'This is an alert'
     });
