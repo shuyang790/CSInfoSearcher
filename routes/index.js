@@ -1,4 +1,5 @@
 var express = require('express');
+var spawn = require('child_process').spawn;
 var router = express.Router();
 
 /* GET home page. */
@@ -12,11 +13,29 @@ router.get('/', function(req, res, next) {
     });
 });
 
+/* Search Request */
+router.post('/', function(req, res) {
+
+  keyword = req.body.keyword;
+  console.log("body.keyword: " + keyword);
+  queryCgi = spawn('cgi-bin/query', [keyword]);
+  queryCgi.stdout.on('data', function (data) {
+      console.log('standard output:\n' + data);
+      queryResult = data;
+      res.render('index',
+        {
+          title: 'CS Faculty / University Searcher',
+          alertContent: 'Last search: "<strong>' + keyword + '"</strong> ' + new Date(),
+          queryResult: JSON.parse(queryResult)
+        });
+  });
+});
+
 router.get('/about', function(req, res, next) {
   res.render('about',
     {
       title: 'CS Faculty / University Searcher',
-      content: 'This is our demo for Computer Network course project.\nApril 2016'
+      content: ["This is our demo for Computer Network course project.", "April 2016"]
     });
 });
 

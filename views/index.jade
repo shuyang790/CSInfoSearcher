@@ -14,7 +14,7 @@ block body
 			h1= title
 			h3 Welcome to #{title}
 			h4 #{readme}
-			form(action="/request", method="post")
+			form(action="/", method="post")
 				input(type="text", name="keyword")
 				input(type="submit")
 		if alertContent

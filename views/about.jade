@@ -12,7 +12,9 @@ block body
     .container
         h1 About
         h2= title
-        p #{content}
+        +panel-default()
+            -for str in content
+                p= str
     footer.footer
         .container
             p.text-muted Computer Network 2016, CS Department, Peking University
