@@ -38,11 +38,11 @@ void print(Entry& entry)
         cout << ",";
     cout<<"{";
     cout<<"\"rank\":"<<"\""<<entry.rank<<"\",";
-    cout<<"\"unvi\":"<<"\""<<entry.univ<<"\",";
+    cout<<"\"univ\":"<<"\""<<entry.univ<<"\",";
     cout<<"\"name\":"<<"\""<<entry.name<<"\",";
     cout<<"\"acm_fellow\":"<<"\""<<entry.acm_fellow<<"\",";
     cout<<"\"ieee_fellow\":"<<"\""<<entry.ieee_fellow<<"\",";
-    cout<<"\"ieee_fellow\":"<<"\""<<entry.funding<<"\"";
+    cout<<"\"funding\":"<<"\""<<entry.funding<<"\"";
 
     cout<<"}";
     return;

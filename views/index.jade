@@ -18,10 +18,18 @@ block body
 				input(type="text", name="keyword")
 				input(type="submit")
 		if alertContent
-			+alert-info(alertContent)
+			+alert-success(alertContent)
 		if queryResult
-			-for(var prop in queryResult)
-				p #{prop}: #{queryResult[prop]}
+			-for(var item in queryResult)
+				+panel-info(queryResult[item]["name"])
+					//-var titles=["rank", "univ", "name", "acm_fellow", "ieee_fellow"]
+					if queryResult[item]["ieee_fellow"] == "1"
+						+label-primary("IEEE Fellow")
+					if queryResult[item]["acm_fellow"] == "1"
+						+label-primary("ACM Fellow")
+					if queryResult[item]["funding"] == "1"
+						+label-success("Funding")
+					h5 #{queryResult[item]["univ"]} (Rank #{queryResult[item]["rank"]})
 	footer.footer
 		.container
 			p.text-muted Computer Network 2016, CS Department, Peking University
