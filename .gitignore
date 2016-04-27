@@ -1,3 +1,6 @@
 node_modules
 cgi-bin/query
+database/*.log
+database/*.dump
+*.log
 .idea

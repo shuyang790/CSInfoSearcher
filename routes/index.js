@@ -19,16 +19,21 @@ router.post('/', function(req, res) {
   keyword = req.body.keyword;
   console.log("body.keyword: " + keyword);
   queryCgi = spawn('cgi-bin/query', [keyword]);
+
+  queryResult = "";
   queryCgi.stdout.on('data', function (data) {
-      console.log('standard output:\n' + data);
-      queryResult = data;
+      queryResult += data;
+  });
+
+  queryCgi.stdout.on('end', function(){
+      console.log('standard output:\n' + queryResult);
       res.render('index',
         {
           title: 'CS Faculty / University Searcher',
           alertContent: 'Last search: "<strong>' + keyword + '"</strong> ' + new Date(),
           queryResult: JSON.parse(queryResult)
         });
-  });
+  })
 });
 
 router.get('/about', function(req, res, next) {
