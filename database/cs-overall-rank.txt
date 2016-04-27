@@ -38,8 +38,8 @@
 34|University of California-​Santa Barbara
 34|University of CHicago
 40|Dartmouth College
-40|Stony Brook University-​SUNY
-40|Texas A&M University-​College Station
+40|Stony Brook University
+40|Texas A&M University
 40|University of Arizona
 40|University of Colorado-​Boulder
 40|University of Utah
