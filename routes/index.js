@@ -31,7 +31,7 @@ router.post('/', function(req, res) {
       res.render('index',
         {
           title: 'CS Faculty / University Searcher',
-          keyword: keyword,
+          lastKeyword: keyword,
           alertContent: 'Last search: "<strong>' + keyword + '"</strong> ' + new Date(),
           queryResult: JSON.parse(queryResult)
         });
