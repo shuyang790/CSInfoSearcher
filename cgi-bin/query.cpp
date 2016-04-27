@@ -97,6 +97,10 @@ int main(int argc, char *argv[]){
 
     univ_names[string("40-UCOB")] = string("University of Colorado-​Boulder");
     univ_names[string("40-UTA")] = string("University of Utah");
+    univ_names[string("29-UMN")] = string("University of Minnesota-​Twin Cities");
+    univ_names[string("34-RU")] = string("Rutgers, The State University of New Jersey-​New Brunswick");
+    univ_names[string("34-UCH")] = string("University of Chicago");
+    univ_names[string("40-WUSTL")] = string("Washington University in St. Louis");
 
     input.open("./database/index.txt");
     //input.open("../database/index.txt");
