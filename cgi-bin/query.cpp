@@ -100,7 +100,7 @@ int main(int argc, char *argv[]){
     while (getline(input, token, '-'))
     {
         Entry entry;
-        entry.rank = stoi(token);
+        entry.rank = atoi(token.c_str());
         string last = token;
         last += "-";
         getline(input, token, '|');
