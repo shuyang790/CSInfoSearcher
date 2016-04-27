@@ -10,5 +10,5 @@ char a[20]="asb\0";
 int main(int argc, char *argv[]){
 	strcpy(a, argv[1]);
 	printf("{\"get\": \"%s\", \"put\": 2}\n", a);
-	fprintf(stderr, "log: %s\n", a);
+	//	fprintf(stderr, "log: %s\n", a);
 }

@@ -1,0 +1,820 @@
+1-SU|Alex Aiken|yes|no|no
+1-SU|Ashish Goel|no|no|no
+1-SU|Balaji Prabhakar|no|no|no
+1-SU|Bill Dally|yes|yes|no
+1-SU|Bill MacCartney|yes|no|no
+1-SU|Chris Manning|yes|no|yes
+1-SU|Chris Re|yes|yes|yes
+1-SU|Christos Kozyrakis|no|no|no
+1-SU|Dan Boneh|yes|no|no
+1-SU|Dan Jurafsky|no|no|yes
+1-SU|David Cheriton|no|no|no
+1-SU|David Dill|yes|yes|no
+1-SU|David Mazieres|no|no|no
+1-SU|Dawson Engler|yes|yes|no
+1-SU|Don Knuth|no|no|no
+1-SU|Edward Feigenbaum|yes|no|no
+1-SU|Eric Roberts|no|no|no
+1-SU|Fei-Fei Li|yes|no|no
+1-SU|Ge Wang|no|no|no
+1-SU|Gill Bejerano|no|no|no
+1-SU|Gio Wiederhold|yes|yes|yes
+1-SU|Greg Valiant|no|no|no
+1-SU|Hector Garcia-Molina|yes|no|no
+1-SU|James Landay|yes|yes|no
+1-SU|Jay Borenstein|no|no|yes
+1-SU|Jean-Claude Latombe|no|no|no
+1-SU|Jeff Ullman|no|no|no
+1-SU|Jennifer Widom|yes|no|no
+1-SU|John Mitchell|no|no|yes
+1-SU|John Ousterhout|no|no|no
+1-SU|Jure Leskovec|yes|yes|no
+1-SU|Kenneth Salisbury|no|no|no
+1-SU|Kunle Olukotun|yes|no|no
+1-SU|Leonidas Guibas|no|no|no
+1-SU|Lester Mackey|no|no|yes
+1-SU|Maneesh Agrawala|yes|yes|yes
+1-SU|Marc Levoy|yes|no|no
+1-SU|Mark Horowitz|no|no|no
+1-SU|Martin Casado|no|no|no
+1-SU|Martin Fischer|no|no|no
+1-SU|Mehran Sahami|yes|yes|no
+1-SU|Mendel Rosenblum|yes|no|no
+1-SU|Michael Bernstein|yes|no|yes
+1-SU|Mike Genesereth|no|no|no
+1-SU|Monica Lam|yes|yes|yes
+1-SU|Nick McKeown|no|no|no
+1-SU|Nick Parlante|yes|no|no
+1-SU|Nils Nilsson|no|yes|no
+1-SU|Noah Goodman|no|no|no
+1-SU|Oussama Khatib|no|no|no
+1-SU|Patrick Young|no|no|no
+1-SU|Pei Cao|yes|no|no
+1-SU|Philip Levis|yes|no|yes
+1-SU|Ron Dror|no|no|no
+1-SU|Ron Fedkiw|yes|yes|yes
+1-SU|Russ Altman|no|no|yes
+1-SU|Ryan Williams|yes|yes|no
+1-SU|Sachin Katti|yes|yes|yes
+1-SU|Scott Klemmer|yes|no|yes
+1-SU|Sean Follmer|no|no|no
+1-SU|Sebastian Thrun|no|no|no
+1-SU|Serge Plotkin|no|no|no
+1-SU|Silvio Savarese|no|yes|yes
+1-SU|Stephen Boyd|no|no|no
+1-SU|Stephen Montgomery|no|no|yes
+1-SU|Subhasish Mitra|yes|yes|yes
+1-SU|Teresa Meng|no|no|no
+1-SU|Terry Winograd|yes|no|no
+1-SU|Tim Roughgarden|no|no|no
+1-SU|Vaughan Pratt|yes|yes|yes
+1-SU|Virginia Williams|no|no|no
+1-SU|Vladlen Koltun|no|no|no
+1-SU|Yoav Shoham|no|no|no
+29-UMN|Abhishek Chandra|no|no|no
+29-UMN|Amy Larson|no|no|no
+29-UMN|Anand Tripathi|yes|yes|no
+29-UMN|Antonia Zhai|no|no|no
+29-UMN|Arindam Banerjee|no|no|yes
+29-UMN|Brent Hecht |yes|no|yes
+29-UMN|Carl Sturtivant|no|yes|no
+29-UMN|Dan Knights|no|no|no
+29-UMN|Daniel Boley|no|no|no
+29-UMN|David Hung-Chang Du|yes|yes|yes
+29-UMN|Eric Van Wyk|yes|no|yes
+29-UMN|Eugene Shragowitz|no|yes|yes
+29-UMN|Gary Meyer|no|no|no
+29-UMN|George Karypis|no|no|no
+29-UMN|Gopalan Nadathur|yes|yes|no
+29-UMN|Jon Weissman|yes|yes|no
+29-UMN|Joseph Konstan|no|no|no
+29-UMN|Kevin Wendt|no|no|no
+29-UMN|Loren Terveen|yes|no|no
+29-UMN|Maria Gini|yes|yes|yes
+29-UMN|Mats Heimdahl|no|no|yes
+29-UMN|Nick Hopper|yes|yes|no
+29-UMN|Nikolaos Papanikolopoulos|no|yes|yes
+29-UMN|Pen-Chung Yew|yes|yes|yes
+29-UMN|Phillip Barry|no|no|no
+29-UMN|Rahul Narain|yes|no|no
+29-UMN|Ravi Janardan|no|no|no
+29-UMN|Rui Kuang|no|yes|yes
+29-UMN|Shashi Shekhar|yes|no|no
+29-UMN|Stephen Guy|no|no|no
+29-UMN|Stephen McCamant|no|no|yes
+29-UMN|Stergios Roumeliotis|no|yes|yes
+29-UMN|Svetlana Yarosh|yes|no|yes
+29-UMN|Tian He|yes|yes|yes
+29-UMN|Victoria Interrante|yes|yes|yes
+29-UMN|Vipin Kumar|yes|yes|yes
+29-UMN|Volkan Isler|no|yes|yes
+29-UMN|Yousef Saad|no|no|no
+29-UMN|Zhi-Li Zhang|yes|yes|yes
+29-UV|Aaron Bloomfield|yes|no|no
+29-UV|abhi shelat|no|no|no
+29-UV|Andrew Grimshaw |no|no|no
+29-UV|David Evans|no|no|no
+29-UV|Gabriel Robins|yes|yes|yes
+29-UV|Hongning Wang|yes|yes|yes
+29-UV|James Cohoon|yes|no|no
+29-UV|John Knight|yes|yes|no
+29-UV|John Pfaltz|no|no|yes
+29-UV|John Stankovic|no|no|no
+29-UV|Kamin Whitehouse|yes|yes|yes
+29-UV|Kevin Skadron|yes|yes|yes
+29-UV|Luther Tychonievich|no|no|no
+29-UV|Mark Floryan|yes|no|no
+29-UV|Mark Sherriff|no|no|no
+29-UV|Marty Humphrey|no|no|yes
+29-UV|Mary Lou Soffa|yes|yes|no
+29-UV|Mohammad Mahmoody|no|no|no
+29-UV|Nada Basit|no|no|no
+29-UV|Paul Reynolds|yes|yes|yes
+29-UV|Sang Son|yes|yes|no
+29-UV|Tom Horton|yes|no|no
+29-UV|Westley Weimer|yes|yes|yes
+29-UV|Worthy Martin|no|no|no
+29-UV|Yanjun Qi|no|no|no
+34-NU|Aleksandar Kuzmanovic|yes|yes|no
+34-NU|Alok Choudhary|no|yes|no
+34-NU|Anindya De|no|no|no
+34-NU|Aravindan Vijayaraghavan|no|no|no
+34-NU|Brenna Argall|no|yes|no
+34-NU|Bryan Pardo|yes|no|no
+34-NU|Chris Riesbeck|no|no|no
+34-NU|Douglas Downey|yes|no|no
+34-NU|Goce Trajcevski|no|yes|no
+34-NU|Gokhan Memik|no|yes|no
+34-NU|Hai Zhou|yes|yes|no
+34-NU|Haoqi Zhang|no|no|no
+34-NU|Ian Horswill|no|yes|no
+34-NU|Jesse Tov|no|no|no
+34-NU|Ken Forbus|no|yes|yes
+34-NU|Larry Birnbaum|yes|yes|no
+34-NU|Larry Henschen|no|no|no
+34-NU|Michael Horn|no|no|no
+34-NU|Michael Rubenstein|no|no|no
+34-NU|Ming-Yang Kao|no|yes|no
+34-NU|Nikos Hardavellas|yes|yes|yes
+34-NU|Peter Dinda|yes|yes|no
+34-NU|Peter Scheuermann|yes|yes|no
+34-NU|Randall Berry|no|yes|no
+34-NU|Robby Findler|yes|no|no
+34-NU|Russell Joseph|yes|yes|no
+34-NU|Sara Owsley Sood |yes|yes|no
+34-NU|Simone Campanoni|no|no|no
+34-NU|Uri Wilensky|no|no|no
+34-NU|Yan Chen|yes|yes|yes
+34-OSU|Anish Arora|no|no|no
+34-OSU|Arnab Nandi|yes|yes|yes
+34-OSU|Atanas (Nasko) Rountev|yes|yes|yes
+34-OSU|Christopher Stewart|no|no|no
+34-OSU|Chunyi Peng|yes|yes|yes
+34-OSU|Deliang Wang|no|yes|no
+34-OSU|Dhabaleswar Panda|yes|yes|yes
+34-OSU|Dong Xuan|yes|no|yes
+34-OSU|Eric Fosler-Lussier|yes|yes|yes
+34-OSU|Feng Qin|no|no|yes
+34-OSU|Gagan Agrawal|no|no|no
+34-OSU|Han-Wei Shen|no|no|no
+34-OSU|Huamin Wang|no|yes|no
+34-OSU|James Davis|yes|yes|yes
+34-OSU|Kannan Srinivasan|yes|yes|yes
+34-OSU|Kenneth Supowit|yes|no|no
+34-OSU|Luis Rademacher|no|no|yes
+34-OSU|Michael Bond|yes|no|yes
+34-OSU|Mikhail Belkin|no|yes|yes
+34-OSU|Mircea-Radu Teodorescu|no|yes|yes
+34-OSU|Neelam Soundarajan|no|no|no
+34-OSU|P Sadayappan|no|no|yes
+34-OSU|Paul Sivilotti|no|no|no
+34-OSU|Prasun Sinha|yes|yes|yes
+34-OSU|Raghu Machiraju|no|no|no
+34-OSU|Rephael Wenger|no|no|no
+34-OSU|Roger Crawfis|no|no|no
+34-OSU|Spyros Blanas|yes|no|yes
+34-OSU|Srinivasan Parthasarathy|yes|yes|yes
+34-OSU|Tamal Dey|no|no|yes
+34-OSU|Ten-Hwang Lai|yes|yes|no
+34-OSU|Xiaodong Zhang|yes|yes|yes
+34-OSU|Yang Wang|yes|no|no
+34-OSU|Yinqian Zhang|no|no|no
+34-OSU|Yusu Wang|yes|yes|yes
+34-RU| Swastik Kopparty|no|no|no
+34-RU|Abhishek Bhattacharjee|no|yes|no
+34-RU|Ahmed Elgammal|no|yes|yes
+34-RU|Alex Borgida|no|no|no
+34-RU|Alexander Schliep|no|no|no
+34-RU|Amelie Marian|yes|yes|yes
+34-RU|Ana Paula Centeno|no|no|no
+34-RU|Antonio Miranda Garcia|no|no|no
+34-RU|Apostolos Gerasoulis|no|no|yes
+34-RU|Badri Nath|yes|no|yes
+34-RU|Bahman Kalantari|no|no|no
+34-RU|Casimir Kulikowski|yes|yes|no
+34-RU|David Cash|yes|no|yes
+34-RU|Dimitris Metaxas|no|yes|yes
+34-RU|Eric Allender|yes|no|no
+34-RU|Frances Trees|yes|no|no
+34-RU|Gerard Richter|no|no|no
+34-RU|James Abello Monedero|no|no|no
+34-RU|Jingjin Yu|no|yes|no
+34-RU|John-Austen Francisco|no|no|no
+34-RU|Konstantinos Michmizos|no|no|no
+34-RU|Liviu Iftode|no|no|no
+34-RU|Louis Steinberg|no|no|no
+34-RU|Manish Parashar|no|no|no
+34-RU|Mario Szegedy|no|no|no
+34-RU|Martin Farach-Colton|no|no|no
+34-RU|Matthew Stone|no|no|no
+34-RU|Mubbasir Kapadia|yes|yes|no
+34-RU|Naftaly Minsky|no|no|no
+34-RU|Ping Li|yes|yes|no
+34-RU|Pranjal Awasthi|no|no|no
+34-RU|Rebecca Wright|no|yes|no
+34-RU|Richard Martin|no|no|no
+34-RU|Santosh Nagarakatte|yes|yes|yes
+34-RU|Seshadri Venugopal|no|no|no
+34-RU|Shan Muthukrishnan|no|no|yes
+34-RU|Shubhangi Saraf|no|no|no
+34-RU|Thu Nguyen|yes|yes|yes
+34-RU|Tomasz Imielinski|no|no|no
+34-RU|Ulrich Kremer|no|no|yes
+34-RU|Vinod Ganapathy|no|no|no
+34-RU|Vladimir Pavlovic|yes|yes|yes
+34-RU|William Steiger|no|no|no
+34-RU|Zheng Zhang|yes|yes|yes
+34-UCD|Bernd Hamann|no|no|no
+34-UCD|Biswanath Mukherjee|no|no|no
+34-UCD|Cindy Rubio Gonzalez|no|no|no
+34-UCD|Dan Gusfield|no|no|no
+34-UCD|Dipak Ghosal|no|no|no
+34-UCD|Francois Gygi|no|no|no
+34-UCD|Hao Chen|no|no|no
+34-UCD|Ian Davidson|no|no|no
+34-UCD|Ilias Tagkopoulos|no|no|no
+34-UCD|Kwan-Liu Ma|no|no|yes
+34-UCD|Matthew Franklin|yes|no|no
+34-UCD|Michael Neff,|no|no|no
+34-UCD|Nelson Max|yes|yes|no
+34-UCD|Nina Amenta|no|no|no
+34-UCD|Patrice Koehl|no|no|yes
+34-UCD|Prasant Mohapatra|no|no|no
+34-UCD|Raissa D’Souza|no|no|no
+34-UCD|Vladimir Filkov|no|no|no
+34-UCD|Xin Liu|no|no|no
+34-UCD|Zhaojun Bai|no|no|no
+34-UCD|Zhendong Su|no|no|yes
+34-UCH|Aaron  Elmore|yes|no|no
+34-UCH|Alexander A Razborov|no|no|no
+34-UCH|Andrew   Drucker|no|no|no
+34-UCH|Anne Rogers|no|no|no
+34-UCH|Ariel Feldman|yes|yes|no
+34-UCH|David McAllester|no|no|no
+34-UCH|Frederic  Chong|no|no|yes
+34-UCH|Gordon Kindlmann|no|yes|yes
+34-UCH|Gregory Shakhnarovich|yes|yes|no
+34-UCH|Haryadi Gunawi|yes|no|yes
+34-UCH|Henry Hoffmann|yes|yes|no
+34-UCH|Ian Foster|no|no|yes
+34-UCH|Janos Simon|no|no|no
+34-UCH|John Goldsmith|no|no|no
+34-UCH|John H Reppy|no|no|no
+34-UCH|Julia Chuzhoy|no|no|yes
+34-UCH|Karen Livescu|no|yes|yes
+34-UCH|Ketan Mulmuley|yes|no|no
+34-UCH|László Babai|no|no|no
+34-UCH|Madhur Tulsiani|yes|yes|yes
+34-UCH|Nathan Srebro|no|no|yes
+34-UCH|Ravi Chugh|no|no|no
+34-UCH|Risi Kondor|no|no|yes
+34-UCH|Shan Lu|yes|no|no
+34-UCH|Stuart Kurtz|no|no|no
+34-UCH|Todd Dupont|no|no|no
+34-UCH|Yali Amit|no|no|no
+34-UCH|Yanjing Li|no|yes|no
+34-UCH|Yury Makarychev|yes|yes|yes
+34-UCSB|Amr  El Abbadi|no|no|yes
+34-UCSB|Ben Hardekopf|no|no|no
+34-UCSB|Chandra Krintz|yes|yes|yes
+34-UCSB|Christopher Kruegel|no|no|no
+34-UCSB|Çetin Kaya Koç|no|yes|no
+34-UCSB|Diana Franklin (on leave)|no|no|no
+34-UCSB|Divyakant Agrawal|yes|yes|yes
+34-UCSB|Fred Chong (on leave)|yes|yes|yes
+34-UCSB|Giovanni Vigna|no|no|no
+34-UCSB|Heather  Zheng|no|yes|yes
+34-UCSB|Huijia (Rachel) Lin|no|no|no
+34-UCSB|Jianwen Su|yes|yes|no
+34-UCSB|John Gilbert|no|no|no
+34-UCSB|Linda Petzold|no|no|no
+34-UCSB|Matthew Turk|yes|yes|yes
+34-UCSB|Ömer  Eğecioğlu|no|no|no
+34-UCSB|Peter Cappello|no|no|no
+34-UCSB|Phillip Conrad|no|no|no
+34-UCSB|Stefano Tessaro|yes|no|no
+34-UCSB|Subhash Suri|yes|yes|yes
+34-UCSB|Tao Yang|yes|yes|yes
+34-UCSB|Tevfik Bultan|no|no|no
+34-UCSB|Theodore Kim|yes|yes|yes
+34-UCSB|Timothy Sherwood|yes|yes|no
+34-UCSB|Tobias Höllerer|no|no|no
+34-UCSB|Wim van Dam|no|no|yes
+34-UCSB|Xifeng Yan|yes|yes|yes
+34-UCSB|Yuan-Fang Wang|no|no|no
+40-DC|Amit Chakrabarti|yes|no|yes
+40-DC|Andrew Gettinger|no|no|yes
+40-DC|Andrew Thomas Campbell|yes|no|yes
+40-DC|Anna Shubina|no|no|yes
+40-DC|Bill McKeeman|no|no|yes
+40-DC|Chris Bailey-Kellogg|no|no|yes
+40-DC|Christos Mousas|no|no|yes
+40-DC|Daniel Rockmore|no|no|yes
+40-DC|David Jewell|no|no|yes
+40-DC|David Kotz|yes|yes|yes
+40-DC|Deeptak Verma|no|no|yes
+40-DC|Douglas McIlroy|no|no|yes
+40-DC|Emily Whiting|yes|no|yes
+40-DC|Gevorg Grigoryan|no|no|yes
+40-DC|Gurprit Singh|no|no|yes
+40-DC|Hany Farid|yes|yes|yes
+40-DC|James Mahoney|no|no|yes
+40-DC|Joseph Elsener|no|no|yes
+40-DC|Lorenzo Torresani|no|yes|yes
+40-DC|Lorie Loeb|no|no|yes
+40-DC|Michael Cohen|no|no|yes
+40-DC|Olga Zhaxybayeva|no|no|yes
+40-DC|Peter Winkler|no|no|yes
+40-DC|Prasad Jayanti|yes|no|yes
+40-DC|Qiang Liu|no|no|yes
+40-DC|Robert Lewis (Scot) Drysdale, III|yes|no|yes
+40-DC|Ron Peterson|no|no|yes
+40-DC|Ryan Halter|no|no|yes
+40-DC|Saeed Hassanpour|no|no|yes
+40-DC|Sandy Hall|no|no|yes
+40-DC|Sergey Bratus|no|no|yes
+40-DC|Tim Tregubov|no|no|yes
+40-DC|Wayne Cripps|no|no|yes
+40-DC|Wojciech Jarosz|yes|no|yes
+40-DC|Xia Zhou|yes|no|yes
+40-DC|Xing-Dong Yang|yes|no|yes
+40-DC|Yoonjoo Choi|no|no|yes
+40-SBU|Ahmad Esmaili|no|no|no
+40-SBU|Alexander Spirov|no|no|no
+40-SBU|Allen Tannenbaum|no|no|yes
+40-SBU|Anita Wasilewska|no|no|no
+40-SBU|Anshul Gandhi|no|no|no
+40-SBU|Arie Kaufman|yes|yes|yes
+40-SBU|Arthur Bernstein|no|no|no
+40-SBU|Aruna Balasubramanian|no|no|no
+40-SBU|Barbara Chapman|no|no|no
+40-SBU|Bong Jun Choi|no|no|no
+40-SBU|Chuan Huang|no|no|no
+40-SBU|David Ferguson|no|no|no
+40-SBU|David Smith|no|no|no
+40-SBU|David Warren|yes|no|yes
+40-SBU|Dimitris Samaras|no|no|yes
+40-SBU|Donald Porter|no|no|yes
+40-SBU|Erez Zadok|no|no|yes
+40-SBU|Esther Arkin|no|no|no
+40-SBU|Eugene Stark|no|no|no
+40-SBU|Fusheng Wang|no|no|yes
+40-SBU|Gregory Zelinsky|no|no|no
+40-SBU|Haeng Woo Lee|no|no|no
+40-SBU|Herbert Gelernter|no|no|no
+40-SBU|Himanshu Gupta|no|no|no
+40-SBU|Hong Qin|yes|yes|yes
+40-SBU|Hussein Badr|no|no|no
+40-SBU|Hyeon-Cheol Shin|no|no|no
+40-SBU|Ilchul Yoon|yes|yes|no
+40-SBU|Jack Heller|no|no|no
+40-SBU|Jennifer Wong-Ma|no|no|no
+40-SBU|Jie Gao|yes|no|yes
+40-SBU|Jing Chen|no|no|yes
+40-SBU|Joel Saltz|no|no|yes
+40-SBU|Ker-I Ko|no|no|no
+40-SBU|Kevin McDonnell|no|no|no
+40-SBU|Klaus Mueller|no|yes|yes
+40-SBU|Larry Wittie|no|no|no
+40-SBU|Leman Akoglu|no|no|no
+40-SBU|Leo Bachmair|no|yes|no
+40-SBU|Long Lu|no|no|no
+40-SBU|Lori Scarlatos|no|no|yes
+40-SBU|Margaret Schedel|no|no|yes
+40-SBU|Masoud Rouhizadeh|no|no|no
+40-SBU|Michael Bender|no|no|no
+40-SBU|Michael Ferdman|no|yes|no
+40-SBU|Michael Kifer|yes|no|no
+40-SBU|Michael Schatz|no|no|no
+40-SBU|Michael Tashbook|no|no|no
+40-SBU|Michalis Polychronakis|no|no|no
+40-SBU|Minh Hoai Nguyen|no|no|no
+40-SBU|Nick Nikiforakis|no|no|no
+40-SBU|Nima Honarmand|no|no|no
+40-SBU|Niranjan Balasubramanian|no|no|no
+40-SBU|Paul Fodor|no|no|yes
+40-SBU|Philip Lewis|no|no|no
+40-SBU|Phillipa Gill|no|no|no
+40-SBU|Pradipta De|no|no|no
+40-SBU|Radu Grosu|yes|no|yes
+40-SBU|Radu Sion|yes|no|no
+40-SBU|Rezaul Chowdhury|yes|no|yes
+40-SBU|Richard McKenna|no|no|no
+40-SBU|Ritwik Banerjee|no|no|no
+40-SBU|Rob Johnson|no|no|no
+40-SBU|Robert Patro|no|yes|no
+40-SBU|Rong Zhao|no|no|no
+40-SBU|Roy Shilkrot|no|no|no
+40-SBU|Sael Lee (Lee Sael)|no|no|no
+40-SBU|Sangjin Hong|yes|no|no
+40-SBU|Scott Smolka|no|no|no
+40-SBU|Scott Stoller|no|yes|no
+40-SBU|Steven Skiena|no|yes|no
+40-SBU|Susan Brennan|no|no|yes
+40-SBU|Tamara Berg|no|no|no
+40-SBU|Theo Pavlidis|no|no|no
+40-SBU|Tony Scarlatos|no|no|yes
+40-SBU|Tuncay Tekle|no|no|yes
+40-SBU|Tzi-cker Chiueh|no|no|no
+40-SBU|Vyas Sekar|no|no|no
+40-SBU|Wei Xu|no|no|no
+40-SBU|Wei Zhu|no|no|no
+40-SBU|Xianfeng Gu|no|no|yes
+40-SBU|Xiangmin Jiao|no|no|no
+40-SBU|Xiaojun Bi|yes|no|no
+40-SBU|Xin Wang|no|no|yes
+40-SBU|Yanni Ellen Liu|no|no|no
+40-SBU|Yejin Choi|no|no|yes
+40-SBU|Yevgen Borodin|yes|no|yes
+40-SBU|Yi Gao|no|no|no
+40-SBU|Yuanyuan Yang|no|yes|no
+40-SBU|Zhenhua Liu|yes|yes|no
+40-TAMU| Andreas Klappenecker|no|yes|yes
+40-TAMU|Aakash Tyagi |no|yes|yes
+40-TAMU|Andruid Kerne|yes|yes|yes
+40-TAMU|Anxiao (Andrew) Jiang|yes|yes|yes
+40-TAMU|Bruce Gooch|yes|yes|yes
+40-TAMU|Daniel Ragsdale|no|yes|yes
+40-TAMU|Dezhen Song|no|yes|yes
+40-TAMU|Dilma Da Silva|yes|yes|yes
+40-TAMU|Dmitri Loguinov|yes|yes|yes
+40-TAMU|Dylan Shell|no|yes|yes
+40-TAMU|Eun Jung Kim|yes|yes|yes
+40-TAMU|Guofei Gu|yes|yes|yes
+40-TAMU|Hyunyoung Lee|yes|yes|yes
+40-TAMU|Jaakko Jarvi|yes|no|yes
+40-TAMU|James Caverlee|no|no|yes
+40-TAMU|Jeff Huang|yes|no|yes
+40-TAMU|Jennifer Welch|yes|yes|yes
+40-TAMU|Jianer Chen|yes|no|yes
+40-TAMU|Jinxiang Chai|yes|no|yes
+40-TAMU|John Keyser|yes|yes|yes
+40-TAMU|Jyh-Charn (Steve) Liu|yes|yes|yes
+40-TAMU|Lawrence Rauchwerger|yes|no|yes
+40-TAMU|Philip Ritchey|yes|no|yes
+40-TAMU|Radu Stoleru|no|yes|yes
+40-TAMU|Ricardo Gutierrez-Osuna|yes|yes|yes
+40-TAMU|Riccardo Bettati|yes|yes|yes
+40-TAMU|Richard Furuta|yes|no|yes
+40-TAMU|Robin Murphy|no|yes|yes
+40-TAMU|Ronnie Ward|no|no|yes
+40-TAMU|Roozbeh Jafari|yes|yes|yes
+40-TAMU|Ruihong Huang|no|no|yes
+40-TAMU|Scott Schaefer|yes|no|yes
+40-TAMU|Sing-Hoi Sze|yes|no|yes
+40-TAMU|Teresa Leyk|no|no|yes
+40-TAMU|Tim Davis|yes|yes|yes
+40-TAMU|Tracy Anne Hammond|yes|no|yes
+40-TAMU|Vivek Sarin|yes|yes|yes
+40-TAMU|Walter Daugherity|no|yes|yes
+40-TAMU|Xia (Ben) Hu|yes|yes|yes
+40-TAMU|Yoonsuck Choe|no|yes|yes
+40-UA|Alon Efrat|yes|yes|yes
+40-UA|Beichuan Zhang|no|no|no
+40-UA|Carlos Scheidegger|no|yes|yes
+40-UA|Chris Gniady|no|no|no
+40-UA|Christian Collberg|yes|no|no
+40-UA|David Lowenthal|yes|yes|no
+40-UA|John Kececioglu|no|no|no
+40-UA|Kate Isaacs|yes|no|no
+40-UA|Kobus Barnard|no|no|yes
+40-UA|Larry Peterson|yes|yes|no
+40-UA|Michelle Strout|no|no|no
+40-UA|Patrick Homer|yes|yes|no
+40-UA|Ravi Sethi|yes|no|yes
+40-UA|Rick Mercer|no|no|no
+40-UA|Russell Lewis|no|no|yes
+40-UA|Saumya Debray|yes|no|yes
+40-UA|Stephen Kobourov|yes|yes|no
+40-UA|Todd Proebsting|no|no|no
+40-UCOB|Aaron Clauset|yes|no|no
+40-UCOB|Alexander Repenning|no|no|no
+40-UCOB|Ben Shapiro|no|no|no
+40-UCOB|Bor‐Yuh Evan Chang|no|no|yes
+40-UCOB|Clayton Lewis|no|no|no
+40-UCOB|Daniel Szafir|no|no|no
+40-UCOB|Dirk Grunwald|no|no|no
+40-UCOB|Douglas Sicker|yes|yes|no
+40-UCOB|Elizabeth Boese|no|no|no
+40-UCOB|Elizabeth Bradley|no|no|yes
+40-UCOB|Elizabeth Jessup|no|no|no
+40-UCOB|Frank Miller|no|no|no
+40-UCOB|Gabe Sibley|no|no|no
+40-UCOB|Henry Tufo|no|no|no
+40-UCOB|Ioana Fleming|no|no|no
+40-UCOB|Jed Brown|no|no|no
+40-UCOB|John Bennett|no|no|no
+40-UCOB|John Black|no|no|no
+40-UCOB|Jordan Boyd-Graber|no|no|no
+40-UCOB|Judy Stafford|yes|yes|no
+40-UCOB|Kenneth Anderson|no|no|yes
+40-UCOB|Leysia Palen|no|no|no
+40-UCOB|Lijun Chen|no|no|no
+40-UCOB|Martha Palmer|no|no|no
+40-UCOB|Matthew Hammer|no|no|no
+40-UCOB|Michael Eisenberg|no|no|no
+40-UCOB|Michael Mozer|no|no|no
+40-UCOB|Nikolaus Correll|no|no|yes
+40-UCOB|Qin Lv|no|no|no
+40-UCOB|Rhonda  Hoenigman |no|no|no
+40-UCOB|Richard Han|no|no|yes
+40-UCOB|Sangtae Ha|no|yes|no
+40-UCOB|Shaun Kane|no|no|no
+40-UCOB|Shivakant Mishra|no|no|no
+40-UCOB|Sriram Sankaranarayanan|no|no|yes
+40-UCOB|Tamara Sumner|no|no|no
+40-UCOB|Tom Yeh|no|no|yes
+40-UCOB|Wayne Ward|no|no|no
+40-UCOB|Xiao-Chuan Cai|no|no|no
+40-UTA|Aditya Bhaskara|no|no|no
+40-UTA|Alexander Lex|no|no|no
+40-UTA|Anton Burtsev|yes|no|no
+40-UTA|Bob Kessler|no|no|no
+40-UTA|Chris Myers|yes|yes|no
+40-UTA|Christopher Johnson|no|yes|yes
+40-UTA|Chuck Hansen|no|no|no
+40-UTA|Craig Caldwell|no|no|no
+40-UTA|David Johnson|no|no|no
+40-UTA|Elaine Cohen|no|no|no
+40-UTA|Ellen Riloff|no|no|no
+40-UTA|Eric Eide|yes|no|no
+40-UTA|Erik Brunvand|no|no|yes
+40-UTA|Erin Parker|no|no|no
+40-UTA|Feifei Li|yes|yes|yes
+40-UTA|Ganesh Gopalakrishnan|yes|yes|no
+40-UTA|Gregory Clark|no|no|no
+40-UTA|Hari Sundar|no|no|yes
+40-UTA|Jake Abbott|no|yes|yes
+40-UTA|James Sutherland|no|no|yes
+40-UTA|Jeanine Stefanucci|no|no|no
+40-UTA|Jeff Phillips|yes|yes|yes
+40-UTA|Jeff Weiss|no|no|no
+40-UTA|Joe Zachary|no|no|no
+40-UTA|John Hollerbach|no|no|no
+40-UTA|John Regehr|no|no|no
+40-UTA|Kenneth Stevens|no|yes|no
+40-UTA|Kobus Van der Merwe|yes|yes|no
+40-UTA|Ladislav Kavan|yes|no|yes
+40-UTA|Mark Van Langeveld|no|no|no
+40-UTA|Mary Hall|yes|no|yes
+40-UTA|Matthew Flatt|no|no|no
+40-UTA|Mike Kirby|no|no|no
+40-UTA|Miriah Meyer|no|no|no
+40-UTA|Neal Patwari|yes|yes|yes
+40-UTA|Rajeev Balasubramonian|no|yes|no
+40-UTA|Richard Brown|no|no|no
+40-UTA|Robert Ricci|no|no|no
+40-UTA|Roger Altizer|no|yes|no
+40-UTA|Ross Whitaker|no|no|no
+40-UTA|Ryan Stutsman|yes|yes|yes
+40-UTA|Sarah Creem-Regehr|no|no|yes
+40-UTA|Sneha Kasera|no|no|no
+40-UTA|Steve Corbato|no|no|yes
+40-UTA|Suresh Venkatasubramanian|no|no|no
+40-UTA|Tamara Denning|no|no|yes
+40-UTA|Thomas Fletcher|no|no|no
+40-UTA|Tolga Tasdizen|yes|yes|yes
+40-UTA|Tom Henderson|no|no|no
+40-UTA|Tucker Hermans|yes|no|no
+40-UTA|William Thompson|no|no|yes
+40-VT|Ali R Butt|yes|yes|yes
+40-VT|Dwight  Barnette|no|no|no
+40-VT|Godmar  Back|yes|yes|no
+40-VT|Ing-Ray  Chen|yes|yes|yes
+40-VT|Osman   Balci  |yes|yes|yes
+40-VT|Yang  Cao|no|no|no
+40-WUSTL|Aaron Bobick|no|yes|no
+40-WUSTL|Benjamin Moseley|yes|no|no
+40-WUSTL|Brendan Juba|yes|no|no
+40-WUSTL|Caitlin Kelleher|yes|no|no
+40-WUSTL|Chenyang Lu|yes|yes|no
+40-WUSTL|Christopher Gill|no|yes|no
+40-WUSTL|Doug Shook|no|no|no
+40-WUSTL|Gary Stormo|no|no|no
+40-WUSTL|I-Ting Angelina Lee|yes|no|no
+40-WUSTL|James Buckley|no|no|yes
+40-WUSTL|Jeremy Buhler|yes|yes|yes
+40-WUSTL|Kunal Agrawal|yes|yes|yes
+40-WUSTL|Marion Neumann|no|no|no
+40-WUSTL|Mark Franklin|yes|yes|yes
+40-WUSTL|Michael Brent|no|no|no
+40-WUSTL|Patrick Crowley|yes|yes|no
+40-WUSTL|Raj Jain|yes|yes|no
+40-WUSTL|Robert Pless|no|yes|no
+40-WUSTL|Roch Guérin|yes|yes|no
+40-WUSTL|Roger Chamberlain|yes|yes|no
+40-WUSTL|Roman Garnett|no|yes|no
+40-WUSTL|Ron Cytron|yes|no|yes
+40-WUSTL|Ruth Miller|no|no|yes
+40-WUSTL|S Joshua Swamidass|no|no|no
+40-WUSTL|Sanmay Das|yes|no|yes
+40-WUSTL|Shantanu Chakrabartty|no|yes|yes
+40-WUSTL|Sharlee Climer|no|no|no
+40-WUSTL|Tao Ju|yes|yes|yes
+40-WUSTL|Ting Wang|no|no|no
+40-WUSTL|Todd Sproull|yes|yes|no
+40-WUSTL|Viktor Gruev|no|yes|yes
+40-WUSTL|Weixiong Zhang|no|no|no
+40-WUSTL|William Richard|no|yes|no
+40-WUSTL|Xuan (Silvia) Zhang|no|yes|no
+40-WUSTL|Yasutaka Furukawa|yes|yes|no
+40-WUSTL|Yixin Chen|yes|yes|yes
+48-ASU|Acuna, Ruben|no|no|no
+48-ASU|Ahn, Gail-Joon|yes|no|yes
+48-ASU|Amresh, Ashish|no|no|no
+48-ASU|Anderson-Rowland, Mary|no|no|yes
+48-ASU|Askin, Ronald|no|no|yes
+48-ASU|Atkinson, Robert|no|no|no
+48-ASU|Balasooriya, Janaka|no|no|no
+48-ASU|Bansal, Ajay|no|no|no
+48-ASU|Bansal, Srividya|no|yes|no
+48-ASU|Baral, Chitta|yes|no|yes
+48-ASU|Bazzi, Rida|no|no|yes
+48-ASU|Ben Amor, Heni|yes|yes|no
+48-ASU|Burger, Kevin|no|no|no
+48-ASU|Calliss, Debra|no|no|no
+48-ASU|Chattin, Linda|no|no|no
+48-ASU|Chen, Yinong|no|no|no
+48-ASU|Colbourn, Charles|no|no|no
+48-ASU|Collofello, James|no|no|no
+48-ASU|Dasgupta, Partha|no|no|yes
+48-ASU|Davulcu, Hasan|yes|yes|yes
+48-ASU|Doupé, Adam|no|no|no
+48-ASU|Fainekos, Georgios|yes|yes|no
+48-ASU|Farin, Gerald|no|no|yes
+48-ASU|Femiani, John|no|no|no
+48-ASU|Feng, Xuerong|no|no|no
+48-ASU|Gaffar, Ashraf|no|no|yes
+48-ASU|Gary, Kevin|yes|yes|no
+48-ASU|Gel, Esma|no|no|no
+48-ASU|Ghazarian, Arbi|no|yes|no
+48-ASU|Grover, Kanika|no|no|no
+48-ASU|Gupta, Sandeep|no|yes|no
+48-ASU|He, Jingrui|no|yes|no
+48-ASU|Hsiao, Sharon|no|no|no
+48-ASU|Huang, Dijiang|no|yes|no
+48-ASU|Ju, Feng|no|yes|no
+48-ASU|Kambhampati, Subbarao|no|no|yes
+48-ASU|Kobayashi, Yoshihiro|no|no|no
+48-ASU|Lee, Joohyung|no|no|no
+48-ASU|Lee, Yann-Hang|no|no|no
+48-ASU|Li, Baoxin|yes|no|yes
+48-ASU|Li, Jing|no|no|no
+48-ASU|Lindquist, Tim|no|no|no
+48-ASU|Liu, Huan|no|no|no
+48-ASU|Maciejewski, Ross|no|yes|no
+48-ASU|Meuth, Ryan|no|no|no
+48-ASU|Miller, Phill|no|no|no
+48-ASU|Mirchandani, Pitu|no|no|no
+48-ASU|Montgomery, Douglas|no|no|no
+48-ASU|Nakamura, Mutsumi|no|no|no
+48-ASU|Nelson, Brian|no|no|yes
+48-ASU|Pan, Rong|no|yes|no
+48-ASU|Panchanathan, Sethuraman|no|yes|yes
+48-ASU|Pavlic, Ted|no|yes|no
+48-ASU|Razdan, Anshuman|no|no|yes
+48-ASU|Ren, Fengbo|no|no|no
+48-ASU|Richa, Andrea|yes|yes|yes
+48-ASU|Runger, George|no|no|no
+48-ASU|Sarjoughian, Hessam|no|no|yes
+48-ASU|Sarwat, Mohamed|yes|yes|no
+48-ASU|Sefair, Jorge|no|no|yes
+48-ASU|Selgrad, Justin|no|no|no
+48-ASU|Sen, Arunabha|yes|yes|no
+48-ASU|Shakarian, Paulo|no|no|no
+48-ASU|Shrivastava, Aviral|no|no|yes
+48-ASU|Shunk, Dan|no|no|no
+48-ASU|Sohoni, Sohum|yes|yes|yes
+48-ASU|Syrotiuk, Violet|yes|yes|yes
+48-ASU|Tadayon-Navabi, Farideh|no|no|no
+48-ASU|Tong, Hanghang|yes|yes|no
+48-ASU|VanLehn, Kurt|no|no|no
+48-ASU|Vrudhula, Sarma|yes|yes|yes
+48-ASU|Walker, Erin|no|no|yes
+48-ASU|Wang, Yalin|no|no|no
+48-ASU|Whitehouse, Richard|no|no|no
+48-ASU|Wonka, Peter|no|no|yes
+48-ASU|Wu, Carole-Jean|yes|yes|no
+48-ASU|Wu, Teresa|no|yes|no
+48-ASU|Xue, Guoliang|yes|yes|yes
+48-ASU|Yau, Sik-Sang (Stephen)|no|yes|yes
+48-ASU|Ye, Nong|no|yes|no
+48-ASU|Zhao, Ming|yes|yes|yes
+48-BU|Aaron Stevens|no|no|yes
+48-BU|Abraham Matta|yes|yes|yes
+48-BU|Ari Trachtenberg|no|yes|yes
+48-BU|Assaf Kfoury|no|no|no
+48-BU|Azer Bestavros|yes|yes|yes
+48-BU|David Starobinski|yes|yes|yes
+48-BU|David Sullivan|yes|no|yes
+48-BU|Evimaria Terzi|no|yes|yes
+48-BU|Gary Benson|no|no|yes
+48-BU|George Kollios|yes|yes|yes
+48-BU|Giorgos Zervas|yes|no|no
+48-BU|Hongwei Xi|yes|no|yes
+48-BU|John Byers|yes|no|yes
+48-BU|Jonathan Appavoo|no|no|yes
+48-BU|Leonid Levin|no|no|yes
+48-BU|Leonid Reyzin|no|no|yes
+48-BU|Lorenzo Orecchia|no|no|yes
+48-BU|Manuel Egele|no|yes|yes
+48-BU|Margrit Betke|no|no|yes
+48-BU|Mark Crovella|yes|yes|yes
+48-BU|Nikos Triandopoulos|yes|yes|yes
+48-BU|Orran Krieger|no|no|no
+48-BU|Perry Donham|no|no|yes
+48-BU|Peter Gacs|no|no|yes
+48-BU|Ran Canetti|no|no|yes
+48-BU|Richard West|yes|no|yes
+48-BU|Sang (Peter) Chin|no|no|no
+48-BU|Sharon Goldberg|no|no|yes
+48-BU|Shereif El-Sheikh|no|no|yes
+48-BU|Stan Sclaroff|no|yes|yes
+48-BU|Steve Homer|no|yes|yes
+48-BU|Susan Worst|no|no|yes
+48-BU|Venkatesh Saligrama|no|no|yes
+48-BU|Wayne Snyder|no|no|yes
+48-NCSU|  Anthony Rivers|no|no|yes
+48-NCSU|  Ken Tate|yes|no|yes
+48-NCSU|  Nadia Diakun-Thibault|no|no|yes
+48-NCSU|  Xuxian Jiang|no|no|yes
+48-NCSU|  Yufeng Xin|no|no|yes
+48-NCSU| Aldo Dagnino|no|no|yes
+48-NCSU| Andrew Rindos|no|no|yes
+48-NCSU| Barbara Jasmine Adams|no|no|yes
+48-NCSU| Ben Watson|no|no|yes
+48-NCSU| Bradford Mott|no|no|yes
+48-NCSU| Christopher Parnin|no|no|yes
+48-NCSU| Collin Lynch|no|no|yes
+48-NCSU| David Sturgill|no|no|yes
+48-NCSU| David Thuente|no|no|yes
+48-NCSU| David Wright|no|no|yes
+48-NCSU| Donald Bitzer|no|yes|yes
+48-NCSU| Edward Gehringer|no|no|yes
+48-NCSU| Emerson Murphy-Hill|yes|no|yes
+48-NCSU| Franc Brglez|no|no|yes
+48-NCSU| Frank Mueller|yes|yes|yes
+48-NCSU| Gary Howell|no|no|yes
+48-NCSU| Guoliang Jin|no|no|yes
+48-NCSU| Harry Perros|no|yes|yes
+48-NCSU| Hong Yi|no|yes|yes
+48-NCSU| Injong Rhee|no|no|yes
+48-NCSU| Jaewoo Kang|no|no|yes
+48-NCSU| Jason King|no|no|yes
+48-NCSU| Jessica Staddon|no|no|yes
+48-NCSU| Jessica Young Schmidt|no|no|yes
+48-NCSU| Jon Doyle|no|no|yes
+48-NCSU| Kemafor Anyanwu Ogan|no|no|yes
+48-NCSU| Khaled Harfoush|no|no|yes
+48-NCSU| Kristy Elizabeth Boyer|no|no|yes
+48-NCSU| Laurie Williams|yes|yes|yes
+48-NCSU| Lina Battestilli|no|yes|yes
+48-NCSU| Lucas Layman|no|no|yes
+48-NCSU| Matthias Stallmann|no|no|yes
+48-NCSU| Michael Kowolenko|no|no|yes
+48-NCSU| Michael Rappa|no|no|yes
+48-NCSU| Min Chi|no|no|yes
+48-NCSU| Mladen Vouk|yes|yes|yes
+48-NCSU| Muhammad Shahzad|no|no|yes
+48-NCSU| Nagiza Samatova|no|no|yes
+48-NCSU| Patrick Dreher|no|no|yes
+48-NCSU| Peng Ning|yes|yes|yes
+48-NCSU| Ranga Vatsavai|yes|yes|yes
+48-NCSU| Robert Fornaro|no|yes|yes
+48-NCSU| Rudra Dutta|no|yes|yes
+48-NCSU| Sarah Heckman|no|no|yes
+48-NCSU| Sidharth Thakur|no|no|yes
+48-NCSU| Stanley Ahalt|no|no|yes
+48-NCSU| Steffen Heber|no|no|yes
+48-NCSU| Steven Hunter|yes|no|yes
+48-NCSU| Suzanne Balik|no|no|yes
+48-NCSU| Tiffany Barnes|yes|yes|yes
+48-NCSU| Ting Yu|no|no|yes
+48-NCSU| William Enck|yes|yes|yes
+48-NCSU| Woody Robbins|no|no|yes
+48-NCSU| Wu-show Chou|no|yes|yes
+48-NCSU| Xiaohui (Helen) Gu|no|no|yes
+48-NCSU| Xiaosong Ma|no|no|yes
+48-NCSU| Xipeng Shen|no|no|yes
+48-NCSU|Dr  Alexandros Kapravelos|no|no|yes
+48-NCSU|Ms  ToniAnn Marini|no|no|yes
