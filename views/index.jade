@@ -37,7 +37,20 @@ block body
 						+label-primary("ACM Fellow")
 					if queryResult[item]["funding"] == "1"
 						+label-success("Funding")
-					h5 #{queryResult[item]["univ"]} (Rank #{queryResult[item]["rank"]})
+					form(action="/", name="formUniv" + item, method="post")
+						input(type="hidden", name="keyword", value=queryResult[item]["univ"])
+						strong
+							a(href="javascript:document.formUniv" + item + ".submit();")  #{queryResult[item]["univ"]}
+					ul
+						li CS Rank #{queryResult[item]["rank"]}
+						if queryResult[item]["Artificial Intelligence"]
+							li= "AI Rank " + queryResult[item]["Artificial Intelligence"]
+						if queryResult[item]["Programming Language"]
+							li= "PL Rank " + queryResult[item]["Programming Language"]
+						if queryResult[item]["System"]
+							li= "System Rank " + queryResult[item]["System"]
+						if queryResult[item]["Theory"]
+							li= "Theory Rank " + queryResult[item]["Theory"]
 					+icon-primary("search")
 					a(href="https://www.bing.com/search?q=" + queryResult[item]["name"] + "%20" + queryResult[item]["univ"]) Search in Bing
 	footer.footer

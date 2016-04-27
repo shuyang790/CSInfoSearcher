@@ -38,6 +38,9 @@ struct EntryOut
 vector<EntryOut> outputbuffer;
 
 map <string, string> univ_names;
+map <string, string> univ_name2abbr;
+
+map < string, map<string, int> > directions;
 
 inline string trans_lower(const string& token)
 {
@@ -64,8 +67,33 @@ void print(Entry& entry)
     cout<<"\"ieee_fellow\":"<<"\""<<entry.ieee_fellow<<"\",";
     cout<<"\"funding\":"<<"\""<<entry.funding<<"\"";
 
+    for (map< string, map<string, int> >::iterator it=directions.begin();
+            it != directions.end(); it++) {
+                if (it->second.find(entry.univ) != it->second.end()) {
+                    cout << ",\"" << it->first << "\":";
+                    cout << "\"" << it->second[entry.univ] << "\"";
+                }
+            }
+
     cout<<"}";
     return;
+}
+
+void read_direction(const char * filename, const char * dirname) {
+    fstream input;
+    string token;
+    input.open(filename);
+    map<string, int> cur;
+    while(getline(input, token, '|')){
+        int num = atoi(token.c_str());
+        getline(input, token, '\n');
+        if (token[token.size()-1] == '\r')
+            token.erase(token.size()-1);
+        string abbr = univ_name2abbr[token];
+        cur[abbr] = num;
+    }
+    directions[string(dirname)] = cur;
+    input.close();
 }
 
 int main(int argc, char *argv[]){
@@ -101,6 +129,16 @@ int main(int argc, char *argv[]){
     univ_names[string("34-RU")] = string("Rutgers, The State University of New Jersey-​New Brunswick");
     univ_names[string("34-UCH")] = string("University of Chicago");
     univ_names[string("40-WUSTL")] = string("Washington University in St. Louis");
+    univ_names[string("15-UMD")] = string("University of Maryland-​College Park");
+    univ_names[string("63-UBS")] = string("University at Buffalo-​SUNY");
+
+    for(map<string, string>::iterator it=univ_names.begin(); it!=univ_names.end(); it++)
+        univ_name2abbr[it->second] = it->first;
+
+    read_direction("./database/cs-artificial-intelligence-rank.txt", "Artificial Intelligence");
+    read_direction("./database/cs-programming-language-rank.txt", "Programming Language");
+    read_direction("./database/cs-system-rank.txt", "System");
+    read_direction("./database/cs-theory-rank.txt", "Theory");
 
     input.open("./database/index.txt");
     //input.open("../database/index.txt");
