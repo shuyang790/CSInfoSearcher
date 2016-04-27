@@ -36,7 +36,7 @@
 34|Rutgers, The State University of New Jersey-​New Brunswick
 34|University of California-​Davis
 34|University of California-​Santa Barbara
-34|University of Chicago
+34|University of CHicago
 40|Dartmouth College
 40|Stony Brook University-​SUNY
 40|Texas A&M University-​College Station
