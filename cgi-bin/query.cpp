@@ -17,7 +17,7 @@
 
 using namespace std;
 
-char a[20]="asb\0";
+bool not_empty = 0;
 
 struct Entry
 {
@@ -34,6 +34,8 @@ inline void trans_lower(string& token)
 }
 void print(Entry& entry)
 {
+    if (not_empty)
+        cout << ",";
     cout<<"{";
     cout<<"\"rank\":"<<"\""<<entry.rank<<"\",";
     cout<<"\"unvi\":"<<"\""<<entry.univ<<"\",";
@@ -41,8 +43,8 @@ void print(Entry& entry)
     cout<<"\"acm_fellow\":"<<"\""<<entry.acm_fellow<<"\",";
     cout<<"\"ieee_fellow\":"<<"\""<<entry.ieee_fellow<<"\",";
     cout<<"\"ieee_fellow\":"<<"\""<<entry.funding<<"\"";
-    
-    cout<<"}"<<endl;
+
+    cout<<"}";
     return;
 }
 
@@ -52,9 +54,9 @@ int main(int argc, char *argv[]){
         cout<<"Error Input"<<endl;
         return -1;
     }
-    
+
     fstream input;
-    input.open("../database/index.txt");
+    input.open("./database/index.txt");
     string token;
     while (getline(input, token, '-'))
     {
@@ -79,7 +81,7 @@ int main(int argc, char *argv[]){
         //cout<<entry.rank<<" "<<entry.univ<< " "<<entry.name<<" "<<entry.acm_fellow<<endl;
         list.push_back(entry);
     }
-    
+
     vector<string> keywords;
     string str(argv[1]);
     istringstream ss(str);
@@ -88,6 +90,7 @@ int main(int argc, char *argv[]){
         trans_lower(token);
         keywords.push_back(token);
     }
+    cout << "[";
     for (int i=0 ; i<list.size(); ++i)
     {
         for (int j=0; j<keywords.size(); ++j)
@@ -95,9 +98,12 @@ int main(int argc, char *argv[]){
                 (list[i].univ.find(keywords[j]))!= -1)
         {
             print(list[i]);
-            return 0;
+            not_empty = 1;
+            //return 0;
         }
     }
+    cout<<"]";
     //printf("{\"get\": \"%s\", \"put\": 2}\n", a);
     //fprintf(stderr, "log: %s\n", a);
+    return 0;
 }
