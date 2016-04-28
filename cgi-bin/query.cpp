@@ -18,7 +18,11 @@
 
 using namespace std;
 
-bool not_empty = 0;
+const int maxlength = 200;
+bool toomany = 0;
+int cnt = 0;
+
+string result = "";
 
 struct Entry
 {
@@ -55,27 +59,45 @@ bool cmp(EntryOut a, EntryOut b)
     return a.count > b.count;
 }
 
+string myitoa(int cnt){
+    if (!cnt)
+        return string("0");
+    string res="";
+    char a[3]="0\0";
+    while (cnt > 0){
+        a[0] = cnt % 10 + 48;
+        res = string(a) + res;
+        cnt /= 10;
+    }
+    return res;
+}
+
 void print(Entry& entry)
 {
-    if (not_empty)
-        cout << ",";
-    cout<<"{";
-    cout<<"\"rank\":"<<"\""<<entry.rank<<"\",";
-    cout<<"\"univ\":"<<"\""<<univ_names[entry.univ]<<"\",";
-    cout<<"\"name\":"<<"\""<<entry.name<<"\",";
-    cout<<"\"acm_fellow\":"<<"\""<<entry.acm_fellow<<"\",";
-    cout<<"\"ieee_fellow\":"<<"\""<<entry.ieee_fellow<<"\",";
-    cout<<"\"funding\":"<<"\""<<entry.funding<<"\"";
+    if (cnt+1 > maxlength){
+        toomany = 1;
+        return;
+    }
+    cnt++;
+    result += ",{";
+    result += "\"rank\":\"";
+    result += myitoa(entry.rank);
+    result += "\",";
+    result += "\"univ\":\""; result += univ_names[entry.univ]; result += "\",";
+    result += "\"name\":\""; result += entry.name; result += "\",";
+    result += "\"acm_fellow\":\""; result += myitoa(entry.acm_fellow); result += "\",";
+    result += "\"ieee_fellow\":\""; result += myitoa(entry.ieee_fellow); result += "\",";
+    result += "\"funding\":\""; result += myitoa(entry.funding); result += "\"";
 
     for (map< string, map<string, int> >::iterator it=directions.begin();
             it != directions.end(); it++) {
                 if (it->second.find(entry.univ) != it->second.end()) {
-                    cout << ",\"" << it->first << "\":";
-                    cout << "\"" << it->second[entry.univ] << "\"";
+                    result +=  ",\"" ; result +=  it->first ; result +=  "\":";
+                    result +=  "\"" ; result +=  myitoa(it->second[entry.univ]) ; result +=  "\"";
                 }
             }
 
-    cout<<"}";
+    result += "}";
     return;
 }
 
@@ -99,7 +121,7 @@ void read_direction(const char * filename, const char * dirname) {
 int main(int argc, char *argv[]){
     if (argc !=2)
     {
-        cout<<"Error Input"<<endl;
+        cout << "Error Input" << endl;
         return -1;
     }
 
@@ -158,7 +180,7 @@ int main(int argc, char *argv[]){
         entry.ieee_fellow = (token =="yes" ? 1:0);
         getline(input, token, '\n');
         entry.funding = (token =="yes" ? 1:0);
-        //cout<<entry.rank<<" "<<entry.univ<< " "<<entry.name<<" "<<entry.acm_fellow<<endl;
+        //result += entry.rank; result += " "; result += entry.univ; result +=  " "; result += entry.name; result += " "; result += entry.acm_fellow; result += endl;
         list.push_back(entry);
     }
 
@@ -168,7 +190,6 @@ int main(int argc, char *argv[]){
     while (getline(ss, token, ' '))
         keywords.push_back(trans_lower(token));
 
-    cout << "[";
     for (int i=0 ; i<list.size(); ++i)
     {
         EntryOut entryout;
@@ -188,8 +209,18 @@ int main(int argc, char *argv[]){
     for (int i=0; i<outputbuffer.size(); ++i)
     {
         if (outputbuffer[i].count == keywords.size()) print(outputbuffer[i].entry);
-        not_empty = 1;
     }
-    cout<<"]";
+    result += "]";
+
+    string cur = "[{\"len\":\"";
+    cur += myitoa(cnt);
+    cur += "\",";
+    if (toomany)
+        cur += "\"info\":\"tooMany\"}";
+    else
+        cur += "\"info\":\"good\"}";
+
+    result = cur + result;
+    cout << result;
     return 0;
 }
