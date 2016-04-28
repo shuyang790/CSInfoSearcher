@@ -27,6 +27,7 @@ block body
 							input(type="submit" value="Search" class="btn btn-primary")
 		if alertContent
 			+alert-success(alertContent)
+			+alert-info("Each card below is a person with university information as well as fellowships and fundings. At the right of university names are some ranks according to USNews.")
 		if queryResult
 			-for(var item in queryResult)
 				+panel-info(queryResult[item]["name"])
@@ -41,16 +42,26 @@ block body
 						input(type="hidden", name="keyword", value=queryResult[item]["univ"])
 						strong
 							a(href="javascript:document.formUniv" + item + ".submit();")  #{queryResult[item]["univ"]}
-					ul
-						li CS Rank #{queryResult[item]["rank"]}
+							&nbsp;
+						+label-warning("CS " + queryResult[item]["rank"])
 						if queryResult[item]["Artificial Intelligence"]
-							li= "AI Rank " + queryResult[item]["Artificial Intelligence"]
+							+label-info("AI " + queryResult[item]["Artificial Intelligence"])
 						if queryResult[item]["Programming Language"]
-							li= "PL Rank " + queryResult[item]["Programming Language"]
+							+label-info("PL " + queryResult[item]["Programming Language"])
 						if queryResult[item]["System"]
-							li= "System Rank " + queryResult[item]["System"]
+							+label-info( "System " + queryResult[item]["System"])
 						if queryResult[item]["Theory"]
-							li= "Theory Rank " + queryResult[item]["Theory"]
+							+label-info( "Theory " + queryResult[item]["Theory"])
+					//ul
+					//	li CS Rank #{queryResult[item]["rank"]}
+					//	if queryResult[item]["Artificial Intelligence"]
+					//		li= "AI Rank " + queryResult[item]["Artificial Intelligence"]
+					//	if queryResult[item]["Programming Language"]
+					//		li= "PL Rank " + queryResult[item]["Programming Language"]
+					//	if queryResult[item]["System"]
+					//		li= "System Rank " + queryResult[item]["System"]
+					//	if queryResult[item]["Theory"]
+					//		li= "Theory Rank " + queryResult[item]["Theory"]
 					+icon-primary("search")
 					a(href="https://www.bing.com/search?q=" + queryResult[item]["name"] + "%20" + queryResult[item]["univ"]) Search in Bing
 	footer.footer
