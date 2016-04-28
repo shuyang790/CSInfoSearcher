@@ -29,7 +29,7 @@ block body
 			+alert-success(alertContent)
 			+alert-info("Each card below is a person with university information as well as fellowships and fundings. At the right of university names are some ranks according to USNews.")
 			if queryResult[0]["info"] == "tooMany"
-				+alert-warning("Too mane entries, showing only first <strong>" + queryResult[0]["len"] + "</strong> ones.")
+				+alert-warning("Too many entries, showing only first <strong>" + queryResult[0]["len"] + "</strong> ones.")
 		if queryResult
 			-for(var item in queryResult)
 				if item > 0
