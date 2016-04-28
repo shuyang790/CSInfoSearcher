@@ -175,11 +175,11 @@ int main(int argc, char *argv[]){
         getline(input, token, '|');
         entry.name = token;
         getline(input, token, '|');
-        entry.acm_fellow = (token =="yes" ? 1:0);
+        entry.acm_fellow = (token =="True" ? 1:0);
         getline(input, token, '|');
-        entry.ieee_fellow = (token =="yes" ? 1:0);
+        entry.ieee_fellow = (token =="True" ? 1:0);
         getline(input, token, '\n');
-        entry.funding = (token =="yes" ? 1:0);
+        entry.funding = (token =="True" ? 1:0);
         //result += entry.rank; result += " "; result += entry.univ; result +=  " "; result += entry.name; result += " "; result += entry.acm_fellow; result += endl;
         list.push_back(entry);
     }
