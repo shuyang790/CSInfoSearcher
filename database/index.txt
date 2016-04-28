@@ -28,7 +28,7 @@
 11-CIT|Yizhao Thomas Hou|False|False|False
 11-UWM|Aditya Akella|False|False|True
 11-UWM|Amos Ron|False|False|False
-11-UWM|Andrea ArpacDusseau|False|False|True
+11-UWM|Andrea ArpaciDusseau|False|False|True
 11-UWM|AnHai Doan|False|False|True
 11-UWM|Aws Albarghouthi|False|False|False
 11-UWM|Barton Miller|True|False|False
@@ -44,7 +44,7 @@
 11-UWM|Jeffrey Naughton|True|False|False
 11-UWM|Jerry Zhu|False|False|True
 11-UWM|Jignesh Patel|True|False|True
-11-UWM|JiYi Cai|False|False|False
+11-UWM|JinYi Cai|False|False|False
 11-UWM|Jude Shavlik|False|False|True
 11-UWM|Karthikeyan Sankaralingam|False|False|True
 11-UWM|Loris D'Antoni|False|False|False
@@ -55,7 +55,7 @@
 11-UWM|Mohit Gupta|False|False|False
 11-UWM|Paris Koutris|False|False|False
 11-UWM|Paul Barford|False|False|True
-11-UWM|Remzi ArpacDusseau|False|False|True
+11-UWM|Remzi ArpaciDusseau|False|False|True
 11-UWM|Shuchi Chawla|False|False|False
 11-UWM|Somesh Jha|False|False|True
 11-UWM|Stephen Wright|False|False|False
@@ -112,149 +112,149 @@
 13-UCLA|Wei Wang|False|False|True
 13-UCLA|Wesley Chu|False|True|False
 13-UCLA|Yuval Tamir|False|False|False
-13-UMAA|Abernethy  Jacob |False|False|True
-13-UMAA|Abney  Steven |False|False|False
-13-UMAA|Anastasopoulos  Achilleas |False|False|False
-13-UMAA|Austin  Todd |False|False|False
-13-UMAA|Balzano  Laura |False|False|False
-13-UMAA|Bertacco  Valeria |False|False|True
-13-UMAA|Bhattacharya  Pallab |False|False|False
-13-UMAA|Brehob  Mark |False|False|True
-13-UMAA|Carmon  Tal |False|False|False
-13-UMAA|Chesney  David |False|False|True
-13-UMAA|Corso  Jason |False|False|True
-13-UMAA|Das  Reetuparna |False|False|False
-13-UMAA|Deng  Jia |False|False|False
-13-UMAA|Deotare  Parag |False|False|True
-13-UMAA|Dreslinski  Ron |False|False|False
-13-UMAA|Dutta  Prabal |False|False|True
-13-UMAA|Essl  Georg |False|False|True
-13-UMAA|Finelli  Cynthia |False|False|True
-13-UMAA|Flinn  Jason |False|False|False
-13-UMAA|Fu  Kevin |False|False|True
-13-UMAA|Grbic  Anthony |False|False|False
-13-UMAA|Guan  Yuanfang |False|False|True
-13-UMAA|Hofmann  Heath |False|False|False
-13-UMAA|Honeyman  Peter |False|False|True
-13-UMAA|Jagadish  HV |False|False|True
-13-UMAA|Jahanian  Farnam |False|False|False
-13-UMAA|Jamin  Sugih |False|False|True
-13-UMAA|Jenkins  Chad |False|False|False
-13-UMAA|JohnsoRoberson  Matthew |False|False|True
-13-UMAA|Kamil  Amir |False|False|True
-13-UMAA|Kanicki  Jerzy |False|False|False
-13-UMAA|Koutra  Danai |False|False|True
-13-UMAA|Kuipers  Benjamin |False|False|False
-13-UMAA|Kurabayashi  Katsuo |False|False|True
-13-UMAA|Lafortune  Stephane |False|False|False
-13-UMAA|Lasecki  Walter |False|False|True
-13-UMAA|Lee  Honglak |False|False|True
-13-UMAA|Liu  Mingyan |True|False|True
-13-UMAA|Lu  Wei |False|False|True
-13-UMAA|Madhyastha  Harsha |False|False|True
-13-UMAA|Mahlke  Scott |False|False|True
-13-UMAA|Mao  Zhuoqing Morley |False|False|True
-13-UMAA|Markov  Igor |False|True|True
-13-UMAA|Mars  Jason |False|False|True
-13-UMAA|Mathieu  Johanna |False|False|True
-13-UMAA|Mazumder  Pinaki |False|False|True
-13-UMAA|Mei  Qiaozhu |False|False|True
-13-UMAA|Merlin  Roberto |False|False|False
-13-UMAA|Michielssen  Eric |False|True|True
-13-UMAA|Mihalcea  Rada |False|False|True
-13-UMAA|Mortazawi  Amir |False|False|False
-13-UMAA|Mower Provost  Emily |False|False|False
-13-UMAA|Mozafari  Barzan |False|False|True
-13-UMAA|Mudge  Trevor |False|True|False
-13-UMAA|Najafi  Khalil |False|False|False
-13-UMAA|Narayanasamy  Satish |False|False|False
-13-UMAA|Nguyen  Long |False|False|False
-13-UMAA|Noble  Brian |False|False|False
-13-UMAA|Olson  Edwin |False|False|False
-13-UMAA|Ozay  Necmiye |False|False|True
-13-UMAA|Papaefthymiou  Marios |False|False|True
-13-UMAA|Peikert  Christopher |False|False|True
-13-UMAA|Pettie  Seth |False|False|False
-13-UMAA|Pollack  Martha |False|False|False
-13-UMAA|Prakash  Atul |False|False|False
-13-UMAA|Radev  Dragomir |True|False|False
-13-UMAA|RaiZadeh  Mina |False|False|True
-13-UMAA|Rand  Stephen |False|False|True
-13-UMAA|Sarabandi  Kamal |False|True|True
-13-UMAA|Savarese  Silvio |False|False|False
-13-UMAA|Schoenebeck  Grant |False|False|True
-13-UMAA|Seymour  John |False|False|False
-13-UMAA|Shi  Yaoyun |False|False|True
-13-UMAA|Singh  Jasprit |False|False|False
-13-UMAA|Steel  Duncan |False|False|False
-13-UMAA|Subramanian  Vijay |False|False|True
-13-UMAA|Sylvester  Dennis |False|False|False
-13-UMAA|Teneketzis  Demosthenis |False|False|False
-13-UMAA|Terry  Fred |False|False|True
-13-UMAA|Tewari  Ambuj |False|False|False
-13-UMAA|Tilbury  Dawn |False|False|True
-13-UMAA|Tsang  Leung |False|True|True
-13-UMAA|Van Hentenryck  Pascal |False|False|True
-13-UMAA|Wellman  Michael |False|False|False
-13-UMAA|Wiens  Jenna |False|False|True
-13-UMAA|Winful  Herbert |False|False|True
-13-UMAA|Yoon  Euisik |False|False|False
-13-UMAA|Zhang  Zhengya |False|False|True
-13-UMAA|Zhong  Zhaohui |False|False|False
-13-UMAA|Zhou  Shuheng |False|False|False
-15-CU|Allen  Peter Kirby|False|False|True
-15-CU|Belhumeur  Peter N|False|False|True
-15-CU|Bishop  Allison |False|False|False
-15-CU|Blaer  Paul S|False|False|False
-15-CU|Blei  David |False|False|False
-15-CU|Cannon  Adam H|False|False|False
-15-CU|Carloni  Luca |False|False|False
-15-CU|Chaintreau  Augustin |False|False|False
-15-CU|Chang  ShiFu |False|False|False
-15-CU|Chen  Xi |False|False|True
-15-CU|Ciocarlie  Matei |False|False|True
-15-CU|Coffman  Ed |True|True|True
-15-CU|Collins  Michael |False|False|True
-15-CU|Drinea  Eleni |False|False|True
-15-CU|Elhadad  Noemie |False|False|True
-15-CU|Feiner  Steven K|False|False|False
-15-CU|Galil  Zvi |True|False|False
-15-CU|Geambasu  Roxana |False|False|True
-15-CU|Gravano  Luis |False|False|True
-15-CU|Grinspun  Eitan |False|False|True
-15-CU|Hsu  Daniel J|False|False|True
-15-CU|Jebara  Tony |False|False|True
-15-CU|Kaiser  Gail E|False|False|True
-15-CU|Kender  John R|False|False|True
-15-CU|Keromytis  Angelos D|False|False|True
-15-CU|Kim  Martha A|False|False|True
-15-CU|Lee  Jae Woo|False|False|False
-15-CU|Lipson  Hod |False|False|True
-15-CU|Malkin  Tal G|False|False|True
-15-CU|McKeown  Kathleen |True|False|True
-15-CU|Misra  Vishal |False|True|False
-15-CU|Nayar  Shree K|False|False|False
-15-CU|Nieh  Jason |False|False|True
-15-CU|Nowick  Steven |False|False|True
-15-CU|Pe'er  Dana |False|False|True
-15-CU|Pe'er  Itsik G|False|False|False
-15-CU|PenMora  Feniosky |False|False|False
-15-CU|Ross  Kenneth A|False|False|True
-15-CU|Rubenstein  Dan |False|False|True
-15-CU|SalleAouissi  Ansaf |False|False|False
-15-CU|Schulzrinne  Henning G|False|False|True
-15-CU|Sethumadhavan  Simha |False|False|True
-15-CU|Stein  Clifford |False|False|True
-15-CU|Stolfo  Salvatore J|False|False|True
-15-CU|Unger  Stephen H|False|False|False
-15-CU|Venkatasubramanian  Venkat |False|False|True
-15-CU|Waltz  David |False|False|True
-15-CU|Wozniakowski  Henryk |False|False|False
-15-CU|Yang  Junfeng |False|False|True
-15-CU|Yannakakis  Mihalis |False|False|False
-15-CU|Yemini  Yechiam |False|False|True
-15-CU|Zheng  Changxi |False|False|True
-15-CU|Zussman  Gil |False|False|True
+13-UMAA|Abernethy Jacob |False|False|True
+13-UMAA|Abney Steven |False|False|False
+13-UMAA|Anastasopoulos Achilleas |False|False|False
+13-UMAA|Austin Todd |False|False|False
+13-UMAA|Balzano Laura |False|False|False
+13-UMAA|Bertacco Valeria |False|False|True
+13-UMAA|Bhattacharya Pallab |False|False|False
+13-UMAA|Brehob Mark |False|False|True
+13-UMAA|Carmon Tal |False|False|False
+13-UMAA|Chesney David |False|False|True
+13-UMAA|Corso Jason |False|False|True
+13-UMAA|Das Reetuparna |False|False|False
+13-UMAA|Deng Jia |False|False|False
+13-UMAA|Deotare Parag |False|False|True
+13-UMAA|Dreslinski Ron |False|False|False
+13-UMAA|Dutta Prabal |False|False|True
+13-UMAA|Essl Georg |False|False|True
+13-UMAA|Finelli Cynthia |False|False|True
+13-UMAA|Flinn Jason |False|False|False
+13-UMAA|Fu Kevin |False|False|True
+13-UMAA|Grbic Anthony |False|False|False
+13-UMAA|Guan Yuanfang |False|False|True
+13-UMAA|Hofmann Heath |False|False|False
+13-UMAA|Honeyman Peter |False|False|True
+13-UMAA|Jagadish HV |False|False|True
+13-UMAA|Jahanian Farnam |False|False|False
+13-UMAA|Jamin Sugih |False|False|True
+13-UMAA|Jenkins Chad |False|False|False
+13-UMAA|JohnsonRoberson Matthew |False|False|True
+13-UMAA|Kamil Amir |False|False|True
+13-UMAA|Kanicki Jerzy |False|False|False
+13-UMAA|Koutra Danai |False|False|True
+13-UMAA|Kuipers Benjamin |False|False|False
+13-UMAA|Kurabayashi Katsuo |False|False|True
+13-UMAA|Lafortune Stephane |False|False|False
+13-UMAA|Lasecki Walter |False|False|True
+13-UMAA|Lee Honglak |False|False|True
+13-UMAA|Liu Mingyan |True|False|True
+13-UMAA|Lu Wei |False|False|True
+13-UMAA|Madhyastha Harsha |False|False|True
+13-UMAA|Mahlke Scott |False|False|True
+13-UMAA|Mao Zhuoqing Morley |False|False|True
+13-UMAA|Markov Igor |False|True|True
+13-UMAA|Mars Jason |False|False|True
+13-UMAA|Mathieu Johanna |False|False|True
+13-UMAA|Mazumder Pinaki |False|False|True
+13-UMAA|Mei Qiaozhu |False|False|True
+13-UMAA|Merlin Roberto |False|False|False
+13-UMAA|Michielssen Eric |False|True|True
+13-UMAA|Mihalcea Rada |False|False|True
+13-UMAA|Mortazawi Amir |False|False|False
+13-UMAA|Mower Provost Emily |False|False|False
+13-UMAA|Mozafari Barzan |False|False|True
+13-UMAA|Mudge Trevor |False|True|False
+13-UMAA|Najafi Khalil |False|False|False
+13-UMAA|Narayanasamy Satish |False|False|False
+13-UMAA|Nguyen Long |False|False|False
+13-UMAA|Noble Brian |False|False|False
+13-UMAA|Olson Edwin |False|False|False
+13-UMAA|Ozay Necmiye |False|False|True
+13-UMAA|Papaefthymiou Marios |False|False|True
+13-UMAA|Peikert Christopher |False|False|True
+13-UMAA|Pettie Seth |False|False|False
+13-UMAA|Pollack Martha |False|False|False
+13-UMAA|Prakash Atul |False|False|False
+13-UMAA|Radev Dragomir |True|False|False
+13-UMAA|RaisZadeh Mina |False|False|True
+13-UMAA|Rand Stephen |False|False|True
+13-UMAA|Sarabandi Kamal |False|True|True
+13-UMAA|Savarese Silvio |False|False|False
+13-UMAA|Schoenebeck Grant |False|False|True
+13-UMAA|Seymour John |False|False|False
+13-UMAA|Shi Yaoyun |False|False|True
+13-UMAA|Singh Jasprit |False|False|False
+13-UMAA|Steel Duncan |False|False|False
+13-UMAA|Subramanian Vijay |False|False|True
+13-UMAA|Sylvester Dennis |False|False|False
+13-UMAA|Teneketzis Demosthenis |False|False|False
+13-UMAA|Terry Fred |False|False|True
+13-UMAA|Tewari Ambuj |False|False|False
+13-UMAA|Tilbury Dawn |False|False|True
+13-UMAA|Tsang Leung |False|True|True
+13-UMAA|Van Hentenryck Pascal |False|False|True
+13-UMAA|Wellman Michael |False|False|False
+13-UMAA|Wiens Jenna |False|False|True
+13-UMAA|Winful Herbert |False|False|True
+13-UMAA|Yoon Euisik |False|False|False
+13-UMAA|Zhang Zhengya |False|False|True
+13-UMAA|Zhong Zhaohui |False|False|False
+13-UMAA|Zhou Shuheng |False|False|False
+15-CU|Allen Peter Kirby|False|False|True
+15-CU|Belhumeur Peter N|False|False|True
+15-CU|Bishop Allison |False|False|False
+15-CU|Blaer Paul S|False|False|False
+15-CU|Blei David |False|False|False
+15-CU|Cannon Adam H|False|False|False
+15-CU|Carloni Luca |False|False|False
+15-CU|Chaintreau Augustin |False|False|False
+15-CU|Chang ShihFu |False|False|False
+15-CU|Chen Xi |False|False|True
+15-CU|Ciocarlie Matei |False|False|True
+15-CU|Coffman Ed |True|True|True
+15-CU|Collins Michael |False|False|True
+15-CU|Drinea Eleni |False|False|True
+15-CU|Elhadad Noemie |False|False|True
+15-CU|Feiner Steven K|False|False|False
+15-CU|Galil Zvi |True|False|False
+15-CU|Geambasu Roxana |False|False|True
+15-CU|Gravano Luis |False|False|True
+15-CU|Grinspun Eitan |False|False|True
+15-CU|Hsu Daniel J|False|False|True
+15-CU|Jebara Tony |False|False|True
+15-CU|Kaiser Gail E|False|False|True
+15-CU|Kender John R|False|False|True
+15-CU|Keromytis Angelos D|False|False|True
+15-CU|Kim Martha A|False|False|True
+15-CU|Lee Jae Woo|False|False|False
+15-CU|Lipson Hod |False|False|True
+15-CU|Malkin Tal G|False|False|True
+15-CU|McKeown Kathleen |True|False|True
+15-CU|Misra Vishal |False|True|False
+15-CU|Nayar Shree K|False|False|False
+15-CU|Nieh Jason |False|False|True
+15-CU|Nowick Steven |False|False|True
+15-CU|Pe'er Dana |False|False|True
+15-CU|Pe'er Itsik G|False|False|False
+15-CU|PenaMora Feniosky |False|False|False
+15-CU|Ross Kenneth A|False|False|True
+15-CU|Rubenstein Dan |False|False|True
+15-CU|SallebAouissi Ansaf |False|False|False
+15-CU|Schulzrinne Henning G|False|False|True
+15-CU|Sethumadhavan Simha |False|False|True
+15-CU|Stein Clifford |False|False|True
+15-CU|Stolfo Salvatore J|False|False|True
+15-CU|Unger Stephen H|False|False|False
+15-CU|Venkatasubramanian Venkat |False|False|True
+15-CU|Waltz David |False|False|True
+15-CU|Wozniakowski Henryk |False|False|False
+15-CU|Yang Junfeng |False|False|True
+15-CU|Yannakakis Mihalis |False|False|False
+15-CU|Yemini Yechiam |False|False|True
+15-CU|Zheng Changxi |False|False|True
+15-CU|Zussman Gil |False|False|True
 15-UMD|Adam Porter  |False|False|True
 15-UMD|Alan Sussman  |False|False|False
 15-UMD|Alexander Barg  |False|False|False
@@ -276,7 +276,7 @@
 15-UMD|Charalampos (Babis) Papamanthou  |False|False|False
 15-UMD|Clyde Kruskal  |False|False|True
 15-UMD|Colin Dixon  |False|False|False
-15-UMD|Dana DachmaSoled  |False|False|False
+15-UMD|Dana DachmanSoled  |False|False|False
 15-UMD|Dana Nau  |False|False|True
 15-UMD|Dave Levin  |False|False|False
 15-UMD|David Doermann  |False|True|True
@@ -291,14 +291,14 @@
 15-UMD|Evan Golub  |False|False|True
 15-UMD|Eytan Ruppin  |False|False|False
 15-UMD|Fawzi Emad  |False|False|False
-15-UMD|FenHao Liu  |False|False|False
+15-UMD|FengHao Liu  |False|False|False
 15-UMD|Hai Huang  |False|False|False
 15-UMD|Hal Daume III  |False|False|False
 15-UMD|Hanan Samet  |False|False|False
 15-UMD|Hector Corrada Bravo  |False|False|True
 15-UMD|Howard Elman  |False|False|True
 15-UMD|Jack Minker  |True|False|False
-15-UMD|Jacob AlperiSherrif  |False|False|False
+15-UMD|Jacob AlperinSherrif  |False|False|False
 15-UMD|James Purtilo  |False|False|False
 15-UMD|James Reggia  |False|False|True
 15-UMD|Jandelyn Plane  |False|False|False
@@ -332,7 +332,7 @@
 15-UMD|Namachivayam Thirumazhusai  |False|False|False
 15-UMD|Naomi Feldman  |False|False|False
 15-UMD|Neil Spring  |False|False|True
-15-UMD|Nelson PaduPerez  |False|False|False
+15-UMD|Nelson PaduaPerez  |False|False|False
 15-UMD|Nicholas Diakopoulos  |False|False|False
 15-UMD|Nicholas Roussopoulos  |False|False|False
 15-UMD|Niklas Elmqvist  |False|False|True
@@ -357,7 +357,7 @@
 15-UMD|Tom Reinhardt  |False|False|False
 15-UMD|Tudor Dumitras  |False|False|False
 15-UMD|Uzi Vishkin  |False|True|False
-15-UMD|Vanessa FriaMartinez  |False|False|False
+15-UMD|Vanessa FriasMartinez  |False|False|False
 15-UMD|Vibha  Sazawal  |False|False|False
 15-UMD|Victor Basili  |False|False|False
 15-UMD|William Arbaugh  |False|False|True
@@ -384,11 +384,11 @@
 18-HU|Eric Mazur|False|False|True
 18-HU|Evelyn Hu|False|False|True
 18-HU|Federico Capasso|False|False|True
-18-HU|Finale DoshVelez|False|False|True
+18-HU|Finale DoshiVelez|False|False|True
 18-HU|Frank Doyle|False|True|False
 18-HU|Frank Keutsch|False|False|False
 18-HU|Frans Spaepen|False|False|False
-18-HU|GYeon Wei|False|False|True
+18-HU|GuYeon Wei|False|False|True
 18-HU|Hanspeter Pfister|False|False|True
 18-HU|James Mickens|False|False|False
 18-HU|Jelani Nelson|False|False|True
@@ -430,7 +430,7 @@
 19-UP|Boon Thau Loo|False|False|True
 19-UP|Brett Hemenway|False|False|True
 19-UP|Camillo Jose  Taylor|False|False|True
-19-UP|Chris CallisoBurch|False|False|True
+19-UP|Chris CallisonBurch|False|False|True
 19-UP|Chris Murphy|False|False|False
 19-UP|Insup Lee|False|True|True
 19-UP|Jean Gallier|False|False|False
@@ -526,7 +526,7 @@
 20-RU|Ashok Veeraraghavan|False|False|True
 20-RU|Devika Subramanian|False|False|False
 20-RU|John Greiner|False|False|True
-20-RU|John MelloCrummey|True|False|False
+20-RU|John MellorCrummey|True|False|False
 20-RU|Lin Zhong|False|False|True
 20-RU|Linda Torczon|False|False|True
 20-RU|Luay Nakhleh|False|False|True
@@ -540,63 +540,63 @@
 20-RU|Swarat Chaudhuri|False|False|False
 20-RU|Vivek Sarkar|False|False|True
 20-RU|Weiwei Zhong|False|False|False
-20-USC|Adleman  Leonard|False|False|True
-20-USC|Arbib  Michael|False|False|False
-20-USC|Bekey  George|False|False|False
-20-USC|Boehm  Barry|False|False|False
-20-USC|Bono  Claire|False|False|False
-20-USC|Breuer  Melvin|False|False|False
-20-USC|Brun  Todd|False|False|True
-20-USC|Cheng  William|False|False|True
-20-USC|Cote  Aaron|False|False|False
-20-USC|DeVault  David |False|False|True
-20-USC|Dughmi  Shaddin |False|False|True
-20-USC|Easley  Scott |False|False|False
-20-USC|Edwards  George|False|False|True
-20-USC|Georgila  Kallirroi|False|False|False
-20-USC|Ghandeharizadeh  Shahram|False|False|False
-20-USC|Golubchik  Leana |False|False|True
-20-USC|Gordon  Andrew|False|False|False
-20-USC|Govindan  Ramesh |False|False|True
-20-USC|Halfond  William GJ|False|False|True
-20-USC|Hill  Randall|False|False|False
-20-USC|Itti  Laurent|False|False|True
-20-USC|Kalia  Rajiv|False|False|True
-20-USC|KatBassett  Ethan|False|False|True
-20-USC|Kempe  David|False|False|False
-20-USC|Korolova  Aleksandra|False|False|True
-20-USC|Krishnamachari  Bhaskar|False|False|True
-20-USC|Kuo  Jay|False|False|True
-20-USC|Leuski  Anton|False|False|True
-20-USC|Liu  Yan|False|False|True
-20-USC|Lloyd  Wyatt|False|False|False
-20-USC|Marsella  Stacy|False|False|False
-20-USC|Matarić  Maja|False|False|True
-20-USC|Mattmann  Chris|False|False|True
-20-USC|McLeod  Dennis|False|False|True
-20-USC|Medioni  Gerard|False|False|False
-20-USC|Medvidovic  Neno |False|False|True
-20-USC|Morency  LouiPhillippe|False|False|False
-20-USC|Nakano  Aiichiro|False|False|True
-20-USC|Neumann  Ulrich |False|False|True
-20-USC|Nevatia  Ramakant|False|False|False
-20-USC|Psounis  Konstantinos |False|False|True
-20-USC|Raghavachary  Saty |False|False|True
-20-USC|Rosenbloom  Paul|False|False|False
-20-USC|Schaal  Stefan |False|False|False
-20-USC|Schweighofer  Nicolas|False|False|False
-20-USC|Sha  Fei |False|False|False
-20-USC|Shahabi  Cyrus |False|True|True
+20-USC|Adleman Leonard|False|False|True
+20-USC|Arbib Michael|False|False|False
+20-USC|Bekey George|False|False|False
+20-USC|Boehm Barry|False|False|False
+20-USC|Bono Claire|False|False|False
+20-USC|Breuer Melvin|False|False|False
+20-USC|Brun Todd|False|False|True
+20-USC|Cheng William|False|False|True
+20-USC|Cote Aaron|False|False|False
+20-USC|DeVault David |False|False|True
+20-USC|Dughmi Shaddin |False|False|True
+20-USC|Easley Scott |False|False|False
+20-USC|Edwards George|False|False|True
+20-USC|Georgila Kallirroi|False|False|False
+20-USC|Ghandeharizadeh Shahram|False|False|False
+20-USC|Golubchik Leana |False|False|True
+20-USC|Gordon Andrew|False|False|False
+20-USC|Govindan Ramesh |False|False|True
+20-USC|Halfond William GJ|False|False|True
+20-USC|Hill Randall|False|False|False
+20-USC|Itti Laurent|False|False|True
+20-USC|Kalia Rajiv|False|False|True
+20-USC|KatzBassett Ethan|False|False|True
+20-USC|Kempe David|False|False|False
+20-USC|Korolova Aleksandra|False|False|True
+20-USC|Krishnamachari Bhaskar|False|False|True
+20-USC|Kuo Jay|False|False|True
+20-USC|Leuski Anton|False|False|True
+20-USC|Liu Yan|False|False|True
+20-USC|Lloyd Wyatt|False|False|False
+20-USC|Marsella Stacy|False|False|False
+20-USC|Matarić Maja|False|False|True
+20-USC|Mattmann Chris|False|False|True
+20-USC|McLeod Dennis|False|False|True
+20-USC|Medioni Gerard|False|False|False
+20-USC|Medvidovic Neno |False|False|True
+20-USC|Morency LouisPhillippe|False|False|False
+20-USC|Nakano Aiichiro|False|False|True
+20-USC|Neumann Ulrich |False|False|True
+20-USC|Nevatia Ramakant|False|False|False
+20-USC|Psounis Konstantinos |False|False|True
+20-USC|Raghavachary Saty |False|False|True
+20-USC|Rosenbloom Paul|False|False|False
+20-USC|Schaal Stefan |False|False|False
+20-USC|Schweighofer Nicolas|False|False|False
+20-USC|Sha Fei |False|False|False
+20-USC|Shahabi Cyrus |False|True|True
 20-USC|Shamsian|False|False|False
-20-USC|Sukhatme  Gaurav|False|False|False
-20-USC|Suma  Evan|False|False|True
-20-USC|Tambe  Milind|True|False|False
-20-USC|Tejada  Sheila|False|False|False
-20-USC|Teng  ShanHua|True|False|True
-20-USC|Traum  David |False|False|True
-20-USC|Wilson  John|False|False|True
-20-USC|Zyda  Michael|False|False|False
-20-USC| Narayanan  Shrikanth (Shri)|False|True|True
+20-USC|Sukhatme Gaurav|False|False|False
+20-USC|Suma Evan|False|False|True
+20-USC|Tambe Milind|True|False|False
+20-USC|Tejada Sheila|False|False|False
+20-USC|Teng ShangHua|True|False|True
+20-USC|Traum David |False|False|True
+20-USC|Wilson John|False|False|True
+20-USC|Zyda Michael|False|False|False
+20-USC| Narayanan Shrikanth (Shri)|False|True|True
 20-YU|Abraham Silberschatz|True|True|False
 20-YU|Brian Scassellati|False|False|False
 20-YU|Dana Angluin|False|False|False
@@ -617,66 +617,66 @@
 20-YU|Vladimir Rokhlin|False|False|False
 20-YU|Yang Yang|False|False|False
 20-YU|Zhong Shao|False|False|False
-25-DU|Astrachan  Owen|False|False|True
-25-DU|Azhar  Salman|False|False|False
-25-DU|Babu  Shivnath|False|False|True
-25-DU|Baldin  Ilya|False|False|False
-25-DU|Benson  Theo|False|False|False
-25-DU|Calderbank  Robert|False|True|False
-25-DU|Chakrabarty  Krishnendu|False|False|False
-25-DU|Conitzer  Vincent|False|False|True
-25-DU|Cox  Landon|False|False|True
-25-DU|Dwyer  Chris|False|False|False
-25-DU|Edelsbrunner  Herbert|False|False|False
-25-DU|Ellis  Carla Schlatter|False|False|False
-25-DU|Farsiu  Sina|False|False|False
-25-DU|Gallie  Thomas|False|False|False
-25-DU|Ge  Rong|False|False|False
-25-DU|Gordan  RalucMihaela|False|False|False
-25-DU|Hauser  Kris|False|False|False
-25-DU|Heller  Katherine|False|False|False
-25-DU|Hilton  Andrew|False|False|False
-25-DU|Kim  Jungsang|False|False|False
-25-DU|Konidaris  George|False|False|False
-25-DU|Machanavajjhala  Ashwin|False|False|False
-25-DU|Maggioni  Mauro|False|False|False
-25-DU|Maggs  Bruce|False|False|False
-25-DU|Mukherjee  Sayan|False|False|False
-25-DU|Munagala  Kamesh|False|False|True
-25-DU|Mølhave  Thomas|False|False|False
-25-DU|Panigrahi  Debmalya|False|False|False
-25-DU|Patrick  Merrell|False|False|False
-25-DU|Pitsianis  Nikos|False|False|False
-25-DU|Ramm  Dietolf|False|False|False
-25-DU|Roy  Sudeepa|False|False|False
-25-DU|Sapiro  Guillermo|False|False|False
-25-DU|Sun  Xiaobai|False|False|True
-25-DU|Tomasi  Carlo|False|False|True
-25-DU|Yang  Jun|False|False|True
-25-DU|Yang  Xiaowei|False|False|False
-25-UMA| Allan  James |False|False|True
-25-UMA|Biswas  Joydeep |False|False|True
-25-UMA|Brun  Yuriy |False|False|True
-25-UMA|Diao  Yanlei |False|False|True
-25-UMA|Guha  Arjun |False|False|True
-25-UMA|Houmansadr  Amir |False|False|True
-25-UMA|Immerman  Neil |True|False|True
-25-UMA|Just  René |False|False|True
-25-UMA|Kalogerakis  Evangelos |False|False|True
-25-UMA|Levine  Brian Neil|False|False|True
-25-UMA|Mahadevan  Sridhar |False|False|True
-25-UMA|Maji  Subhransu |False|False|True
-25-UMA|Mazumdar  Arya  |False|False|True
-25-UMA|McGregor  Andrew |False|False|True
-25-UMA|Meliou  Alexandra |False|False|True
-25-UMA|Miklau  Gerome |False|False|True
-25-UMA|O'Connor  Brendan |False|False|True
-25-UMA|Saha  Barna |False|False|True
-25-UMA|Sheldon  Dan |False|False|True
-25-UMA|Shenoy  Prashant |False|False|True
-25-UMA|Venkataramani  Arun |False|False|True
-25-UMA|Wang  Rui |False|False|True
-25-UMA|Zilberstein  Shlomo |False|False|True
+25-DU|Astrachan Owen|False|False|True
+25-DU|Azhar Salman|False|False|False
+25-DU|Babu Shivnath|False|False|True
+25-DU|Baldin Ilya|False|False|False
+25-DU|Benson Theo|False|False|False
+25-DU|Calderbank Robert|False|True|False
+25-DU|Chakrabarty Krishnendu|False|False|False
+25-DU|Conitzer Vincent|False|False|True
+25-DU|Cox Landon|False|False|True
+25-DU|Dwyer Chris|False|False|False
+25-DU|Edelsbrunner Herbert|False|False|False
+25-DU|Ellis Carla Schlatter|False|False|False
+25-DU|Farsiu Sina|False|False|False
+25-DU|Gallie Thomas|False|False|False
+25-DU|Ge Rong|False|False|False
+25-DU|Gordan RalucaMihaela|False|False|False
+25-DU|Hauser Kris|False|False|False
+25-DU|Heller Katherine|False|False|False
+25-DU|Hilton Andrew|False|False|False
+25-DU|Kim Jungsang|False|False|False
+25-DU|Konidaris George|False|False|False
+25-DU|Machanavajjhala Ashwin|False|False|False
+25-DU|Maggioni Mauro|False|False|False
+25-DU|Maggs Bruce|False|False|False
+25-DU|Mukherjee Sayan|False|False|False
+25-DU|Munagala Kamesh|False|False|True
+25-DU|Mølhave Thomas|False|False|False
+25-DU|Panigrahi Debmalya|False|False|False
+25-DU|Patrick Merrell|False|False|False
+25-DU|Pitsianis Nikos|False|False|False
+25-DU|Ramm Dietolf|False|False|False
+25-DU|Roy Sudeepa|False|False|False
+25-DU|Sapiro Guillermo|False|False|False
+25-DU|Sun Xiaobai|False|False|True
+25-DU|Tomasi Carlo|False|False|True
+25-DU|Yang Jun|False|False|True
+25-DU|Yang Xiaowei|False|False|False
+25-UMA| Allan James |False|False|True
+25-UMA|Biswas Joydeep |False|False|True
+25-UMA|Brun Yuriy |False|False|True
+25-UMA|Diao Yanlei |False|False|True
+25-UMA|Guha Arjun |False|False|True
+25-UMA|Houmansadr Amir |False|False|True
+25-UMA|Immerman Neil |True|False|True
+25-UMA|Just René |False|False|True
+25-UMA|Kalogerakis Evangelos |False|False|True
+25-UMA|Levine Brian Neil|False|False|True
+25-UMA|Mahadevan Sridhar |False|False|True
+25-UMA|Maji Subhransu |False|False|True
+25-UMA|Mazumdar Arya  |False|False|True
+25-UMA|McGregor Andrew |False|False|True
+25-UMA|Meliou Alexandra |False|False|True
+25-UMA|Miklau Gerome |False|False|True
+25-UMA|O'Connor Brendan |False|False|True
+25-UMA|Saha Barna |False|False|True
+25-UMA|Sheldon Dan |False|False|True
+25-UMA|Shenoy Prashant |False|False|True
+25-UMA|Venkataramani Arun |False|False|True
+25-UMA|Wang Rui |False|False|True
+25-UMA|Zilberstein Shlomo |False|False|True
 25-UNCCH|Anselmo Lastra|False|False|True
 25-UNCCH|Cynthia Sturton|False|False|True
 25-UNCCH|David Stotts|False|False|True
@@ -688,10 +688,10 @@
 25-UNCCH|Henry Fuchs|False|False|True
 25-UNCCH|Jack Snoeyink|False|False|True
 25-UNCCH|James Anderson|False|False|True
-25-UNCCH|JaMichael Frahm|False|False|True
+25-UNCCH|JanMichael Frahm|False|False|True
 25-UNCCH|Jasleen Kaur|False|False|True
 25-UNCCH|Jay Aikat|False|False|True
-25-UNCCH|Ketan MayePatel|False|False|True
+25-UNCCH|Ketan MayerPatel|False|False|True
 25-UNCCH|Kevin Jeffay|False|False|True
 25-UNCCH|Kris Jordan|False|False|True
 25-UNCCH|Leonard McMillan|False|False|True
@@ -702,7 +702,7 @@
 25-UNCCH|Ron Alterovitz|False|False|True
 25-UNCCH|Shahriar Nirjon|False|False|True
 25-UNCCH|Stan Ahalt|False|False|True
-25-UNCCH|Tessa JosepNicholas|False|False|True
+25-UNCCH|Tessa JosephNicholas|False|False|True
 25-UNCCH|Vladimir Jojic|False|False|True
 28-JHU|Abhishek Jain|False|False|False
 28-JHU|Alan Yuille|False|False|False
@@ -754,7 +754,7 @@
 29-NYU|Dennis  Shasha|True|False|False
 29-NYU|Ernest Davis|False|False|True
 29-NYU|Evan Korth|False|False|False
-29-NYU|JeaClaude Franchitti|False|False|False
+29-NYU|JeanClaude Franchitti|False|False|False
 29-NYU|Jinyang Li|False|False|False
 29-NYU|Joanna Klukowska|False|False|True
 29-NYU|Joel Spencer|False|False|False
@@ -835,14 +835,14 @@
 48-UF|Anand Rangarajan|False|False|True
 48-UF|Arunava Banerjee|False|False|True
 48-UF|Beverly Sanders|False|False|True
-48-UF|Christina GardneMcCune|False|False|True
-48-UF|Corey ToleFranklin|False|False|True
+48-UF|Christina GardnerMcCune|False|False|True
+48-UF|Corey TolerFranklin|False|False|True
 48-UF|Daisy Zhe Wang|False|False|True
 48-UF|David Small|False|False|True
 48-UF|Eakta Jain|False|False|True
 48-UF|Gerhard X Ritter|False|False|True
-48-UF|JiKwon Peir|False|False|True
-48-UF|Jonathan (ChieLiang) Liu|False|False|True
+48-UF|JihKwon Peir|False|False|True
+48-UF|Jonathan (ChienLiang) Liu|False|False|True
 48-UF|Jorg Peters|False|False|True
 48-UF|Joseph N Wilson|False|False|True
 48-UF|Kristy Elizabeth Boyer|False|False|True
@@ -858,7 +858,7 @@
 48-UF|Sanjay Ranka|False|True|True
 48-UF|Sartaj Sahni|False|False|True
 48-UF|Shigang Chen|False|True|True
-48-UF|SShing Chen|False|False|True
+48-UF|SuShing Chen|False|False|True
 48-UF|Tamer Kahveci|False|False|True
 48-UF|Tom Shrimpton|False|False|True
 48-UF|Ye Xia|False|False|True
@@ -878,9 +878,9 @@
 52-IUB|Chen  Yu|False|False|False
 52-IUB|Christopher  Haynes|False|False|False
 52-IUB|Chunfeng  Huang|False|False|False
-52-IUB|Chunchieh  Shan|False|False|False
+52-IUB|Chungchieh  Shan|False|False|False
 52-IUB|Craig  Stewart|False|False|False
-52-IUB|DaAdrian  German|False|False|False
+52-IUB|DanAdrian  German|False|False|False
 52-IUB|Daniel  Friedman|False|False|False
 52-IUB|Daniel  Leivant|False|False|False
 52-IUB|Daniel  McDonald|False|False|False
@@ -909,7 +909,7 @@
 52-IUB|Haixu  Tang|False|False|True
 52-IUB|Jan  Van den Bussche|False|False|False
 52-IUB|Jeffrey  Whitmer|False|False|False
-52-IUB|Jenny  OlmeStevens|False|False|False
+52-IUB|Jenny  OlmesStevens|False|False|False
 52-IUB|Jeremy  Siek|False|False|False
 52-IUB|Judy  Qiu|False|False|False
 52-IUB|Kay  Connelly|False|False|False
@@ -932,7 +932,7 @@
 52-IUB|Minaxi  Gupta|False|False|True
 52-IUB|Mitja  Hmeljak|False|False|False
 52-IUB|Olaf  Sporns|False|False|False
-52-IUB|Patty  ReyeCooksey|False|False|False
+52-IUB|Patty  ReyesCooksey|False|False|False
 52-IUB|Paul  Purdom|False|False|False
 52-IUB|Peter  Cherbas|False|False|False
 52-IUB|Predrag  Radivojac|False|False|False
@@ -944,7 +944,7 @@
 52-IUB|Robert  Schnabel|False|False|False
 52-IUB|Ryan  Henry|False|False|False
 52-IUB|Ryan  Newton|False|False|False
-52-IUB|Sam  TobiHochstadt|False|False|False
+52-IUB|Sam  TobinHochstadt|False|False|False
 52-IUB|Sandra  Kübler|False|False|False
 52-IUB|Saul  Blanco|False|False|False
 52-IUB|Shawn Linn  Davenport|False|False|False
@@ -962,39 +962,39 @@
 52-IUB|XiaoFeng  Wang|False|False|False
 52-IUB|Yan  Huang|False|False|False
 52-IUB|Yuzhen  Ye|False|False|False
-52-RPI|Adali  Sibel |False|False|False
-52-RPI|Anshelevich  Elliot |False|False|False
-52-RPI|Bennett  Kristin |False|False|True
-52-RPI|Berman  Francine |True|True|True
-52-RPI|Bringsjord  Selmer |False|False|False
-52-RPI|Bystroff  Christopher |False|False|False
-52-RPI|Carothers  Christopher |False|False|True
-52-RPI|Cutler  Barbara |False|False|False
-52-RPI|Drineas  Petros |False|False|True
-52-RPI|Eglash  Ron |False|False|True
-52-RPI|Fox  Peter |False|False|True
-52-RPI|Glinert  Ephraim |False|False|True
-52-RPI|Goldberg  Mark |False|False|False
-52-RPI|Gray  Wayne |False|False|False
-52-RPI|Hardwick  Martin |False|False|True
-52-RPI|Isaacson  David |False|False|False
-52-RPI|Ji  Heng |False|False|False
-52-RPI|Krishnamoorthy  Mukkai |False|False|True
-52-RPI|MagdoIsmail  Malik |False|False|False
-52-RPI|McLaughlin  Harry |False|False|False
-52-RPI|Musser  David |False|False|False
-52-RPI|Nirenburg  Sergei |False|False|False
-52-RPI|Patterson  Stacy |False|False|False
-52-RPI|Shephard  Mark |True|True|False
-52-RPI|Stewart  Charles |False|False|False
-52-RPI|Thompson  William |False|False|False
-52-RPI|Trinkle  Jeff |False|True|True
-52-RPI|Varela  Carlos |False|False|True
-52-RPI|Wozny  Michael |False|False|True
-52-RPI|Xia  Lirong |False|False|True
-52-RPI|Yener  Bülent |True|False|False
-52-RPI|Zaki  Mohammed |False|False|True
-52-RPI|Zikas  Vassilis |False|False|False
+52-RPI|Adali Sibel |False|False|False
+52-RPI|Anshelevich Elliot |False|False|False
+52-RPI|Bennett Kristin |False|False|True
+52-RPI|Berman Francine |True|True|True
+52-RPI|Bringsjord Selmer |False|False|False
+52-RPI|Bystroff Christopher |False|False|False
+52-RPI|Carothers Christopher |False|False|True
+52-RPI|Cutler Barbara |False|False|False
+52-RPI|Drineas Petros |False|False|True
+52-RPI|Eglash Ron |False|False|True
+52-RPI|Fox Peter |False|False|True
+52-RPI|Glinert Ephraim |False|False|True
+52-RPI|Goldberg Mark |False|False|False
+52-RPI|Gray Wayne |False|False|False
+52-RPI|Hardwick Martin |False|False|True
+52-RPI|Isaacson David |False|False|False
+52-RPI|Ji Heng |False|False|False
+52-RPI|Krishnamoorthy Mukkai |False|False|True
+52-RPI|MagdonIsmail Malik |False|False|False
+52-RPI|McLaughlin Harry |False|False|False
+52-RPI|Musser David |False|False|False
+52-RPI|Nirenburg Sergei |False|False|False
+52-RPI|Patterson Stacy |False|False|False
+52-RPI|Shephard Mark |True|True|False
+52-RPI|Stewart Charles |False|False|False
+52-RPI|Thompson William |False|False|False
+52-RPI|Trinkle Jeff |False|True|True
+52-RPI|Varela Carlos |False|False|True
+52-RPI|Wozny Michael |False|False|True
+52-RPI|Xia Lirong |False|False|True
+52-RPI|Yener Bülent |True|False|False
+52-RPI|Zaki Mohammed |False|False|True
+52-RPI|Zikas Vassilis |False|False|False
 52-UP|Alexandros Labrinidis|False|False|True
 52-UP|Daniel Ahn|False|False|False
 52-UP|Daniel Mosse|False|False|False
@@ -1003,23 +1003,23 @@
 52-UP|Panos Chrysanthis|False|False|True
 52-UP|Rami Melhem|False|False|False
 52-UP|Rebecca Hwa|False|False|False
-52-UP|ShKuo Chang|False|True|False
+52-UP|ShiKuo Chang|False|True|False
 52-UP|Taieb Znati|False|False|True
 52-UP|Youtao Zhang|False|False|True
-52-UR|Criswell  John |False|False|False
-52-UR|Ding  Chen |False|False|True
-52-UR|Dwarkadas  Sandhya |False|False|False
-52-UR|Ferguson  George |False|False|False
-52-UR|Gildea  Daniel |False|False|False
-52-UR|Guo  Philip |False|False|False
-52-UR|Ipek  Engin |False|False|False
-52-UR|Kautz  Henry |True|False|False
-52-UR|Liu  Ji |False|False|False
-52-UR|Luo  Jiebo |False|False|False
-52-UR|Shen  Kai |False|False|False
-52-UR|Stefankovic  Daniel |False|False|True
-52-UR|Venkitasubramaniam  Muthuramakrishnan |False|False|False
-56-MSU|AbdoHossein Esfahanian|False|False|False
+52-UR|Criswell John |False|False|False
+52-UR|Ding Chen |False|False|True
+52-UR|Dwarkadas Sandhya |False|False|False
+52-UR|Ferguson George |False|False|False
+52-UR|Gildea Daniel |False|False|False
+52-UR|Guo Philip |False|False|False
+52-UR|Ipek Engin |False|False|False
+52-UR|Kautz Henry |True|False|False
+52-UR|Liu Ji |False|False|False
+52-UR|Luo Jiebo |False|False|False
+52-UR|Shen Kai |False|False|False
+52-UR|Stefankovic Daniel |False|False|True
+52-UR|Venkitasubramaniam Muthuramakrishnan |False|False|False
+56-MSU|AbdolHossein Esfahanian|False|False|False
 56-MSU|Alex Liu|False|False|False
 56-MSU|Arend Hintze|False|False|False
 56-MSU|Eric Torng|False|False|False
@@ -1030,7 +1030,7 @@ Ding |False|False|True
 56-MSU|Laura Dillon|False|False|True
 56-MSU|Li Xiao|False|False|True
 56-MSU|Metin Aktulga|False|False|True
-56-MSU|PanNing Tan|False|False|True
+56-MSU|PangNing Tan|False|False|True
 56-MSU|Sandeep Kulkarni|False|False|True
 56-MSU|Wayne Dyksen|False|False|False
 56-MSU|Wolfgang Banzhaf|False|False|True
@@ -1043,7 +1043,7 @@ Tong|False|False|True
 56-UCR|Marek Chrobak|False|False|False
 56-UCR|Mart Molle|False|False|True
 56-UCR|Michalis Faloutsos|False|False|True
-56-UCR|Nael AbGhazaleh|False|False|False
+56-UCR|Nael AbuGhazaleh|False|False|False
 56-UCR|Neal Young|False|False|True
 56-UCR|Philip Brisk|False|False|False
 56-UCR|Rajiv Gupta|False|True|True
@@ -1129,7 +1129,7 @@ Tong|False|False|True
 56-UCSC|Mircea Teodorescu|False|False|False
 56-UCSC|Nader Pourmand|False|False|False
 56-UCSC|Nicholas Brummell|False|False|False
-56-UCSC|Noah WardriFruin|False|False|False
+56-UCSC|Noah WardripFruin|False|False|False
 56-UCSC|Nobuhiko Kobayashi|False|False|False
 56-UCSC|Pascale Garaud|False|False|True
 56-UCSC|Patrick Mantey|False|False|True
@@ -1152,13 +1152,13 @@ Tong|False|False|True
 56-UCSC|Sri Kurniawan|False|False|False
 56-UCSC|Stephen Petersen|False|False|False
 56-UCSC|Subhas Desa|False|False|False
-56-UCSC|SunMo Steve Kang|False|False|False
+56-UCSC|SungMo Steve Kang|False|False|False
 56-UCSC|Suresh K Lodha|False|False|False
 56-UCSC|Tatiana Xifara|False|False|False
 56-UCSC|Toshishige Yamada|False|False|False
 56-UCSC|Tracy Larrabee|False|False|False
 56-UCSC|Victoria Bellotti|False|False|False
-56-UCSC|WanChiew Tan|False|False|False
+56-UCSC|WangChiew Tan|False|False|False
 56-UCSC|Wendy Rothwell|False|False|False
 56-UCSC|William Dunbar|False|False|False
 56-UCSC|Yi Zhang|False|False|True
@@ -1243,13 +1243,13 @@ Tong|False|False|True
 56-VU|Yuan Xue|False|False|False
 56-VU|Zhaohua Ding|False|False|False
 56-VU|Zhiao Shi|False|False|False
-60-NU|AlberLászló Barabási|False|False|True
+60-NU|AlbertLászló Barabási|False|False|True
 60-NU|Alessandro Vespignani|False|False|True
 60-NU|Amal Ahmed|False|False|True
 60-NU|Andrea Parker|False|False|True
 60-NU|Christo Wilson|False|False|True
 60-NU|Christoph  Riedl|False|False|True
-60-NU|Cristina NitRotaru |False|False|True
+60-NU|Cristina NitaRotaru |False|False|True
 60-NU|Daniel Wichs|False|False|True
 60-NU|David Choffnes|False|False|True
 60-NU|David Lazer|False|False|True
@@ -1263,7 +1263,7 @@ Tong|False|False|True
 60-NU|Jan Vitek|False|False|True
 60-NU|Jonathan  Ullman|False|False|True
 60-NU|Lu Wang|False|False|True
-60-NU|Magy Seif ENasr|False|False|True
+60-NU|Magy Seif ElNasr|False|False|True
 60-NU|Matthew Goodwin|False|False|True
 60-NU|Matthias Felleisen|True|False|True
 60-NU|Michelle Borkin|False|False|True
@@ -1282,7 +1282,7 @@ Tong|False|False|True
 60-NU|Stephen Intille|False|False|True
 60-NU|Thomas Wahl|False|False|True
 60-NU|Timothy Bickmore|False|False|True
-60-NU|Tina EliassRad|False|False|True
+60-NU|Tina EliassiRad|False|False|True
 60-NU|William Robertson|False|False|True
 60-NU|Yizhou Sun|False|False|True
 60-UIC|Ajay Kshemkalyani|False|False|False
@@ -1316,7 +1316,7 @@ Tong|False|False|True
 60-UIC|Sol Shatz|False|False|True
 60-UIC|Stephen Checkoway|False|False|True
 60-UIC|Tadao Murata|False|True|True
-60-UIC|Tanya BergeWolf|False|False|False
+60-UIC|Tanya BergerWolf|False|False|False
 60-UIC|Tom|True|False|True
 60-UIC|Tom Moher|False|False|False
 60-UIC|Ugo Buy|False|False|True
@@ -1339,14 +1339,14 @@ Tong|False|False|True
 63-ISU|Carl K Chang|False|True|False
 63-ISU|Chris  Harding|False|False|False
 63-ISU|Cliff  Bergman|False|False|True
-63-ISU|David  FernándeBaca|False|False|False
+63-ISU|David  FernándezBaca|False|False|False
 63-ISU|Elvira  Mayordomo|False|False|False
 63-ISU|Gianfranco  Ciardo|False|False|False
 63-ISU|Giora  Slutzki|False|False|False
 63-ISU|Guang   Song|False|False|False
 63-ISU|Gurpur   Prabhu|False|False|True
 63-ISU|Hridesh   Rajan|False|False|True
-63-ISU|HuHsien   Chou|False|False|False
+63-ISU|HuiHsien   Chou|False|False|False
 63-ISU|Jack  Lutz|False|False|False
 63-ISU|Jeremy  Sheaffer|False|False|False
 63-ISU|Jim  Lathrop|False|False|True
@@ -1365,7 +1365,7 @@ Tong|False|False|True
 63-ISU|Robyn  Lutz|False|True|True
 63-ISU|Samik  Basu|False|False|False
 63-ISU|Shashi  Gadia|False|False|False
-63-ISU|ShHui (Susan)  Chang|False|False|False
+63-ISU|ShuHui (Susan)  Chang|False|False|False
 63-ISU|Simanta  Mitra|False|False|True
 63-ISU|Soma  Chaudhuri|False|False|False
 63-ISU|Srikanta  Tirthapura|False|False|True
@@ -1377,7 +1377,7 @@ Tong|False|False|True
 63-ISU|Wei  Le|False|False|False
 63-ISU|Wensheng  Zhang|False|False|True
 63-ISU|Xiaoqiu  Huang|False|False|True
-63-ISU|YaBin  Jia|False|False|True
+63-ISU|YanBin  Jia|False|False|True
 63-ISU|Ying  Cai|False|False|False
 63-UBS|Aidong Zhang|False|True|True
 63-UBS|Atri Rudra|False|False|True
@@ -1480,7 +1480,7 @@ Tong|False|False|True
 67-GMU|Jeff Offutt|False|False|True
 67-GMU|Jessica Lin|False|False|True
 67-GMU|John Otten|False|False|False
-67-GMU|JyMing Lien|False|False|False
+67-GMU|JyhMing Lien|False|False|False
 67-GMU|Katherine (Raven) Russell|False|False|False
 67-GMU|Kenneth De Jong|False|False|False
 67-GMU|Kinga Dobolyi|False|False|True
@@ -1518,7 +1518,7 @@ Tong|False|False|True
 67-OSU|Christopher Scaffidi|False|False|True
 67-OSU|Danny Dig|False|False|True
 67-OSU|David Hendrix|False|False|True
-67-OSU|Eduardo CotillSanchez|False|False|True
+67-OSU|Eduardo CotillaSanchez|False|False|True
 67-OSU|Eric Walkingshaw|False|False|True
 67-OSU|Eugene Zhang|False|False|True
 67-OSU|Fuxin Li|False|False|True
@@ -1555,15 +1555,15 @@ Tong|False|False|True
 67-OSU|Tejasvi Anand|False|False|True
 67-OSU|Thinh Nguyen|False|False|True
 67-OSU|Thomas Dietterich|False|False|True
-67-OSU|UKu Moon|False|True|True
+67-OSU|UnKu Moon|False|True|True
 67-OSU|V John Mathews|False|True|True
-67-OSU|WenKeen Wong|False|False|True
+67-OSU|WengKeen Wong|False|False|True
 67-OSU|Xiaoli Fern|False|False|True
 67-OSU|Yue Zhang|False|False|True
-67-SU|Andria CostellStaniec|False|False|True
+67-SU|Andria CostelloStaniec|False|False|True
 67-SU|Angela Zachman|False|False|True
 67-SU|Baris Salman|False|False|True
-67-SU|Ben AkiKumgeh|False|False|True
+67-SU|Ben AkihKumgeh|False|False|True
 67-SU|Biao Chen|False|True|True
 67-SU|Can Isik|False|False|True
 67-SU|Christa Kelleher|False|False|True
@@ -1608,7 +1608,7 @@ Tong|False|False|True
 67-SU|Sara Eftekharnejad|False|False|True
 67-SU|Senem Velipasalar|False|False|True
 67-SU|Shikha Nangia|False|False|True
-67-SU|ShiKai Chin|False|False|True
+67-SU|ShiuKai Chin|False|False|True
 67-SU|Steve Chapin|False|False|True
 67-SU|Sucheta Soundarajan|False|False|True
 67-SU|Suresh Santanam|False|False|True
@@ -1673,7 +1673,7 @@ Tong|False|False|True
 1-CMU|Gupta Anupam|False|False|False
 1-CMU|Guruswami Venkatesan|False|False|False
 1-CMU|Haeupler Bernhard|False|False|True
-1-CMU|HarchoBalter Mor|False|False|False
+1-CMU|HarcholBalter Mor|False|False|False
 1-CMU|Harper Robert|False|False|True
 1-CMU|Hauptmann Alexander|False|False|False
 1-CMU|Hodgins Jessica|False|False|False
@@ -1686,7 +1686,7 @@ Tong|False|False|True
 1-CMU|Kosbie David|False|False|False
 1-CMU|Koutis Ioannis|False|False|False
 1-CMU|Labrinidis Alexandros|False|False|False
-1-CMU|Lee TaSing|False|False|False
+1-CMU|Lee TaiSing|False|False|False
 1-CMU|Levin Golan|False|False|False
 1-CMU|Lucia Brandon|False|False|False
 1-CMU|Mason Matthew|False|False|False
@@ -1710,7 +1710,7 @@ Tong|False|False|True
 1-CMU|Railing Brian|False|False|False
 1-CMU|Ravi Ramamoorthi|False|False|False
 1-CMU|Reddy Raj|False|False|False
-1-CMU|ReiMiller Margaret|False|False|False
+1-CMU|ReidMiller Margaret|False|False|False
 1-CMU|Rosenfeld Roni|False|False|False
 1-CMU|Rudich Steven|False|False|True
 1-CMU|Rudnicky Alexander|False|False|False
@@ -1751,7 +1751,7 @@ Tong|False|False|True
 1-MIT|Anant Agarwal|False|False|False
 1-MIT|Anantha Chandrakasan|False|False|False
 1-MIT|Antonio Torralba|False|False|False
-1-MIT|Armando SolaLezama|False|False|False
+1-MIT|Armando SolarLezama|False|False|False
 1-MIT|Arthur Baggeroer|False|False|False
 1-MIT|Asuman Ozdaglar|False|False|True
 1-MIT|Barbara Liskov|False|False|False
@@ -1788,7 +1788,7 @@ Tong|False|False|True
 1-MIT|Gerald Wilson|False|False|False
 1-MIT|Gregory Wornell|False|False|True
 1-MIT|Guy Bresler|False|False|False
-1-MIT|HaSeung Lee|False|True|False
+1-MIT|HaeSeung Lee|False|True|False
 1-MIT|Hal Abelson|False|False|False
 1-MIT|Hari Balakrishnan|False|False|False
 1-MIT|Henry Smith|False|False|False
@@ -1813,7 +1813,7 @@ Tong|False|False|True
 1-MIT|Konstantinos Daskalakis|False|False|True
 1-MIT|Leslie Kaelbling|False|False|True
 1-MIT|Leslie Kolodziejski|False|False|False
-1-MIT|LShiuan Peh|False|False|False
+1-MIT|LiShiuan Peh|False|False|False
 1-MIT|Lizhong Zheng|False|False|True
 1-MIT|Louis Braida|False|False|False
 1-MIT|Luca Daniel|False|False|False
@@ -1870,9 +1870,9 @@ Tong|False|False|True
 1-MIT|Terry Orlando|False|False|False
 1-MIT|Thomas Heldt|False|False|False
 1-MIT|Thomas Magnanti|False|False|False
-1-MIT|Tim BernerLee|False|False|False
+1-MIT|Tim BernersLee|False|False|False
 1-MIT|Timothy Lu|False|False|False
-1-MIT|Tomás LozanPérez|False|False|True
+1-MIT|Tomás LozanoPérez|False|False|True
 1-MIT|Tomás Palacios|False|False|False
 1-MIT|Tommi Jaakkola|False|False|False
 1-MIT|Victor Zue|False|False|False
@@ -1901,15 +1901,15 @@ Tong|False|False|True
 1-SU|Don Knuth|False|False|True
 1-SU|Edward Feigenbaum|False|False|False
 1-SU|Eric Roberts|True|False|True
-1-SU|FeFei Li|False|False|True
+1-SU|FeiFei Li|False|False|True
 1-SU|Ge Wang|False|False|False
 1-SU|Gill Bejerano|False|False|True
 1-SU|Gio Wiederhold|False|False|True
 1-SU|Greg Valiant|False|False|False
-1-SU|Hector GarciMolina|False|False|False
+1-SU|Hector GarciaMolina|False|False|False
 1-SU|James Landay|False|False|False
 1-SU|Jay Borenstein|False|False|True
-1-SU|JeaClaude Latombe|False|False|False
+1-SU|JeanClaude Latombe|False|False|False
 1-SU|Jeff Ullman|False|False|False
 1-SU|Jennifer Widom|True|False|False
 1-SU|John Mitchell|False|False|True
@@ -1986,7 +1986,7 @@ Tong|False|False|True
 1-UCB|Chunlei Liu|False|False|False
 1-UCB|Claire Tomlin|False|False|False
 1-UCB|Clark Nguyen|False|True|False
-1-UCB|Constance ChanHasnain|False|False|False
+1-UCB|Constance ChangHasnain|False|False|False
 1-UCB|Dan Garcia|False|False|True
 1-UCB|Daniel Klein|False|False|True
 1-UCB|David Allstot|False|False|False
@@ -2067,7 +2067,7 @@ Tong|False|False|True
 1-UCB|Thomas Courtade|False|False|True
 1-UCB|Thomas Griffiths|False|False|False
 1-UCB|Trevor Darrell|False|False|False
-1-UCB|TsJae King Liu|False|False|True
+1-UCB|TsuJae King Liu|False|False|True
 1-UCB|Umesh Vazirani|False|False|True
 1-UCB|Venkat Anantharam|False|False|False
 1-UCB|Vern Paxson|False|False|False
@@ -2094,7 +2094,7 @@ Tong|False|False|True
 5-UIUC|Hari Sundaram|False|False|False
 5-UIUC|Indranil  Gupta|False|False|False
 5-UIUC|Jeff Erickson|False|False|False
-5-UIUC|Jerry DeJong  II|False|False|False
+5-UIUC|Jerry DeJong II|False|False|False
 5-UIUC|Jian  Peng|False|False|False
 5-UIUC|Jiawei  Han|False|False|False
 5-UIUC|Jose  Meseguer|False|False|False
@@ -2115,11 +2115,11 @@ Tong|False|False|True
 5-UIUC|Maria Jesus Garzaran|False|False|False
 5-UIUC|Marianne Winslett|False|False|False
 5-UIUC|Mark  Sammons|False|False|False
-5-UIUC|Mark Allan HasegawJohnson|False|False|False
+5-UIUC|Mark Allan HasegawaJohnson|False|False|False
 5-UIUC|Martin  Hellwig|False|False|False
 5-UIUC|Martin D F Wong|False|False|False
 5-UIUC|Matthew Caesar|False|False|True
-5-UIUC|Mattox Beckman  Jr|False|False|False
+5-UIUC|Mattox Beckman Jr|False|False|False
 5-UIUC|Michael Donald Bailey|False|False|False
 5-UIUC|Michael Joseph Woodley|False|False|False
 5-UIUC|Michael Twidale|False|False|False
@@ -2136,7 +2136,7 @@ Tong|False|False|True
 5-UIUC|Romit  Roy Choudhury|False|False|False
 5-UIUC|Ruta  Mehta|False|False|False
 5-UIUC|Ryan Matthew Cunningham|False|False|False
-5-UIUC|Sariel  HaPeled|False|False|False
+5-UIUC|Sariel  HarPeled|False|False|False
 5-UIUC|Sasa  Misailovic|False|False|False
 5-UIUC|Saurabh  Sinha|False|False|False
 5-UIUC|Sayan  Mitra|False|False|False
@@ -2150,9 +2150,9 @@ Tong|False|False|True
 5-UIUC|Tao  Xie|False|False|False
 5-UIUC|Victoria  Stodden|False|False|False
 5-UIUC|Vikram Adve|True|False|False
-5-UIUC|WaTat  Fu|False|False|False
+5-UIUC|WaiTat  Fu|False|False|False
 5-UIUC|Weng Cho Chew|False|False|False
-5-UIUC|YiChun  Hu|False|False|False
+5-UIUC|YihChun  Hu|False|False|False
 5-UIUC|Yizhou  Yu|False|False|False
 6-CU|Alon Keinan|False|False|True
 6-CU|Amy Williams|False|False|False
@@ -2164,7 +2164,7 @@ Tong|False|False|True
 6-CU|Charles Van Loan|False|False|True
 6-CU|Christopher Batten|False|False|True
 6-CU|Claire Cardie|False|False|False
-6-CU|Cristian Danescu NiculescMizil|False|False|False
+6-CU|Cristian Danescu NiculescuMizil|False|False|False
 6-CU|Dan Cosley|False|False|False
 6-CU|David Albonesi|False|False|True
 6-CU|David Bindel|False|False|True
@@ -2178,7 +2178,7 @@ Tong|False|False|True
 6-CU|Francois Guimbretiere|False|False|False
 6-CU|Graeme Bailey|False|False|False
 6-CU|Greg Morrisett|False|False|True
-6-CU|Hadas KresGazit|False|False|True
+6-CU|Hadas KressGazit|False|False|True
 6-CU|Haiyuan Yu|False|False|True
 6-CU|Hakim Weatherspoon|False|False|True
 6-CU|Jon Kleinberg|False|False|True
@@ -2231,10 +2231,10 @@ Tong|False|False|True
 6-UW|Hal Perkins|False|False|False
 6-UW|Hank Levy|True|False|False
 6-UW|Hellmut Golde|True|True|True
-6-UW|Ira KemelmacheShlizerman|False|False|False
+6-UW|Ira KemelmacherShlizerman|False|False|False
 6-UW|James Fogarty|False|False|False
 6-UW|James Lee|False|False|False
-6-UW|JeaLoup Baer|True|True|False
+6-UW|JeanLoup Baer|True|True|False
 6-UW|Jeffrey Heer|False|False|False
 6-UW|John Zahorjan|False|False|True
 6-UW|Katharina Reinecke|False|False|False
@@ -2263,7 +2263,7 @@ Tong|False|False|True
 6-UW|Steve Tanimoto|False|False|False
 6-UW|Steven Seitz|False|False|True
 6-UW|Stuart Reges|False|False|False
-6-UW|SIn Lee|False|False|True
+6-UW|SuIn Lee|False|False|True
 6-UW|Susan Eggers|False|True|True
 6-UW|Tadayoshi Kohno|False|False|True
 6-UW|Ted Kehl|False|False|False
@@ -2274,7 +2274,7 @@ Tong|False|False|True
 6-UW|Zachary Tatlock|False|False|False
 6-UW|Zorah Fung|False|False|False
 6-UW|Zoran Popović|False|False|True
-70-CSU|Asa BeHur|False|False|True
+70-CSU|Asa BenHur|False|False|True
 70-CSU|Bruce Draper|False|False|True
 70-CSU|Cathie Olschanowsky|False|False|False
 70-CSU|Chris Wilcox|False|False|True
@@ -2318,7 +2318,7 @@ Tong|False|False|True
 70-NPS|George Dinolt|False|False|False
 70-NPS|Gurminder Singh|False|False|False
 70-NPS|Luqi|False|True|True
-70-NPS|MaTak Shing|False|False|False
+70-NPS|ManTak Shing|False|False|False
 70-NPS|Neil Rowe|False|False|True
 70-NPS|Ted Huffmire|False|False|True
 70-NPS|Thuy Nguyen|False|False|False
@@ -2340,7 +2340,7 @@ Tong|False|False|True
 70-NYU|Dennis  Shasha|True|False|False
 70-NYU|Ernest Davis|False|False|True
 70-NYU|Evan Korth|False|False|False
-70-NYU|JeaClaude Franchitti|False|False|False
+70-NYU|JeanClaude Franchitti|False|False|False
 70-NYU|Jinyang Li|False|False|False
 70-NYU|Joanna Klukowska|False|False|True
 70-NYU|Joel Spencer|False|False|False
@@ -2397,7 +2397,7 @@ Tong|False|False|True
 70-UNL|Jitender Deogun|False|False|False
 70-UNL|Juan Cui|False|False|True
 70-UNL|Justin Bradley|False|False|False
-70-UNL|LeeKiat Soh|False|False|True
+70-UNL|LeenKiat Soh|False|False|True
 70-UNL|Lisong Xu|False|False|True
 70-UNL|Massimiliano Pierobon|False|False|True
 70-UNL|Matthew Dwyer|False|False|False
@@ -2417,59 +2417,59 @@ Tong|False|False|True
 70-UNL|Steve Goddard|False|False|False
 70-UNL|Suzette Person|False|False|False
 70-UNL|Vinodchandran Variyam|False|False|False
-70-UNL|Witty Srisan|False|False|True
+70-UNL|Witty Srisaan|False|False|True
 70-UNL|Ying Lu|False|False|True
-70-UTD|Bereg  Sergey|False|False|True
-70-UTD|Borazjany  Mehra|False|False|False
-70-UTD|Cankaya  Ebru|False|False|False
-70-UTD|Chung  Lawrence|False|False|True
-70-UTD|Cole  John|False|False|False
-70-UTD|Cooper  Kendra|False|False|True
-70-UTD|Daescu  Ovidiu|False|False|True
-70-UTD|Davis  Chris Irwin|False|False|False
-70-UTD|Desmedt  Yvo|False|False|False
-70-UTD|Du  DinZhu|False|False|False
-70-UTD|Farage  Tim|False|False|False
-70-UTD|Farago  Andras|False|False|False
-70-UTD|Fishwick  Paul|False|False|False
-70-UTD|Gogate  Vibhav|False|False|False
-70-UTD|Guo  Xiaohu|False|False|True
-70-UTD|Gupta  Gopal|False|False|True
-70-UTD|Haas  Zygmunt|False|False|True
-70-UTD|Harabagiu  Sanda|False|False|True
-70-UTD|Jue  Jason|False|False|True
-70-UTD|Kantarcioglu  Murat|False|False|True
-70-UTD|Karrah  Shyam|False|False|False
-70-UTD|Khan  Latifur|False|False|True
-70-UTD|Lin  Zhiqiang|False|False|True
-70-UTD|Liu  Cong|False|False|True
-70-UTD|Liu  Yang|False|False|True
-70-UTD|Marcus  Andrian|False|False|True
-70-UTD|McMahan  Ryan|False|False|False
-70-UTD|Min  Richard|False|False|False
-70-UTD|Mittal  Neeraj|False|False|False
-70-UTD|Moldovan  Dan|False|False|True
-70-UTD|Ng  Vincent|False|False|True
-70-UTD|Nguyen  Nhut|False|False|False
-70-UTD|Ntafos  Simeon|False|False|True
-70-UTD|Ozbirn  Greg|False|False|False
-70-UTD|Pervin  William|False|False|True
-70-UTD|Prakash  Ravi|False|False|False
-70-UTD|Raghavachari  Balaji|False|False|True
-70-UTD|Raichel  Benjamin|False|False|False
-70-UTD|Ruozzi  Nicholas|False|False|False
-70-UTD|Sarac  Kamil|False|False|True
-70-UTD|Schweitzer  Haim|False|False|False
-70-UTD|Semper  Bill|False|False|False
-70-UTD|Sudborough  I Hal|False|False|False
-70-UTD|Thuraisingham  Bhavani|False|False|False
-70-UTD|Truemper  Klaus|False|False|False
-70-UTD|Veerasamy  Jeyakesavan|False|False|False
-70-UTD|Wu  Weili|False|False|False
-70-UTD|Yen  Ling|False|False|False
-70-UTD|ZalilWenkstern  Rym|False|False|True
-70-UTD|Zhang  Kang|False|False|False
-70-UTD|Zhang  Lingming|False|False|True
+70-UTD|Bereg Sergey|False|False|True
+70-UTD|Borazjany Mehra|False|False|False
+70-UTD|Cankaya Ebru|False|False|False
+70-UTD|Chung Lawrence|False|False|True
+70-UTD|Cole John|False|False|False
+70-UTD|Cooper Kendra|False|False|True
+70-UTD|Daescu Ovidiu|False|False|True
+70-UTD|Davis Chris Irwin|False|False|False
+70-UTD|Desmedt Yvo|False|False|False
+70-UTD|Du DingZhu|False|False|False
+70-UTD|Farage Tim|False|False|False
+70-UTD|Farago Andras|False|False|False
+70-UTD|Fishwick Paul|False|False|False
+70-UTD|Gogate Vibhav|False|False|False
+70-UTD|Guo Xiaohu|False|False|True
+70-UTD|Gupta Gopal|False|False|True
+70-UTD|Haas Zygmunt|False|False|True
+70-UTD|Harabagiu Sanda|False|False|True
+70-UTD|Jue Jason|False|False|True
+70-UTD|Kantarcioglu Murat|False|False|True
+70-UTD|Karrah Shyam|False|False|False
+70-UTD|Khan Latifur|False|False|True
+70-UTD|Lin Zhiqiang|False|False|True
+70-UTD|Liu Cong|False|False|True
+70-UTD|Liu Yang|False|False|True
+70-UTD|Marcus Andrian|False|False|True
+70-UTD|McMahan Ryan|False|False|False
+70-UTD|Min Richard|False|False|False
+70-UTD|Mittal Neeraj|False|False|False
+70-UTD|Moldovan Dan|False|False|True
+70-UTD|Ng Vincent|False|False|True
+70-UTD|Nguyen Nhut|False|False|False
+70-UTD|Ntafos Simeon|False|False|True
+70-UTD|Ozbirn Greg|False|False|False
+70-UTD|Pervin William|False|False|True
+70-UTD|Prakash Ravi|False|False|False
+70-UTD|Raghavachari Balaji|False|False|True
+70-UTD|Raichel Benjamin|False|False|False
+70-UTD|Ruozzi Nicholas|False|False|False
+70-UTD|Sarac Kamil|False|False|True
+70-UTD|Schweitzer Haim|False|False|False
+70-UTD|Semper Bill|False|False|False
+70-UTD|Sudborough I Hal|False|False|False
+70-UTD|Thuraisingham Bhavani|False|False|False
+70-UTD|Truemper Klaus|False|False|False
+70-UTD|Veerasamy Jeyakesavan|False|False|False
+70-UTD|Wu Weili|False|False|False
+70-UTD|Yen ILing|False|False|False
+70-UTD|ZalilaWenkstern Rym|False|False|True
+70-UTD|Zhang Kang|False|False|False
+70-UTD|Zhang Lingming|False|False|True
 8-PU|Aarti Gupta|False|False|True
 8-PU|Adam Finkelstein|True|False|True
 8-PU|Alan Kaplan|False|False|False
@@ -2583,7 +2583,7 @@ Tong|False|False|True
 9-GIT|Harley Hamilton|False|False|False
 9-GIT|Hongyuan Zha|False|False|False
 9-GIT|Howard Schmidt|False|False|False
-9-GIT|HseiHsin Lee|False|False|False
+9-GIT|HseinHsin Lee|False|False|False
 9-GIT|Hyesoon Kim|False|False|False
 9-GIT|Irfan Essa|False|False|True
 9-GIT|Jacob Eisenstein|False|False|False
@@ -2626,7 +2626,7 @@ Tong|False|False|True
 9-GIT|Mark Guzdial|False|False|True
 9-GIT|Mark Moss|False|False|False
 9-GIT|Mark Riedl|False|False|False
-9-GIT|Mary HudacheBuswell|False|False|False
+9-GIT|Mary HudachekBuswell|False|False|False
 9-GIT|Matthew Wolf|False|False|False
 9-GIT|Mayur Naik|False|False|False
 9-GIT|Melinda McDaniel|False|False|False
@@ -2677,7 +2677,7 @@ Tong|False|False|True
 9-GIT|Seymour Goodman|False|False|False
 9-GIT|Shamkant Navathe|False|False|False
 9-GIT|Sharma Thankachan|False|False|False
-9-GIT|SinBing Kang|False|False|False
+9-GIT|SingBing Kang|False|False|False
 9-GIT|Sonia Chernova|False|False|False
 9-GIT|Spencer Rugaber|False|False|False
 9-GIT|Srinivas Aluru|False|False|True
@@ -2760,7 +2760,7 @@ Tong|False|False|True
 29-UMN|Carl Sturtivant|False|False|False
 29-UMN|Dan Knights|False|False|False
 29-UMN|Daniel Boley|False|False|True
-29-UMN|David HunChang Du|False|True|True
+29-UMN|David HungChang Du|False|True|True
 29-UMN|Eric Van Wyk|False|False|True
 29-UMN|Eugene Shragowitz|False|False|True
 29-UMN|Gary Meyer|False|False|True
@@ -2774,7 +2774,7 @@ Tong|False|False|True
 29-UMN|Mats Heimdahl|False|False|True
 29-UMN|Nick Hopper|False|False|False
 29-UMN|Nikolaos Papanikolopoulos|False|True|True
-29-UMN|PeChung Yew|False|False|True
+29-UMN|PenChung Yew|False|False|True
 29-UMN|Phillip Barry|False|False|False
 29-UMN|Rahul Narain|False|False|False
 29-UMN|Ravi Janardan|False|False|True
@@ -2789,7 +2789,7 @@ Tong|False|False|True
 29-UMN|Vipin Kumar|False|False|True
 29-UMN|Volkan Isler|False|False|False
 29-UMN|Yousef Saad|False|False|True
-29-UMN|ZhLi Zhang|True|True|True
+29-UMN|ZhiLi Zhang|True|True|True
 29-UV|Aaron Bloomfield|False|False|True
 29-UV|abhi shelat|False|False|False
 29-UV|Andrew Grimshaw |False|False|False
@@ -2834,7 +2834,7 @@ Tong|False|False|True
 34-NU|Larry Henschen|False|False|False
 34-NU|Michael Horn|False|False|False
 34-NU|Michael Rubenstein|False|False|False
-34-NU|MinYang Kao|False|False|False
+34-NU|MingYang Kao|False|False|False
 34-NU|Nikos Hardavellas|False|False|True
 34-NU|Peter Dinda|False|False|False
 34-NU|Peter Scheuermann|False|False|False
@@ -2853,10 +2853,10 @@ Tong|False|False|True
 34-OSU|Deliang Wang|False|True|True
 34-OSU|Dhabaleswar Panda|False|True|True
 34-OSU|Dong Xuan|False|False|True
-34-OSU|Eric FosleLussier|False|False|True
+34-OSU|Eric FoslerLussier|False|False|True
 34-OSU|Feng Qin|False|False|True
 34-OSU|Gagan Agrawal|False|False|False
-34-OSU|HaWei Shen|False|False|False
+34-OSU|HanWei Shen|False|False|False
 34-OSU|Huamin Wang|False|False|False
 34-OSU|James Davis|False|False|True
 34-OSU|Kannan Srinivasan|False|False|True
@@ -2864,7 +2864,7 @@ Tong|False|False|True
 34-OSU|Luis Rademacher|False|False|True
 34-OSU|Michael Bond|False|False|True
 34-OSU|Mikhail Belkin|False|False|True
-34-OSU|MirceRadu Teodorescu|False|False|True
+34-OSU|MirceaRadu Teodorescu|False|False|True
 34-OSU|Neelam Soundarajan|False|False|False
 34-OSU|P Sadayappan|False|False|True
 34-OSU|Paul Sivilotti|False|False|False
@@ -2875,7 +2875,7 @@ Tong|False|False|True
 34-OSU|Spyros Blanas|False|False|True
 34-OSU|Srinivasan Parthasarathy|False|False|True
 34-OSU|Tamal Dey|False|False|True
-34-OSU|TeHwang Lai|False|False|False
+34-OSU|TenHwang Lai|False|False|False
 34-OSU|Xiaodong Zhang|True|False|True
 34-OSU|Yang Wang|False|False|False
 34-OSU|Yinqian Zhang|False|False|False
@@ -2899,13 +2899,13 @@ Tong|False|False|True
 34-RU|Gerard Richter|False|False|False
 34-RU|James Abello Monedero|False|False|False
 34-RU|Jingjin Yu|False|False|True
-34-RU|JohAusten Francisco|False|False|False
+34-RU|JohnAusten Francisco|False|False|False
 34-RU|Konstantinos Michmizos|False|False|False
 34-RU|Liviu Iftode|False|False|False
 34-RU|Louis Steinberg|False|False|False
 34-RU|Manish Parashar|False|False|False
 34-RU|Mario Szegedy|False|False|False
-34-RU|Martin FaracColton|False|False|False
+34-RU|Martin FarachColton|False|False|False
 34-RU|Matthew Stone|False|False|True
 34-RU|Mubbasir Kapadia|False|False|False
 34-RU|Naftaly Minsky|False|False|False
@@ -2933,9 +2933,9 @@ Tong|False|False|True
 34-UCD|Hao Chen|False|False|False
 34-UCD|Ian Davidson|False|False|False
 34-UCD|Ilias Tagkopoulos|False|False|False
-34-UCD|KwaLiu Ma|False|False|True
+34-UCD|KwanLiu Ma|False|False|True
 34-UCD|Matthew Franklin|False|False|False
-34-UCD|Michael Neff |False|False|False
+34-UCD|Michael Neff|False|False|False
 34-UCD|Nelson Max|False|False|False
 34-UCD|Nina Amenta|False|False|False
 34-UCD|Patrice Koehl|False|False|True
@@ -3001,14 +3001,14 @@ Tong|False|False|True
 34-UCSB|Tobias Höllerer|False|False|True
 34-UCSB|Wim van Dam|False|False|True
 34-UCSB|Xifeng Yan|False|False|True
-34-UCSB|YuaFang Wang|False|False|True
+34-UCSB|YuanFang Wang|False|False|True
 34-UCSB|~aydin|False|False|False
 40-DC|Amit Chakrabarti|False|False|False
 40-DC|Andrew Gettinger|False|False|True
 40-DC|Andrew Thomas Campbell|False|False|False
 40-DC|Anna Shubina|False|False|False
 40-DC|Bill McKeeman|False|False|False
-40-DC|Chris BaileKellogg|False|False|True
+40-DC|Chris BaileyKellogg|False|False|True
 40-DC|Christos Mousas|False|False|False
 40-DC|Daniel Rockmore|False|False|True
 40-DC|David Jewell|False|False|False
@@ -3028,7 +3028,7 @@ Tong|False|False|True
 40-DC|Peter Winkler|False|False|True
 40-DC|Prasad Jayanti|False|False|True
 40-DC|Qiang Liu|False|False|False
-40-DC|Robert Lewis (Scot) Drysdale  III|False|False|False
+40-DC|Robert Lewis (Scot) Drysdale III|False|False|False
 40-DC|Ron Peterson|False|False|False
 40-DC|Ryan Halter|False|False|False
 40-DC|Saeed Hassanpour|False|False|False
@@ -3038,7 +3038,7 @@ Tong|False|False|True
 40-DC|Wayne Cripps|False|False|False
 40-DC|Wojciech Jarosz|False|False|False
 40-DC|Xia Zhou|False|False|False
-40-DC|XinDong Yang|False|False|False
+40-DC|XingDong Yang|False|False|False
 40-DC|Yoonjoo Choi|False|False|False
 40-SBU|Ahmad Esmaili|False|False|False
 40-SBU|Alexander Spirov|False|False|False
@@ -3066,14 +3066,14 @@ Tong|False|False|True
 40-SBU|Himanshu Gupta|False|False|False
 40-SBU|Hong Qin|False|False|True
 40-SBU|Hussein Badr|False|False|False
-40-SBU|HyeoCheol Shin|False|False|False
+40-SBU|HyeonCheol Shin|False|False|False
 40-SBU|Ilchul Yoon|False|False|False
 40-SBU|Jack Heller|False|False|False
-40-SBU|Jennifer WonMa|False|False|False
+40-SBU|Jennifer WongMa|False|False|False
 40-SBU|Jie Gao|False|False|True
 40-SBU|Jing Chen|False|False|True
 40-SBU|Joel Saltz|False|False|True
-40-SBU|KeI Ko|False|False|False
+40-SBU|KerI Ko|False|False|False
 40-SBU|Kevin McDonnell|False|False|False
 40-SBU|Klaus Mueller|False|False|True
 40-SBU|Larry Wittie|False|False|False
@@ -3116,7 +3116,7 @@ Tong|False|False|True
 40-SBU|Theo Pavlidis|False|False|False
 40-SBU|Tony Scarlatos|False|False|False
 40-SBU|Tuncay Tekle|False|False|True
-40-SBU|Tzcker Chiueh|False|False|False
+40-SBU|Tzicker Chiueh|False|False|False
 40-SBU|Vyas Sekar|False|False|False
 40-SBU|Wei Xu|False|False|False
 40-SBU|Wei Zhu|False|False|False
@@ -3150,11 +3150,11 @@ Tong|False|False|True
 40-TAMU|Jianer Chen|False|False|True
 40-TAMU|Jinxiang Chai|False|False|True
 40-TAMU|John Keyser|False|False|True
-40-TAMU|JyCharn (Steve) Liu|False|False|True
+40-TAMU|JyhCharn (Steve) Liu|False|False|True
 40-TAMU|Lawrence Rauchwerger|False|False|True
 40-TAMU|Philip Ritchey|False|False|True
 40-TAMU|Radu Stoleru|False|False|True
-40-TAMU|Ricardo GutierreOsuna|False|False|True
+40-TAMU|Ricardo GutierrezOsuna|False|False|True
 40-TAMU|Riccardo Bettati|False|False|True
 40-TAMU|Richard Furuta|False|False|True
 40-TAMU|Robin Murphy|False|True|True
@@ -3162,7 +3162,7 @@ Tong|False|False|True
 40-TAMU|Roozbeh Jafari|False|False|True
 40-TAMU|Ruihong Huang|False|False|True
 40-TAMU|Scott Schaefer|False|False|True
-40-TAMU|SinHoi Sze|False|False|True
+40-TAMU|SingHoi Sze|False|False|True
 40-TAMU|Teresa Leyk|False|False|True
 40-TAMU|Tim Davis|False|False|True
 40-TAMU|Tracy Anne Hammond|False|False|True
@@ -3188,7 +3188,7 @@ Tong|False|False|True
 40-UA|Saumya Debray|False|False|True
 40-UA|Stephen Kobourov|False|False|True
 40-UA|Todd Proebsting|False|False|False
-40-UCOB|<div class=fielitem|False|False|False
+40-UCOB|<div class=fielditem|False|False|False
 40-UCOB|Aaron Clauset|False|False|False
 40-UCOB|Alexander Repenning|False|False|False
 40-UCOB|Ben Shapiro|False|False|False
@@ -3207,7 +3207,7 @@ Tong|False|False|True
 40-UCOB|Jed Brown|False|False|False
 40-UCOB|John Bennett|False|False|False
 40-UCOB|John Black|False|False|False
-40-UCOB|Jordan BoyGraber|False|False|False
+40-UCOB|Jordan BoydGraber|False|False|False
 40-UCOB|Judy Stafford|False|False|False
 40-UCOB|Kenneth Anderson|False|False|True
 40-UCOB|Leysia Palen|False|False|False
@@ -3227,7 +3227,7 @@ Tong|False|False|True
 40-UCOB|Tamara Sumner|False|False|False
 40-UCOB|Tom Yeh|False|False|True
 40-UCOB|Wayne Ward|False|False|False
-40-UCOB|XiaChuan Cai|False|False|False
+40-UCOB|XiaoChuan Cai|False|False|False
 40-UTA|Aditya Bhaskara|False|False|True
 40-UTA|Alexander Lex|False|True|True
 40-UTA|Anton Burtsev|False|False|False
@@ -3269,7 +3269,7 @@ Tong|False|False|True
 40-UTA|Roger Altizer|False|False|True
 40-UTA|Ross Whitaker|False|True|True
 40-UTA|Ryan Stutsman|False|False|True
-40-UTA|Sarah CreeRegehr|False|False|True
+40-UTA|Sarah CreemRegehr|False|False|True
 40-UTA|Sneha Kasera|False|False|False
 40-UTA|Steve Corbato|False|False|True
 40-UTA|Suresh Venkatasubramanian|False|False|False
@@ -3282,7 +3282,7 @@ Tong|False|False|True
 40-VT|Ali R Butt|False|False|True
 40-VT|Dwight  Barnette|False|False|False
 40-VT|Godmar  Back|False|False|False
-40-VT|InRay  Chen|False|False|True
+40-VT|IngRay  Chen|False|False|True
 40-VT|Osman   Balci  |False|False|True
 40-VT|Yang  Cao|False|False|False
 40-WUSTL|Aaron Bobick|False|False|False
@@ -3293,7 +3293,7 @@ Tong|False|False|True
 40-WUSTL|Christopher Gill|False|False|False
 40-WUSTL|Doug Shook|False|False|False
 40-WUSTL|Gary Stormo|False|False|True
-40-WUSTL|Ting Angelina Lee|False|False|False
+40-WUSTL|ITing Angelina Lee|False|False|False
 40-WUSTL|James Buckley|False|False|False
 40-WUSTL|Jeremy Buhler|False|False|True
 40-WUSTL|Kunal Agrawal|False|False|True
@@ -3321,87 +3321,87 @@ Tong|False|False|True
 40-WUSTL|Xuan (Silvia) Zhang|False|False|False
 40-WUSTL|Yasutaka Furukawa|False|False|True
 40-WUSTL|Yixin Chen|False|False|True
-48-ASU|Acuna  Ruben|False|False|False
-48-ASU|Ahn  GaiJoon|False|False|True
-48-ASU|Amresh  Ashish|False|False|False
-48-ASU|AndersoRowland  Mary|False|False|True
-48-ASU|Askin  Ronald|False|False|True
-48-ASU|Atkinson  Robert|False|False|False
-48-ASU|Balasooriya  Janaka|False|False|False
-48-ASU|Bansal  Ajay|False|False|False
-48-ASU|Bansal  Srividya|False|False|False
-48-ASU|Baral  Chitta|False|False|True
-48-ASU|Bazzi  Rida|False|False|True
-48-ASU|Ben Amor  Heni|False|False|False
-48-ASU|Burger  Kevin|False|False|False
-48-ASU|Calliss  Debra|False|False|False
-48-ASU|Chattin  Linda|False|False|False
-48-ASU|Chen  Yinong|False|False|False
-48-ASU|Colbourn  Charles|False|False|False
-48-ASU|Collofello  James|False|False|False
-48-ASU|Dasgupta  Partha|False|False|True
-48-ASU|Davulcu  Hasan|False|False|True
-48-ASU|Doupé  Adam|False|False|False
-48-ASU|Fainekos  Georgios|False|False|False
-48-ASU|Farin  Gerald|False|False|True
-48-ASU|Femiani  John|False|False|False
-48-ASU|Feng  Xuerong|False|False|False
-48-ASU|Gaffar  Ashraf|False|False|True
-48-ASU|Gary  Kevin|False|False|False
-48-ASU|Gel  Esma|False|False|False
-48-ASU|Ghazarian  Arbi|False|False|False
-48-ASU|Grover  Kanika|False|False|False
-48-ASU|Gupta  Sandeep|False|False|False
-48-ASU|He  Jingrui|False|False|False
-48-ASU|Hsiao  Sharon|False|False|False
-48-ASU|Huang  Dijiang|False|False|False
-48-ASU|Ju  Feng|False|False|False
-48-ASU|Kambhampati  Subbarao|False|False|True
-48-ASU|Kobayashi  Yoshihiro|False|False|False
-48-ASU|Lee  Joohyung|False|False|False
-48-ASU|Lee  YanHang|False|False|False
-48-ASU|Li  Baoxin|False|False|True
-48-ASU|Li  Jing|False|False|False
-48-ASU|Lindquist  Tim|False|False|False
-48-ASU|Liu  Huan|False|False|False
-48-ASU|Maciejewski  Ross|False|False|False
-48-ASU|Meuth  Ryan|False|False|False
-48-ASU|Miller  Phill|False|False|False
-48-ASU|Mirchandani  Pitu|False|False|False
-48-ASU|Montgomery  Douglas|False|False|False
-48-ASU|Nakamura  Mutsumi|False|False|False
-48-ASU|Nelson  Brian|False|False|True
-48-ASU|Pan  Rong|False|False|False
-48-ASU|Panchanathan  Sethuraman|False|True|False
-48-ASU|Pavlic  Ted|False|False|False
-48-ASU|Razdan  Anshuman|False|False|True
-48-ASU|Ren  Fengbo|False|False|False
-48-ASU|Richa  Andrea|False|False|True
-48-ASU|Runger  George|False|False|False
-48-ASU|Sarjoughian  Hessam|False|False|True
-48-ASU|Sarwat  Mohamed|False|False|False
-48-ASU|Sefair  Jorge|False|False|True
-48-ASU|Selgrad  Justin|False|False|False
-48-ASU|Sen  Arunabha|False|False|False
-48-ASU|Shakarian  Paulo|False|False|False
-48-ASU|Shrivastava  Aviral|False|False|True
-48-ASU|Shunk  Dan|False|False|False
-48-ASU|Sohoni  Sohum|False|False|True
-48-ASU|Syrotiuk  Violet|False|False|True
-48-ASU|TadayoNavabi  Farideh|False|False|False
-48-ASU|Tong  Hanghang|False|False|False
-48-ASU|VanLehn  Kurt|False|False|False
-48-ASU|Vrudhula  Sarma|False|False|True
-48-ASU|Walker  Erin|False|False|True
-48-ASU|Wang  Yalin|False|False|False
-48-ASU|Whitehouse  Richard|False|False|False
-48-ASU|Wonka  Peter|False|False|True
-48-ASU|Wu  CarolJean|False|False|False
-48-ASU|Wu  Teresa|False|False|False
-48-ASU|Xue  Guoliang|False|True|True
-48-ASU|Yau  SiSang (Stephen)|False|True|True
-48-ASU|Ye  Nong|False|False|False
-48-ASU|Zhao  Ming|False|False|True
+48-ASU|Acuna Ruben|False|False|False
+48-ASU|Ahn GailJoon|False|False|True
+48-ASU|Amresh Ashish|False|False|False
+48-ASU|AndersonRowland Mary|False|False|True
+48-ASU|Askin Ronald|False|False|True
+48-ASU|Atkinson Robert|False|False|False
+48-ASU|Balasooriya Janaka|False|False|False
+48-ASU|Bansal Ajay|False|False|False
+48-ASU|Bansal Srividya|False|False|False
+48-ASU|Baral Chitta|False|False|True
+48-ASU|Bazzi Rida|False|False|True
+48-ASU|Ben Amor Heni|False|False|False
+48-ASU|Burger Kevin|False|False|False
+48-ASU|Calliss Debra|False|False|False
+48-ASU|Chattin Linda|False|False|False
+48-ASU|Chen Yinong|False|False|False
+48-ASU|Colbourn Charles|False|False|False
+48-ASU|Collofello James|False|False|False
+48-ASU|Dasgupta Partha|False|False|True
+48-ASU|Davulcu Hasan|False|False|True
+48-ASU|Doupé Adam|False|False|False
+48-ASU|Fainekos Georgios|False|False|False
+48-ASU|Farin Gerald|False|False|True
+48-ASU|Femiani John|False|False|False
+48-ASU|Feng Xuerong|False|False|False
+48-ASU|Gaffar Ashraf|False|False|True
+48-ASU|Gary Kevin|False|False|False
+48-ASU|Gel Esma|False|False|False
+48-ASU|Ghazarian Arbi|False|False|False
+48-ASU|Grover Kanika|False|False|False
+48-ASU|Gupta Sandeep|False|False|False
+48-ASU|He Jingrui|False|False|False
+48-ASU|Hsiao Sharon|False|False|False
+48-ASU|Huang Dijiang|False|False|False
+48-ASU|Ju Feng|False|False|False
+48-ASU|Kambhampati Subbarao|False|False|True
+48-ASU|Kobayashi Yoshihiro|False|False|False
+48-ASU|Lee Joohyung|False|False|False
+48-ASU|Lee YannHang|False|False|False
+48-ASU|Li Baoxin|False|False|True
+48-ASU|Li Jing|False|False|False
+48-ASU|Lindquist Tim|False|False|False
+48-ASU|Liu Huan|False|False|False
+48-ASU|Maciejewski Ross|False|False|False
+48-ASU|Meuth Ryan|False|False|False
+48-ASU|Miller Phill|False|False|False
+48-ASU|Mirchandani Pitu|False|False|False
+48-ASU|Montgomery Douglas|False|False|False
+48-ASU|Nakamura Mutsumi|False|False|False
+48-ASU|Nelson Brian|False|False|True
+48-ASU|Pan Rong|False|False|False
+48-ASU|Panchanathan Sethuraman|False|True|False
+48-ASU|Pavlic Ted|False|False|False
+48-ASU|Razdan Anshuman|False|False|True
+48-ASU|Ren Fengbo|False|False|False
+48-ASU|Richa Andrea|False|False|True
+48-ASU|Runger George|False|False|False
+48-ASU|Sarjoughian Hessam|False|False|True
+48-ASU|Sarwat Mohamed|False|False|False
+48-ASU|Sefair Jorge|False|False|True
+48-ASU|Selgrad Justin|False|False|False
+48-ASU|Sen Arunabha|False|False|False
+48-ASU|Shakarian Paulo|False|False|False
+48-ASU|Shrivastava Aviral|False|False|True
+48-ASU|Shunk Dan|False|False|False
+48-ASU|Sohoni Sohum|False|False|True
+48-ASU|Syrotiuk Violet|False|False|True
+48-ASU|TadayonNavabi Farideh|False|False|False
+48-ASU|Tong Hanghang|False|False|False
+48-ASU|VanLehn Kurt|False|False|False
+48-ASU|Vrudhula Sarma|False|False|True
+48-ASU|Walker Erin|False|False|True
+48-ASU|Wang Yalin|False|False|False
+48-ASU|Whitehouse Richard|False|False|False
+48-ASU|Wonka Peter|False|False|True
+48-ASU|Wu CaroleJean|False|False|False
+48-ASU|Wu Teresa|False|False|False
+48-ASU|Xue Guoliang|False|True|True
+48-ASU|Yau SikSang (Stephen)|False|True|True
+48-ASU|Ye Nong|False|False|False
+48-ASU|Zhao Ming|False|False|True
 48-BU|Aaron Stevens|False|False|True
 48-BU|Abraham Matta|False|False|True
 48-BU|Ari Trachtenberg|False|True|True
@@ -3430,7 +3430,7 @@ Tong|False|False|True
 48-BU|Richard West|False|False|True
 48-BU|Sang (Peter) Chin|False|False|False
 48-BU|Sharon Goldberg|False|False|True
-48-BU|Shereif ESheikh|False|False|True
+48-BU|Shereif ElSheikh|False|False|True
 48-BU|Stan Sclaroff|False|False|True
 48-BU|Steve Homer|False|False|True
 48-BU|Susan Worst|False|False|True
@@ -3438,7 +3438,7 @@ Tong|False|False|True
 48-BU|Wayne Snyder|False|False|True
 48-NCSU|  Anthony Rivers|False|False|True
 48-NCSU|  Ken Tate|False|False|True
-48-NCSU|  Nadia DiakuThibault|False|False|True
+48-NCSU|  Nadia DiakunThibault|False|False|True
 48-NCSU|  Xuxian Jiang|False|False|True
 48-NCSU|  Yufeng Xin|False|False|True
 48-NCSU| Aldo Dagnino|False|False|True
@@ -3453,7 +3453,7 @@ Tong|False|False|True
 48-NCSU| David Wright|False|False|True
 48-NCSU| Donald Bitzer|False|True|True
 48-NCSU| Edward Gehringer|False|False|True
-48-NCSU| Emerson MurphHill|False|False|True
+48-NCSU| Emerson MurphyHill|False|False|True
 48-NCSU| Franc Brglez|False|False|True
 48-NCSU| Frank Mueller|False|False|True
 48-NCSU| Gary Howell|False|False|True
@@ -3494,9 +3494,10 @@ Tong|False|False|True
 48-NCSU| Ting Yu|False|False|True
 48-NCSU| William Enck|False|False|True
 48-NCSU| Woody Robbins|False|False|True
-48-NCSU| Wshow Chou|False|True|True
+48-NCSU| Wushow Chou|False|True|True
 48-NCSU| Xiaohui (Helen) Gu|False|False|True
 48-NCSU| Xiaosong Ma|False|False|True
 48-NCSU| Xipeng Shen|False|False|True
 48-NCSU|Dr  Alexandros Kapravelos|False|False|True
 48-NCSU|Ms  ToniAnn Marini|False|False|True
+
