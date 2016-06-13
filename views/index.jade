@@ -17,12 +17,12 @@ block body
 			.container(style="padding-top: 18px; width: 100%")
 				if alertContent
 					form(action="/", method="post")
-						input(type="text", name="keyword" maxlength="256" style="height: auto; width: 80%;" value=lastKeyword)
+						input(type="text", name="keyword" maxlength="256" style="height: auto; width: 80%; line-height:30px" value=lastKeyword)
 						input(type="submit" value="Search" class="btn btn-primary")
 				else
 					form(action="/", method="post")
 						.container(style="padding-top: 18px; width: 100%")
-							input(type="text", name="keyword" maxlength="256" style="height: auto; width: 100%; position: relative;")
+							input(type="text", name="keyword" maxlength="256" style="height: auto; width: 100%; position: relative;line-height:30px")
 						.container(style="padding-top: 18px; width: 100%")
 							input(type="submit" value="Search" class="btn btn-primary")
 		if alertContent
@@ -34,37 +34,72 @@ block body
 			-for(var item in queryResult)
 				if item > 0
 					+panel-info(queryResult[item]["name"])
-						//-var titles=["rank", "univ", "name", "acm_fellow", "ieee_fellow"]
-						if queryResult[item]["ieee_fellow"] == "1"
-							+label-primary("IEEE Fellow")
+						-var flag="no"
+						if queryResult[item]["ieee_fellow"] == "1" 
+							-var flag="yes"
 						if queryResult[item]["acm_fellow"] == "1"
-							+label-primary("ACM Fellow")
+							-var flag="yes"						
 						if queryResult[item]["funding"] == "1"
-							+label-success("Funding")
-						form(action="/", name="formUniv" + item, method="post")
-							input(type="hidden", name="keyword", value=queryResult[item]["univ"])
-							strong
-								a(href="javascript:document.formUniv" + item + ".submit();")  #{queryResult[item]["univ"]}
-								&nbsp;
-							+label-warning("CS " + queryResult[item]["rank"])
-							if queryResult[item]["Artificial Intelligence"]
-								+label-info("AI " + queryResult[item]["Artificial Intelligence"])
-							if queryResult[item]["Programming Language"]
-								+label-info("PL " + queryResult[item]["Programming Language"])
-							if queryResult[item]["System"]
-								+label-info( "System " + queryResult[item]["System"])
-							if queryResult[item]["Theory"]
-								+label-info( "Theory " + queryResult[item]["Theory"])
-						//ul
-						//	li CS Rank #{queryResult[item]["rank"]}
-						//	if queryResult[item]["Artificial Intelligence"]
-						//		li= "AI Rank " + queryResult[item]["Artificial Intelligence"]
-						//	if queryResult[item]["Programming Language"]
-						//		li= "PL Rank " + queryResult[item]["Programming Language"]
-						//	if queryResult[item]["System"]
-						//		li= "System Rank " + queryResult[item]["System"]
-						//	if queryResult[item]["Theory"]
-						//		li= "Theory Rank " + queryResult[item]["Theory"]
+							-var flag="yes"
+						if flag=="yes"
+							h4 Highlights
+						if queryResult[item]["ieee_fellow"] == "1"
+							//- +label-primary("IEEE Fellow")
+							button.btn.btn-primary(data-toggle="modal",data-target="#ieeefellow"+item) IEEE Fellow
+							+modal("IEEE Fellow: " + queryResult[item]["name"], "ieeefellow" + item)
+								p
+								|	#{queryResult[item]["name"]} is an <strong>IEEE Fellow</strong>!
+						if queryResult[item]["acm_fellow"] == "1"
+							//- +label-primary("ACM Fellow")
+							button.btn.btn-primary(data-toggle="modal",data-target="#ieeefellow"+item) ACM Fellow
+							+modal("ACM Fellow: " + queryResult[item]["name"], "ieeefellow" + item)
+								p
+								|	#{queryResult[item]["name"]} is an <strong>ACM Fellow</strong>!
+						if queryResult[item]["funding"] == "1"
+							button.btn.btn-success(data-toggle="modal",data-target="#funding"+item) NSF Funding
+							+modal("NSF Funding: " + queryResult[item]["name"], "funding" + item)
+								p
+									<strong>NSF Funding</strong> provided!
+								hr
+								h4 More Details
+								p
+									a(href="http://www.nsf.gov/awardsearch/simpleSearchResult?queryText=" + queryResult[item]["name"]) Search in NSF Website: #{queryResult[item]["name"]}
+						if flag=="yes"
+							hr
+
+						h4 University
+						+accordion("sample"+item)
+							//- if queryResult[item]["ieee_fellow"] == "1"
+							//- 	+accordion-item-primary(queryResult[item]["name"] + " is " + "IEEE Fellow", "sample"+item)
+							//- 		p #{queryResult[item]["name"]} is an IEEE Fellow.
+							//- if queryResult[item]["acm_fellow"] == "1"
+							//- 	+accordion-item-primary(queryResult[item]["name"] + " is " + "ACM Fellow", "sample"+item)
+							//- 		p #{queryResult[item]["name"]} is an ACM Fellow.
+							//- if queryResult[item]["funding"] == "1"
+							//- 	+accordion-item-success("NSF Funding for " + queryResult[item]["name"],"sample"+item)
+							//- 		p
+							//- 			<strong>NSF Funding</strong> provided!
+							//- 		hr
+							//- 		h5 More Details
+							//- 		p
+							//- 			a(href="http://www.nsf.gov/awardsearch/simpleSearchResult?queryText=" + queryResult[item]["name"]) Search in NSF Website: #{queryResult[item]["name"]}
+							+accordion-item-default(queryResult[item]["name"] + " is from " + queryResult[item]["univ"],"sample"+item,"true")
+								h4
+									| #{queryResult[item]["univ"]}
+									&nbsp;
+									+label-warning("CS " + queryResult[item]["rank"])
+									if queryResult[item]["Artificial Intelligence"]
+										+label-info("AI " + queryResult[item]["Artificial Intelligence"])
+									if queryResult[item]["Programming Language"]
+										+label-info("PL " + queryResult[item]["Programming Language"])
+									if queryResult[item]["System"]
+										+label-info( "System " + queryResult[item]["System"])
+									if queryResult[item]["Theory"]
+										+label-info( "Theory " + queryResult[item]["Theory"])
+								p
+									+table-hover(["Category", "USNews Ranking"], [["Computer Science", queryResult[item]["rank"]], ["Artificial Intelligence", queryResult[item]["Artificial Intelligence"]], ["Programming Language", queryResult[item]["Programming Language"]], ["System", queryResult[item]["System"]], ["Theory", queryResult[item]["Theory"]]])
+
+
 						+icon-primary("search")
 						a(href="https://www.bing.com/search?q=" + queryResult[item]["name"] + "%20" + queryResult[item]["univ"]) Search in Bing
 	footer.footer
