@@ -60,6 +60,25 @@ block body
 							+modal("NSF Funding: " + queryResult[item]["name"], "funding" + item)
 								p
 									<strong>NSF Funding</strong> provided!
+									+accordion("fundingDetail"+item)
+										+accordion-item-default("Number " + queryResult[item]["fundingDetails"][0]["AwardNumber"],"fundingDetail"+item,"true")
+											ul
+												li <strong>Title:</strong> #{queryResult[item]["fundingDetails"][0]["Title"]}
+												li <strong>NSFOrganization:</strong> #{queryResult[item]["fundingDetails"][0]["NSFOrganization"]}
+												li <strong>Date:</strong> #{queryResult[item]["fundingDetails"][0]["StartDate"]} to  #{queryResult[item]["fundingDetails"][0]["EndDate"]}
+												li <strong>PrincipalInvestigator:</strong> #{queryResult[item]["fundingDetails"][0]["PrincipalInvestigator"]}
+												li <strong>AwardInstrument:</strong> #{queryResult[item]["fundingDetails"][0]["AwardInstrument"]}
+												li <strong>AwardedAmountToDate:</strong> #{queryResult[item]["fundingDetails"][0]["AwardedAmountToDate"]}
+										-for(var fund in queryResult[item]["fundingDetails"])
+											if fund > 0
+												+accordion-item-default("Number " + queryResult[item]["fundingDetails"][fund]["AwardNumber"],"fundingDetail"+item)
+													ul
+														li <strong>Title:</strong> #{queryResult[item]["fundingDetails"][fund]["Title"]}
+														li <strong>NSFOrganization:</strong> #{queryResult[item]["fundingDetails"][fund]["NSFOrganization"]}
+														li <strong>Date:</strong> #{queryResult[item]["fundingDetails"][fund]["StartDate"]} to  #{queryResult[item]["fundingDetails"][fund]["EndDate"]}
+														li <strong>PrincipalInvestigator:</strong> #{queryResult[item]["fundingDetails"][fund]["PrincipalInvestigator"]}
+														li <strong>AwardInstrument:</strong> #{queryResult[item]["fundingDetails"][fund]["AwardInstrument"]}
+														li <strong>AwardedAmountToDate:</strong> #{queryResult[item]["fundingDetails"][fund]["AwardedAmountToDate"]}
 								hr
 								h4 More Details
 								p

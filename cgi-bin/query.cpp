@@ -52,6 +52,8 @@ map <string, string> univ_name2abbr;
 
 map < string, map<string, int> > directions;
 
+vector <int> flags;
+
 class CSVRow
 {
 public:
@@ -67,17 +69,17 @@ public:
     {
         std::string         line;
         std::getline(str, line);
-        
+
         std::stringstream   lineStream(line);
         std::string         cell;
-        
+
         m_data.clear();
         string last = "";
         while(std::getline(lineStream, cell, ','))
         {
-            if (cell.size()==0 || (cell[cell.length()-1]!='\"')) 
+            if (cell.size()==0 || (cell[cell.length()-1]!='\"'))
                 {
-                    last= last + cell + ','; 
+                    last= last + cell + ',';
                     continue;
                 }
             cell = last + cell;
@@ -140,22 +142,24 @@ void print(Entry& entry, vector<int>& fundings)
     result += "\"acm_fellow\":\""; result += myitoa(entry.acm_fellow); result += "\",";
     result += "\"ieee_fellow\":\""; result += myitoa(entry.ieee_fellow); result += "\",";
     result += "\"funding\":\""; result += myitoa(entry.funding); result += "\"";
-    
+
     result += ",\"fundingDetails\": [";
     for (int i=0; i<fundings.size(); ++i)
     {
         if (i!=0) result +=",";
         result+="{";
-        for (int j=0; j<nsfFundings[0].size(); ++j)
+        bool none=1;
+        for (int j=0; j<nsfFundings[0].size(); ++j) if (flags[j])
         {
-            if (j!=0) result += ",";
+            if (!none) result += ",";
+            none = 0;
             result += "\""+ nsfFundings[0][j] +"\":\"";
             result += nsfFundings[fundings[i]][j] +"\"";
         }
         result+="}";
     }
     result += "]";
-    
+
     for (map< string, map<string, int> >::iterator it=directions.begin();
          it != directions.end(); it++) {
         if (it->second.find(entry.univ) != it->second.end()) {
@@ -163,7 +167,7 @@ void print(Entry& entry, vector<int>& fundings)
             result +=  "\"" ; result +=  myitoa(it->second[entry.univ]) ; result +=  "\"";
         }
     }
-    
+
     result += "}";
     return;
 }
@@ -223,7 +227,7 @@ int main(int argc, char *argv[]){
     }
     fstream input;
     string token;
-    
+
     input.open("./database/cs-overall-rank.txt");
     while (getline(input, token, '|')){
         string abbr = token;
@@ -240,7 +244,7 @@ int main(int argc, char *argv[]){
         getline(input, token, '\n');
     }
     input.close();
-    
+
     univ_names[string("40-UCOB")] = string("University of Colorado-​Boulder");
     univ_names[string("40-UTA")] = string("University of Utah");
     univ_names[string("29-UMN")] = string("University of Minnesota-​Twin Cities");
@@ -249,15 +253,15 @@ int main(int argc, char *argv[]){
     univ_names[string("40-WUSTL")] = string("Washington University in St. Louis");
     univ_names[string("15-UMD")] = string("University of Maryland-​College Park");
     univ_names[string("63-UBS")] = string("University at Buffalo-​SUNY");
-    
+
     for(map<string, string>::iterator it=univ_names.begin(); it!=univ_names.end(); it++)
         univ_name2abbr[it->second] = it->first;
-    
+
     read_direction("./database/cs-artificial-intelligence-rank.txt", "Artificial Intelligence");
     read_direction("./database/cs-programming-language-rank.txt", "Programming Language");
     read_direction("./database/cs-system-rank.txt", "System");
     read_direction("./database/cs-theory-rank.txt", "Theory");
-    
+
     input.open("./database/index.txt");
     //input.open("../database/index.txt");
     while (getline(input, token, '-'))
@@ -279,13 +283,13 @@ int main(int argc, char *argv[]){
         //result += entry.rank; result += " "; result += entry.univ; result +=  " "; result += entry.name; result += " "; result += entry.acm_fellow; result += endl;
         list.push_back(entry);
     }
-    
+
     vector<string> keywords;
     string str(argv[1]);
     istringstream ss(str);
     while (getline(ss, token, ' '))
         keywords.push_back(trans_lower(token));
-    
+
     readNSFFunding();
     for (int i=0 ; i<list.size(); ++i)
     {
@@ -313,7 +317,7 @@ int main(int argc, char *argv[]){
                 }
                 if (hitCount == entryout.count || hitCount>=2)
                 {
-                    int fundingDate = date2i(nsfFundings[j][csvStartDate]); 
+                    int fundingDate = date2i(nsfFundings[j][csvStartDate]);
                     if (startDate<=fundingDate && fundingDate<=endDate && entryout.fundings.size()<=MAX_FUNDING_SIZE)
                         entryout.fundings.push_back(j);
                 }
@@ -321,7 +325,18 @@ int main(int argc, char *argv[]){
             outputbuffer.push_back(entryout);
         }
     }
-    
+
+    flags.resize(nsfFundings[0].size());
+    flags[0] = 1;
+    flags[1] = 1;
+    flags[2] = 1;
+    flags[4] = 1;
+    flags[6] = 1;
+    flags[9] = 1;
+    flags[11] = 1;
+    flags[12] = 1;
+    flags[14] = 1;
+
     //sort based on hit count
     sort(outputbuffer.begin(), outputbuffer.end(), cmp);
     for (int i=0; i<outputbuffer.size(); ++i)
@@ -330,7 +345,7 @@ int main(int argc, char *argv[]){
             print(outputbuffer[i].entry, outputbuffer[i].fundings);
     }
     result += "]";
-    
+
     string cur = "[{\"len\":\"";
     cur += myitoa(cnt);
     cur += "\",";
@@ -338,7 +353,7 @@ int main(int argc, char *argv[]){
         cur += "\"info\":\"tooMany\"}";
     else
         cur += "\"info\":\"good\"}";
-    
+
     result = cur + result;
     cout << result;
     return 0;
