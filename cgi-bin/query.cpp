@@ -196,7 +196,7 @@ int date2i(string date)
     return dd + mm*100 + yy*10000;
 }
 
-bool fundingCmp(CSVRow& a, CSVRow& b)
+bool fundingCmp(CSVRow a, CSVRow b)
 {
     return date2i(a[csvStartDate]) > date2i(b[csvStartDate]);
 }
