@@ -44,13 +44,11 @@ block body
 						if flag=="yes"
 							h4 Highlights
 						if queryResult[item]["ieee_fellow"] == "1"
-							//- +label-primary("IEEE Fellow")
 							button.btn.btn-primary(data-toggle="modal",data-target="#ieeefellow"+item) IEEE Fellow
 							+modal("IEEE Fellow: " + queryResult[item]["name"], "ieeefellow" + item)
 								p
 								|	#{queryResult[item]["name"]} is an <strong>IEEE Fellow</strong>!
 						if queryResult[item]["acm_fellow"] == "1"
-							//- +label-primary("ACM Fellow")
 							button.btn.btn-primary(data-toggle="modal",data-target="#ieeefellow"+item) ACM Fellow
 							+modal("ACM Fellow: " + queryResult[item]["name"], "ieeefellow" + item)
 								p
@@ -60,19 +58,8 @@ block body
 							+modal("NSF Funding: " + queryResult[item]["name"], "funding" + item)
 								p
 									<strong>NSF Funding</strong> entries:
-									//- +accordion("fundingDetail"+item)
-										//- +accordion-item-default("Number " + queryResult[item]["fundingDetails"][0]["AwardNumber"],"fundingDetail"+item,"true")
-									+panel-default("No." + queryResult[item]["fundingDetails"][0]["AwardNumber"] + " - " + queryResult[item]["fundingDetails"][0]["Title"])
-
-										ul
-											li <strong>Title:</strong> #{queryResult[item]["fundingDetails"][0]["Title"]}
-											li <strong>NSFOrganization:</strong> #{queryResult[item]["fundingDetails"][0]["NSFOrganization"]}
-											li <strong>Date:</strong> #{queryResult[item]["fundingDetails"][0]["StartDate"]} to  #{queryResult[item]["fundingDetails"][0]["EndDate"]}
-											li <strong>PrincipalInvestigator:</strong> #{queryResult[item]["fundingDetails"][0]["PrincipalInvestigator"]}
-											li <strong>AwardInstrument:</strong> #{queryResult[item]["fundingDetails"][0]["AwardInstrument"]}
-											li <strong>AwardedAmountToDate:</strong> #{queryResult[item]["fundingDetails"][0]["AwardedAmountToDate"]}
-									-for(var fund in queryResult[item]["fundingDetails"])
-										if fund > 0
+									if queryResult[item]["fundingDetails"]
+										-for(var fund in queryResult[item]["fundingDetails"])
 											+panel-default("No." + queryResult[item]["fundingDetails"][fund]["AwardNumber"] + " - " + queryResult[item]["fundingDetails"][fund]["Title"])
 												ul
 													li <strong>Title:</strong> #{queryResult[item]["fundingDetails"][fund]["Title"]}
