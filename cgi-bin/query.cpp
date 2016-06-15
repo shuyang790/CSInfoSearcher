@@ -24,6 +24,8 @@ int cnt = 0;
 const int csvNameIndex = 6;
 const int csvUnviIndex = 8;
 const int csvStartDate = 4;
+int startDate =0, endDate= 1e10;
+
 string result = "";
 
 struct Entry
@@ -208,12 +210,16 @@ void readNSFFunding()
 }
 
 int main(int argc, char *argv[]){
-    if (argc !=2)
+    if (argc !=2 && argc !=4)
     {
         cout << "Error Input" << endl;
         return -1;
     }
-    
+    if (argc ==4)
+    {
+        startDate = date2i(argv[2]);
+        endDate = date2i(argv[3]);
+    }
     fstream input;
     string token;
     
@@ -299,12 +305,17 @@ int main(int argc, char *argv[]){
                 int hitCount = 0;
                 for (int k=0; k<keywords.size(); ++k)
                 {
-                    if (trans_lower(nsfFundings[j][csvNameIndex]).find(keywords[k]))
+                    if (trans_lower(nsfFundings[j][csvNameIndex]).find(keywords[k]) !=-1)
                         hitCount++;
-                    if (trans_lower(nsfFundings[j][csvUnviIndex]).find(keywords[k]))
+                    if (trans_lower(nsfFundings[j][csvUnviIndex]).find(keywords[k]) !=-1)
                         hitCount++;
                 }
-                if (hitCount == entryout.count || hitCount>=2) entryout.fundings.push_back(j);
+                if (hitCount == entryout.count || hitCount>=2)
+                {
+                    int fundingDate = date2i(nsfFundings[j][csvStartDate]); 
+                    if (startDate<=fundingDate && fundingDate<=endDate)
+                        entryout.fundings.push_back(j);
+                }
             }
             outputbuffer.push_back(entryout);
         }
