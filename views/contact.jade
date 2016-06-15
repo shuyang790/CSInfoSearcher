@@ -1,4 +1,4 @@
-extends ../node_modules/jade-bootstrap/layouts/starter
+extends ./layouts/starter
 
 append styles
     // Custom styles for this template
@@ -6,9 +6,9 @@ append styles
 
 block body
     +navbar-fixed("CS Searcher","navbar","inverse")
-        +nav_item("/","active") Home
+        +nav_item("/") Home
         +nav_item("/about") About
-        +nav_item("/contact") Contact
+        +nav_item("/contact", "active") Contact
     .container
         h1 Contact
         h2= title
