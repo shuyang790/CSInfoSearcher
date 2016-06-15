@@ -23,7 +23,7 @@ bool toomany = 0;
 int cnt = 0;
 const int csvNameIndex = 6;
 const int csvUnviIndex = 8;
-
+const int csvStartDate = 4;
 string result = "";
 
 struct Entry
@@ -69,11 +69,19 @@ public:
         std::string         cell;
         
         m_data.clear();
+        string last = "";
         while(std::getline(lineStream, cell, ','))
         {
+            if (cell.size()==0 || (cell[cell.length()-1]!='\"')) 
+                {
+                    last= last + cell + ','; 
+                    continue;
+                }
+            cell = last + cell;
             if (cell.size() >0 && cell[0] =='\"')cell.erase(0,1);
             if (cell.size() > 0) cell.erase(cell.size()-1,1);
             m_data.push_back(cell);
+            last = "";
         }
     }
 private:
@@ -174,6 +182,18 @@ void read_direction(const char * filename, const char * dirname) {
     input.close();
 }
 
+int date2i(string date)
+{
+    int dd,mm,yy;
+    sscanf(date.c_str(), "%d/%d/%d", &dd,&mm,&yy);
+    return dd + mm*100 + yy*10000;
+}
+
+bool fundingCmp(CSVRow& a, CSVRow& b)
+{
+    return date2i(a[csvStartDate]) > date2i(b[csvStartDate]);
+}
+
 void readNSFFunding()
 {
     std::ifstream       file("./database/nsfAwards/Awards.csv");
@@ -183,6 +203,8 @@ void readNSFFunding()
     {
         nsfFundings.push_back(row);
     }
+    // sort by start date
+    sort(nsfFundings.begin()+1, nsfFundings.end(), fundingCmp);
 }
 
 int main(int argc, char *argv[]){
