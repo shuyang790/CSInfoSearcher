@@ -21,6 +21,8 @@ using namespace std;
 const int maxlength = 200;
 bool toomany = 0;
 int cnt = 0;
+const int csvNameIndex = 6;
+const int csvUnviIndex = 8;
 
 string result = "";
 
@@ -37,6 +39,7 @@ struct EntryOut
     Entry entry;
     int count;
     int id; // for stable sort
+    vector<int> fundings;
 };
 
 vector<EntryOut> outputbuffer;
@@ -45,6 +48,44 @@ map <string, string> univ_names;
 map <string, string> univ_name2abbr;
 
 map < string, map<string, int> > directions;
+
+class CSVRow
+{
+public:
+    std::string const& operator[](std::size_t index) const
+    {
+        return m_data[index];
+    }
+    std::size_t size() const
+    {
+        return m_data.size();
+    }
+    void readNextRow(std::istream& str)
+    {
+        std::string         line;
+        std::getline(str, line);
+        
+        std::stringstream   lineStream(line);
+        std::string         cell;
+        
+        m_data.clear();
+        while(std::getline(lineStream, cell, ','))
+        {
+            if (cell.size() >0 && cell[0] =='\"')cell.erase(0,1);
+            if (cell.size() > 0) cell.erase(cell.size()-1,1);
+            m_data.push_back(cell);
+        }
+    }
+private:
+    std::vector<std::string>    m_data;
+};
+vector<CSVRow> nsfFundings;
+
+std::istream& operator>>(std::istream& str, CSVRow& data)
+{
+    data.readNextRow(str);
+    return str;
+}
 
 inline string trans_lower(const string& token)
 {
@@ -72,7 +113,7 @@ string myitoa(int cnt){
     return res;
 }
 
-void print(Entry& entry)
+void print(Entry& entry, vector<int>& fundings)
 {
     if (cnt+1 > maxlength){
         toomany = 1;
@@ -88,15 +129,30 @@ void print(Entry& entry)
     result += "\"acm_fellow\":\""; result += myitoa(entry.acm_fellow); result += "\",";
     result += "\"ieee_fellow\":\""; result += myitoa(entry.ieee_fellow); result += "\",";
     result += "\"funding\":\""; result += myitoa(entry.funding); result += "\"";
-
+    
+    result += ",\"fundingDetails\": [";
+    for (int i=0; i<fundings.size(); ++i)
+    {
+        if (i!=0) result +=",";
+        result+="{";
+        for (int j=0; j<nsfFundings[0].size(); ++j)
+        {
+            if (j!=0) result += ",";
+            result += "\""+ nsfFundings[0][j] +"\":\"";
+            result += nsfFundings[fundings[i]][j] +"\"";
+        }
+        result+="}";
+    }
+    result += "]";
+    
     for (map< string, map<string, int> >::iterator it=directions.begin();
-            it != directions.end(); it++) {
-                if (it->second.find(entry.univ) != it->second.end()) {
-                    result +=  ",\"" ; result +=  it->first ; result +=  "\":";
-                    result +=  "\"" ; result +=  myitoa(it->second[entry.univ]) ; result +=  "\"";
-                }
-            }
-
+         it != directions.end(); it++) {
+        if (it->second.find(entry.univ) != it->second.end()) {
+            result +=  ",\"" ; result +=  it->first ; result +=  "\":";
+            result +=  "\"" ; result +=  myitoa(it->second[entry.univ]) ; result +=  "\"";
+        }
+    }
+    
     result += "}";
     return;
 }
@@ -118,16 +174,27 @@ void read_direction(const char * filename, const char * dirname) {
     input.close();
 }
 
+void readNSFFunding()
+{
+    std::ifstream       file("./database/nsfAwards/Awards.csv");
+    CSVRow              row;
+    //The first line is the entry name, and index 6 should be the Investigator's name
+    while(file >> row)
+    {
+        nsfFundings.push_back(row);
+    }
+}
+
 int main(int argc, char *argv[]){
     if (argc !=2)
     {
         cout << "Error Input" << endl;
         return -1;
     }
-
+    
     fstream input;
     string token;
-
+    
     input.open("./database/cs-overall-rank.txt");
     while (getline(input, token, '|')){
         string abbr = token;
@@ -144,7 +211,7 @@ int main(int argc, char *argv[]){
         getline(input, token, '\n');
     }
     input.close();
-
+    
     univ_names[string("40-UCOB")] = string("University of Colorado-​Boulder");
     univ_names[string("40-UTA")] = string("University of Utah");
     univ_names[string("29-UMN")] = string("University of Minnesota-​Twin Cities");
@@ -153,15 +220,15 @@ int main(int argc, char *argv[]){
     univ_names[string("40-WUSTL")] = string("Washington University in St. Louis");
     univ_names[string("15-UMD")] = string("University of Maryland-​College Park");
     univ_names[string("63-UBS")] = string("University at Buffalo-​SUNY");
-
+    
     for(map<string, string>::iterator it=univ_names.begin(); it!=univ_names.end(); it++)
         univ_name2abbr[it->second] = it->first;
-
+    
     read_direction("./database/cs-artificial-intelligence-rank.txt", "Artificial Intelligence");
     read_direction("./database/cs-programming-language-rank.txt", "Programming Language");
     read_direction("./database/cs-system-rank.txt", "System");
     read_direction("./database/cs-theory-rank.txt", "Theory");
-
+    
     input.open("./database/index.txt");
     //input.open("../database/index.txt");
     while (getline(input, token, '-'))
@@ -183,13 +250,14 @@ int main(int argc, char *argv[]){
         //result += entry.rank; result += " "; result += entry.univ; result +=  " "; result += entry.name; result += " "; result += entry.acm_fellow; result += endl;
         list.push_back(entry);
     }
-
+    
     vector<string> keywords;
     string str(argv[1]);
     istringstream ss(str);
     while (getline(ss, token, ' '))
         keywords.push_back(trans_lower(token));
-
+    
+    readNSFFunding();
     for (int i=0 ; i<list.size(); ++i)
     {
         EntryOut entryout;
@@ -201,17 +269,34 @@ int main(int argc, char *argv[]){
                 ||(trans_lower(univ_names[list[i].univ]).find(keywords[j]))!= -1
                 ||(trans_lower(list[i].univ).find(keywords[j]))!= -1)
                 entryout.count++;
-        if (entryout.count >0) outputbuffer.push_back(entryout);
+        if (entryout.count >0)
+        {
+            entryout.fundings.clear();
+            for (int j=1; j<nsfFundings.size(); ++j)
+            {
+                int hitCount = 0;
+                for (int k=0; k<keywords.size(); ++k)
+                {
+                    if (trans_lower(nsfFundings[j][csvNameIndex]).find(keywords[k]))
+                        hitCount++;
+                    if (trans_lower(nsfFundings[j][csvUnviIndex]).find(keywords[k]))
+                        hitCount++;
+                }
+                if (hitCount == entryout.count || hitCount>=2) entryout.fundings.push_back(j);
+            }
+            outputbuffer.push_back(entryout);
+        }
     }
-
+    
     //sort based on hit count
     sort(outputbuffer.begin(), outputbuffer.end(), cmp);
     for (int i=0; i<outputbuffer.size(); ++i)
     {
-        if (outputbuffer[i].count == keywords.size()) print(outputbuffer[i].entry);
+        if (outputbuffer[i].count == keywords.size())
+            print(outputbuffer[i].entry, outputbuffer[i].fundings);
     }
     result += "]";
-
+    
     string cur = "[{\"len\":\"";
     cur += myitoa(cnt);
     cur += "\",";
@@ -219,7 +304,7 @@ int main(int argc, char *argv[]){
         cur += "\"info\":\"tooMany\"}";
     else
         cur += "\"info\":\"good\"}";
-
+    
     result = cur + result;
     cout << result;
     return 0;
