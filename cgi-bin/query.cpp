@@ -24,6 +24,7 @@ int cnt = 0;
 const int csvNameIndex = 6;
 const int csvUnviIndex = 8;
 const int csvStartDate = 4;
+const int MAX_FUNDING_SIZE = 10;
 int startDate =0, endDate= 1e10;
 
 string result = "";
@@ -313,7 +314,7 @@ int main(int argc, char *argv[]){
                 if (hitCount == entryout.count || hitCount>=2)
                 {
                     int fundingDate = date2i(nsfFundings[j][csvStartDate]); 
-                    if (startDate<=fundingDate && fundingDate<=endDate)
+                    if (startDate<=fundingDate && fundingDate<=endDate && entryout.fundings.size()<=MAX_FUNDING_SIZE)
                         entryout.fundings.push_back(j);
                 }
             }
